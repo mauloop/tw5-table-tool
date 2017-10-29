@@ -1,0 +1,47 @@
+created: 20170518152407734
+creator: )+(auloop
+modified: 20171029143517942
+modifier: )+(auloop
+tags: $:/tags/ttControl TableToolPlugin
+title: $:/plugins/mau/TableTool/controls/hide-show-col
+type: text/vnd.tiddlywiki
+
+\define tt-hidden-state() $(tt-col)$##tt-hidden
+
+<!------------------------
+-- "Hide/show columns" control
+-->
+<$set name="tt-hide-show-qualifier" value=<<qualify """hide-show-columns""">> >
+<$set name="tt-hide-show-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-hide-show-qualifier>]""" >
+<$button popup=<<tt-hide-show-state>> >
+Hide/show columns
+</$button>
+
+<$reveal type="popup" position="below" state=<<tt-hide-show-state>> >
+<div class="tc-drop-down">
+
+<<<
+<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
+<$button class="tc-btn-invisible">
+<$checkbox tiddler=<<tt-col>> index="tt-hidden" checked="true" unchecked="false" default="false">
+<$transclude tiddler=<<tt-col>> index="col-label"/>
+
+<$reveal state=<<tt-hidden-state>> type="match" text="true" default="false">
+<$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="false" />
+<$action-listops $tiddler=<<tt-conf>> $field="tt-list-hidden" $subfilter="""-[<tt-col-id>]""" />
+</$reveal>
+
+<$reveal state=<<tt-hidden-state>> type="nomatch" text="true" default="false">
+<$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="true" />
+<$action-listops $tiddler=<<tt-conf>> $field="tt-list-hidden" $subfilter=<<tt-col-id>> />
+</$reveal>
+
+</$checkbox>
+</$button>
+</$list>
+<<<
+
+</div>
+</$reveal>
+</$set>
+</$set>

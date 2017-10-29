@@ -1,0 +1,29 @@
+created: 20170418101615496
+creator: )+(auloop
+modified: 20171029143518034
+modifier: )+(auloop
+tags: $:/tags/ttMacro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/th/head-menu
+type: text/vnd.tiddlywiki
+
+\define tt-head-menu()
+<$set name="tt-head-menu-qualifier" value=<<qualify """$(tt-col-id)$""">> >
+<$set name="tt-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-head-menu-qualifier>]""" >
+<$button popup=<<tt-head-menu-state>> class="tc-btn-invisible">
+{{$(tt-col)$##col-label}}
+</$button>
+
+<$reveal type="popup" position="below" state=<<tt-head-menu-state>> >
+<div class="tc-drop-down">
+
+<<<
+<$list filter="""[tag[$:/tags/ttHeadMenu]]""" variable="tt-head-menu-item">
+<$transclude tiddler=<<tt-head-menu-item>> /><br>
+</$list>
+<<<
+
+</div>
+</$reveal>
+</$set>
+</$set>
+\end

@@ -1,0 +1,14 @@
+created: 20170417213415279
+creator: )+(auloop
+modified: 20171029143517768
+modifier: )+(auloop
+tags: $:/tags/ttMacro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/open-column-defaults
+type: text/vnd.tiddlywiki
+
+\define tt-open-column-defaults()
+tdView:<<openThis>>
+tdEdit:<<openThis>>
+thView:
+thEdit:
+\end

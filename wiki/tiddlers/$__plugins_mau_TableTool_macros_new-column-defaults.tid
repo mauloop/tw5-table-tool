@@ -1,0 +1,14 @@
+created: 20170415223200010
+creator: )+(auloop
+modified: 20171029143517796
+modifier: )+(auloop
+tags: $:/tags/ttMacro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/new-column-defaults
+type: text/vnd.tiddlywiki
+
+\define tt-new-column-defaults()
+tdView:<<showVal>>
+tdEdit:<<inputVal>>
+thView:<<tt-head-menu>>
+thEdit:
+\end

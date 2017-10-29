@@ -1,0 +1,24 @@
+created: 20170418091959885
+creator: )+(auloop
+modified: 20171029143517890
+modifier: )+(auloop
+tags: $:/tags/ttControl TableToolPlugin
+title: $:/plugins/mau/TableTool/controls/open-table
+type: text/vnd.tiddlywiki
+
+<!-----------------------
+-- "Open table" controls
+-->
+<$button set="!!tt-open-table" setTo="show">
+Open table
+</$button>
+<$reveal state="!!tt-open-table" type="match" text="show">
+<$select field="tt-name">
+<$list filter="""[removeprefix<tt-conf-prefix>] +[removeprefix[/]] +[splitbefore[/]] +[removesuffix[/]]""">
+<option><<currentTiddler>></option>
+</$list>
+</$select>
+<$button class="tc-btn-invisible" set="!!tt-open-table" setTo="hide">
+<small>{{$:/core/images/close-button}}</small>
+</$button>
+</$reveal>

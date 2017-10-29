@@ -1,0 +1,11 @@
+created: 20170415230904595
+creator: )+(auloop
+modified: 20171029143518044
+modifier: )+(auloop
+tags: $:/tags/Macro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/table-tool
+type: text/vnd.tiddlywiki
+
+\define table-tool()
+{{||$:/plugins/mau/TableTool/templates/table-template}}
+\end

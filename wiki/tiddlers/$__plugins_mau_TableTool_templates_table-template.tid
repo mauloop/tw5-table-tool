@@ -1,0 +1,33 @@
+created: 20170417221320425
+creator: )+(auloop
+modified: 20171029143517991
+modifier: )+(auloop
+tags: TableToolPlugin
+title: $:/plugins/mau/TableTool/templates/table-template
+tmap.id: b50e9bd4-f5a3-445d-affc-80ddc2ac39ff
+type: text/vnd.tiddlywiki
+
+<$importvariables filter="[tag[$:/tags/ttMacro]]">
+
+<$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
+<$wikify name="tt-name" text=<<tt-name>> >
+
+<$list filter="""[tag[$:/tags/ttControl]]""" variable="tt-control">
+<$transclude tiddler=<<tt-control>> />
+</$list>
+
+<$tiddler tiddler=<<tt-conf>> >
+<$scrollable>
+<table>
+<!-- header -->
+<$transclude tiddler=<<tt-raw>> />
+<!-- data -->
+<$list filter="""[tag<tt-name>]""" template=<<tt-raw>> />
+</table>
+</$scrollable>
+</$tiddler>
+
+</$wikify>
+</$wikify>
+
+</$importvariables>

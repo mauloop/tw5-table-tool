@@ -1,0 +1,22 @@
+created: 20170418162629326
+creator: )+(auloop
+modified: 20171029143518001
+modifier: )+(auloop
+tags: TableToolPlugin
+title: $:/plugins/mau/TableTool/templates/raw-template
+tmap.id: b6706133-9f74-473f-beee-ae7beba59433
+type: text/vnd.tiddlywiki
+
+\define tt-show-column()
+<$(tt-mode-tag)$ style="position:relative;"><$transclude tiddler=<<tt-col>> index=<<tt-mode>> /></$(tt-mode-tag)$>
+\end
+
+<tr>
+<$list filter="""[list<tt-conf>] -[list<tt-list-hidden>]""" variable="tt-col-id">
+<$wikify name="tt-mode" text=<<tt-mode>> >
+<$set name="tt-mode-tag" filter=<<tt-mode-filter>> value="th" emptyValue="td">
+<<tt-show-column>>
+</$set>
+</$wikify>
+</$list>
+</tr>

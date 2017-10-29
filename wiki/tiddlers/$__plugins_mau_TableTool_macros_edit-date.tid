@@ -1,0 +1,14 @@
+created: 20170427165209789
+creator: )+(auloop
+modified: 20171029143517830
+modifier: )+(auloop
+tags: $:/tags/ttMacro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/edit-date
+type: text/vnd.tiddlywiki
+
+\define editDate()
+<$edit-date index=$(tt-col-id)$ />
+<$button class="tc-btn-invisible" set="!!$(tt-col-id)$" setTo="tdView">
+<small>{{$:/core/images/close-button}}</small>
+</$button>
+\end
