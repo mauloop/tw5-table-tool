@@ -1,6 +1,6 @@
 created: 20170519160134098
 creator: )+(auloop
-modified: 20171029143518013
+modified: 20171029224456597
 modifier: )+(auloop
 tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/variables
@@ -14,7 +14,6 @@ type: text/vnd.tiddlywiki
 \define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]
 
 \define tt-conf-prefix() {{$(tt-plugin)$/config/tt-conf-prefix}}
-\define tt-name() {{!!tt-name}}
 \define tt-mode() {{!!$(tt-col-id)$}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->
