@@ -1,0 +1,11 @@
+created: 20171030010641601
+modified: 20171030151514109
+tags: TableToolPlugin $:/tags/ttMacro
+title: $:/plugins/mau/TableTool/macros/display-controls
+type: text/vnd.tiddlywiki
+
+\define tt-display-controls()
+<$list filter="""[tag[$:/tags/ttControl]]""" variable="tt-control">
+<$transclude tiddler=<<tt-control>> />
+</$list>
+\end

@@ -1,6 +1,6 @@
 created: 20170417221320425
 creator: )+(auloop
-modified: 20171029224436332
+modified: 20171030012420461
 modifier: )+(auloop
 tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/templates/table-template
@@ -11,9 +11,9 @@ type: text/vnd.tiddlywiki
 
 <$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
 
-<$list filter="""[tag[$:/tags/ttControl]]""" variable="tt-control">
-<$transclude tiddler=<<tt-control>> />
-</$list>
+<$set name="display" filter="""[enlist<tt-controls>] -[[show]]""" value="" emptyValue="tt-display-controls">
+<$macrocall $name=<<display>> />
+</$set>
 
 <$tiddler tiddler=<<tt-conf>> >
 <$scrollable>

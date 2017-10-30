@@ -1,13 +1,13 @@
 created: 20170415230904595
 creator: )+(auloop
-modified: 20171029161751500
+modified: 20171030015919772
 modifier: )+(auloop
 tags: $:/tags/Macro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/table-tool
 type: text/vnd.tiddlywiki
 
-\define table-tool(tt-name)
-<$set name="tt-name" value="""$tt-name$""">
+\define table-tool(tt-name, tt-layout:"default", tt-controls:"show")
+<$vars tt-name="""$tt-name$""" tt-layout="""$tt-layout$""" tt-controls="""$tt-controls$""">
 {{||$:/plugins/mau/TableTool/templates/table-template}}
-</$set>
+</$vars>
 \end
