@@ -1,6 +1,6 @@
 created: 20170412093519250
 creator: )+(auloop
-modified: 20171029143517915
+modified: 20171030224407335
 modifier: )+(auloop
 tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/new-raw
@@ -14,7 +14,8 @@ type: text/vnd.tiddlywiki
 <$set name="id" value=<<now "YYYY0MM0DD0hh0mm0ss">> >
 <$button>
 New raw
-<$action-setfield $tiddler=<<tt-raw-id>> type="application/json" tags=<<tt-name>> />
+<$action-setfield $tiddler=<<tt-raw-id>> type="application/json" />
+<$action-listops $tiddler=<<tt-raw-id>> $tags="""[<tt-name>]""" />
 
 
 <$list filter="""[list<tt-conf>] -[list<tt-list-hidden>]""" variable="tt-col-id">
