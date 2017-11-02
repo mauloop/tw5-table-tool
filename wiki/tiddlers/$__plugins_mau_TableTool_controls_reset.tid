@@ -1,6 +1,6 @@
 created: 20170414143029421
 creator: )+(auloop
-modified: 20171029143517876
+modified: 20171102113930586
 modifier: )+(auloop
 select-all: false
 tags: $:/tags/ttControl TableToolPlugin
@@ -12,7 +12,6 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 Reset
-<$action-setfield select-all="false" />
 <$list filter="""[tag<tt-name>]""">
 <$action-setfield selected="false" />
 
