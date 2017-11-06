@@ -1,11 +1,11 @@
 created: 20170412085145262
 creator: )+(auloop
-modified: 20171029143518074
+modified: 20171105200817868
 modifier: )+(auloop
 tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/show-tags
 type: text/vnd.tiddlywiki
 
 \define showTags()
-<$list filter="[<currentTiddler>tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$list filter="""[<currentTiddler>tags[]sort[title]] -[<tt-name>]""" template="$:/core/ui/TagTemplate" storyview="pop"/>
 \end
