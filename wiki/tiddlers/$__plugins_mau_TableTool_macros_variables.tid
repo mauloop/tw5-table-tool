@@ -1,6 +1,6 @@
 created: 20170519160134098
 creator: )+(auloop
-modified: 20171030015948545
+modified: 20171105224541523
 modifier: )+(auloop
 tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/variables
@@ -15,5 +15,6 @@ type: text/vnd.tiddlywiki
 
 \define tt-conf-prefix() {{$(tt-plugin)$/config/tt-conf-prefix}}
 \define tt-mode() {{!!$(tt-col-id)$}}
+\define tt-col-width() {{$(tt-col)$##tt-col-width}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->
