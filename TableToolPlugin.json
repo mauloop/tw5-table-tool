@@ -110,7 +110,6 @@
         "created": "20170418091959885"
     },
     {
-        "created": "20170414143029421",
         "text": "<!----------------\n-- \"Reset\" control\n-->\n<$button>\nReset\n<$list filter=\"\"\"[tag<tt-name>]\"\"\">\n<$action-setfield selected=\"false\" />\n\n<$list filter=\"\"\"[list<tt-conf>] -[list<tt-list-hidden>]\"\"\" variable=\"tt-col-id\">\n<$action-setfield $field=<<tt-col-id>> $value=\"tdView\" />\n</$list>\n\n</$list>\n</$button>",
         "bag": "default",
         "revision": "0",
@@ -119,8 +118,9 @@
         "tags": "$:/tags/ttControl TableToolPlugin",
         "select-all": "false",
         "modifier": ")+(auloop",
-        "modified": "20171102113929300",
-        "creator": ")+(auloop"
+        "modified": "20171102113930586",
+        "creator": ")+(auloop",
+        "created": "20170414143029421"
     },
     {
         "text": "<!--------------------\n-- \"New table\" control\n-->\n<$button>\nNew table\n<$action-sendmessage $message=\"tm-modal\" $param=\"$:/plugins/mau/TableTool/controls/table-properties-dialog\" tt-conf=<<tt-conf>> tt-name=<<tt-name>> tt-set-column-properties=<<tt-set-column-properties>>/>\n</$button>",
@@ -159,6 +159,16 @@
         "created": "20170517195608152"
     },
     {
+        "text": "/* table.tbt tr:nth-child(odd) {background-color: #f2f2f2} */\ntable.tbt {display:block;overflow-x:auto;}\ntable.tbt th, table.tbt td {position:relative;}\ntable.tbt tr:hover {background-color: #f5f5f5}\n",
+        "bag": "default",
+        "revision": "0",
+        "type": "text/css",
+        "title": "$:/plugins/mau/TableTool/css",
+        "tags": "TableToolPlugin $:/tags/Stylesheet",
+        "modified": "20171117180702193",
+        "created": "20171105214835600"
+    },
+    {
         "text": "\\define tt-display-controls()\n<$list filter=\"\"\"[tag[$:/tags/ttControl]]\"\"\" variable=\"tt-control\">\n<$transclude tiddler=<<tt-control>> />\n</$list>\n\\end",
         "bag": "default",
         "revision": "0",
@@ -169,14 +179,14 @@
         "created": "20171030010641601"
     },
     {
-        "text": "\\define editDate()\n<$edit-date index=$(tt-col-id)$ />\n<$button class=\"tc-btn-invisible\" set=\"!!$(tt-col-id)$\" setTo=\"tdView\">\n<small>{{$:/core/images/close-button}}</small>\n</$button>\n\\end",
+        "text": "\\define editDate(ef:\"YYYY-MM-DD\", vf:\"YYYY-MM-DD\", st, ss, s24)\n<$edit-date index=$(tt-col-id)$ firstDay=\"1\" format=\"\"\"$ef$\"\"\" fieldFormat=\"\"\"$vf$\"\"\" $st$ $ss$ $s24$/>\n<$button class=\"tc-btn-invisible\" set=\"!!$(tt-col-id)$\" setTo=\"tdView\">\n<small>{{$:/core/images/close-button}}</small>\n</$button>\n\\end",
         "bag": "default",
         "revision": "0",
         "type": "text/vnd.tiddlywiki",
         "title": "$:/plugins/mau/TableTool/macros/edit-date",
         "tags": "$:/tags/ttMacro TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171029143517830",
+        "modified": "20171104115509740",
         "creator": ")+(auloop",
         "created": "20170427165209789"
     },
@@ -301,14 +311,14 @@
         "created": "20170414203525718"
     },
     {
-        "text": "\\define showTags()\n<$list filter=\"[<currentTiddler>tags[]sort[title]]\" template=\"$:/core/ui/TagTemplate\" storyview=\"pop\"/>\n\\end",
+        "text": "\\define showTags()\n<$list filter=\"\"\"[<currentTiddler>tags[]sort[title]] -[<tt-name>]\"\"\" template=\"$:/core/ui/TagTemplate\" storyview=\"pop\"/>\n\\end",
         "bag": "default",
         "revision": "0",
         "type": "text/vnd.tiddlywiki",
         "title": "$:/plugins/mau/TableTool/macros/show-tags",
         "tags": "$:/tags/ttMacro TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171029143518074",
+        "modified": "20171105200817868",
         "creator": ")+(auloop",
         "created": "20170412085145262"
     },
@@ -361,19 +371,19 @@
         "created": "20170412090003168"
     },
     {
-        "text": "\\define tt-plugin() $:/plugins/mau/TableTool\n\\define tt-raw() $(tt-plugin)$/templates/raw-template\n\\define tt-conf() $(tt-conf-prefix)$/$(tt-name)$/$(tt-layout)$\n\\define tt-list-hidden() $(tt-conf)$!!tt-list-hidden\n\\define tt-col() $(tt-conf)$/$(tt-col-id)$\n\\define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]\n\n\\define tt-conf-prefix() {{$(tt-plugin)$/config/tt-conf-prefix}}\n\\define tt-mode() {{!!$(tt-col-id)$}}\n\n<!-- this variables have to be wikified: \"\"\"<$wikify name=\"macro\" text=<<macro>> >\"\"\" -->",
+        "text": "\\define tt-plugin() $:/plugins/mau/TableTool\n\\define tt-raw() $(tt-plugin)$/templates/raw-template\n\\define tt-conf() $(tt-conf-prefix)$/$(tt-name)$/$(tt-layout)$\n\\define tt-list-hidden() $(tt-conf)$!!tt-list-hidden\n\\define tt-col() $(tt-conf)$/$(tt-col-id)$\n\\define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]\n\n\\define tt-conf-prefix() {{$(tt-plugin)$/config/tt-conf-prefix}}\n\\define tt-mode() {{!!$(tt-col-id)$}}\n\\define tt-col-width() {{$(tt-col)$##tt-col-width}}\n\n<!-- this variables have to be wikified: \"\"\"<$wikify name=\"macro\" text=<<macro>> >\"\"\" -->",
         "bag": "default",
         "revision": "0",
         "type": "text/vnd.tiddlywiki",
         "title": "$:/plugins/mau/TableTool/macros/variables",
         "tags": "$:/tags/ttMacro TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171030015948545",
+        "modified": "20171105224541523",
         "creator": ")+(auloop",
         "created": "20170519160134098"
     },
     {
-        "text": "\\define tt-show-column()\n<$(tt-mode-tag)$ style=\"position:relative;\"><$transclude tiddler=<<tt-col>> index=<<tt-mode>> /></$(tt-mode-tag)$>\n\\end\n\n<tr>\n<$list filter=\"\"\"[list<tt-conf>] -[list<tt-list-hidden>]\"\"\" variable=\"tt-col-id\">\n<$wikify name=\"tt-mode\" text=<<tt-mode>> >\n<$set name=\"tt-mode-tag\" filter=<<tt-mode-filter>> value=\"th\" emptyValue=\"td\">\n<<tt-show-column>>\n</$set>\n</$wikify>\n</$list>\n</tr>",
+        "text": "\\define tt-show-column()\n<$(tt-mode-tag)$ style=\"min-width:$(tt-col-width)$;\"><$transclude tiddler=<<tt-col>> index=<<tt-mode>> /></$(tt-mode-tag)$>\n\\end\n\n<tr>\n<$list filter=\"\"\"[list<tt-conf>] -[list<tt-list-hidden>]\"\"\" variable=\"tt-col-id\">\n<$wikify name=\"tt-mode\" text=<<tt-mode>> >\n<$wikify name=\"tt-col-width\" text=<<tt-col-width>> >\n<$set name=\"tt-mode-tag\" filter=<<tt-mode-filter>> value=\"th\" emptyValue=\"td\">\n<<tt-show-column>>\n</$set>\n</$wikify>\n</$wikify>\n</$list>\n</tr>",
         "bag": "default",
         "revision": "0",
         "type": "text/vnd.tiddlywiki",
@@ -381,12 +391,12 @@
         "title": "$:/plugins/mau/TableTool/templates/raw-template",
         "tags": "TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171029143518001",
+        "modified": "20171106000024883",
         "creator": ")+(auloop",
         "created": "20170418162629326"
     },
     {
-        "text": "<$importvariables filter=\"[tag[$:/tags/ttMacro]]\">\n\n<$wikify name=\"tt-conf-prefix\" text=<<tt-conf-prefix>> >\n\n<$set name=\"display\" filter=\"\"\"[enlist<tt-controls>] -[[show]]\"\"\" value=\"\" emptyValue=\"tt-display-controls\">\n<$macrocall $name=<<display>> />\n</$set>\n\n<$tiddler tiddler=<<tt-conf>> >\n<$scrollable>\n<table>\n<!-- header -->\n<$transclude tiddler=<<tt-raw>> />\n<!-- data -->\n<$list filter=\"\"\"[tag<tt-name>]\"\"\" template=<<tt-raw>> />\n</table>\n</$scrollable>\n</$tiddler>\n\n</$wikify>\n\n</$importvariables>\n",
+        "text": "<$importvariables filter=\"[tag[$:/tags/ttMacro]]\">\n\n<$wikify name=\"tt-conf-prefix\" text=<<tt-conf-prefix>> >\n\n<$set name=\"display\" filter=\"\"\"[enlist<tt-controls>] -[[show]]\"\"\" value=\"\" emptyValue=\"tt-display-controls\">\n<$macrocall $name=<<display>> />\n</$set>\n\n<$tiddler tiddler=<<tt-conf>> >\n\n<table class=\"tbt\">\n<!-- header -->\n<$transclude tiddler=<<tt-raw>> />\n<!-- data -->\n<$list filter=\"\"\"[tag<tt-name>]\"\"\" template=<<tt-raw>> />\n</table>\n\n</$tiddler>\n\n</$wikify>\n\n</$importvariables>\n",
         "bag": "default",
         "revision": "0",
         "type": "text/vnd.tiddlywiki",
@@ -394,12 +404,11 @@
         "title": "$:/plugins/mau/TableTool/templates/table-template",
         "tags": "TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171030012420461",
+        "modified": "20171105222709783",
         "creator": ")+(auloop",
         "created": "20170417221320425"
     },
     {
-        "created": "20170415231403552",
         "text": "",
         "bag": "default",
         "revision": "0",
@@ -407,8 +416,9 @@
         "title": "$:/tags/ttControl",
         "tags": "TableToolPlugin",
         "modifier": ")+(auloop",
-        "modified": "20171102114021851",
+        "modified": "20171102114023122",
         "list": "$:/plugins/mau/TableTool/controls/new-column $:/plugins/mau/TableTool/controls/new-raw $:/plugins/mau/TableTool/controls/edit-selected $:/plugins/mau/TableTool/controls/delete-selected $:/plugins/mau/TableTool/controls/reset $:/plugins/mau/TableTool/controls/hide-show-col",
-        "creator": ")+(auloop"
+        "creator": ")+(auloop",
+        "created": "20170415231403552"
     }
 ]
