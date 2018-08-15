@@ -1,0 +1,15 @@
+created: 20171104003659406
+modified: 20171104003753415
+tags: 
+title: $:/tt/momyl/readonly/mml-video
+type: application/json
+
+{
+    "col-id": "mml-video",
+    "col-label": "YouTube",
+    "tdView": "<<show-ytvideo>>",
+    "tdEdit": "",
+    "thView": "YouTube",
+    "thEdit": "",
+    "tt-hidden": ""
+}

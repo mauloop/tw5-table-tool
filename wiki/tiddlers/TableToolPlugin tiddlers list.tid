@@ -1,0 +1,13 @@
+created: 20171103222542551
+modified: 20171104173245541
+tags: 
+title: TableToolPlugin tiddlers list
+type: text/vnd.tiddlywiki
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+{{$:/core/images/export-button}} Export these tiddlers in a JSON bundle
+<$action-sendmessage $message="tm-download-file" $param="$:/core/templates/exporters/JsonFile" exportFilter="""[tag[TableToolPlugin]sort[title]]""" filename="TableToolPLugin.json"/>
+</$button>
+
+----
+{{{[tag[TableToolPlugin]sort[title]]}}}

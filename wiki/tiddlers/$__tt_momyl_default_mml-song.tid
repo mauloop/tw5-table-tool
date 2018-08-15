@@ -1,0 +1,15 @@
+created: 20171029163017092
+modified: 20171105225033136
+title: $:/tt/momyl/default/mml-song
+type: application/json
+
+{
+    "col-id": "mml-song",
+    "col-label": "Song",
+    "tdView": "<<showVal>>",
+    "tdEdit": "<<inputVal>>",
+    "thView": "<<tt-head-menu>>",
+    "thEdit": "",
+    "tt-hidden": "",
+    "tt-col-width": "120px"
+}

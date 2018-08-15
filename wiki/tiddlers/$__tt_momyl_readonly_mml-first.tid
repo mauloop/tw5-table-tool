@@ -1,0 +1,15 @@
+created: 20171104003823914
+modified: 20171104003939268
+tags: 
+title: $:/tt/momyl/readonly/mml-first
+type: application/json
+
+{
+    "col-id": "mml-first",
+    "col-label": "First listen",
+    "tdView": "{{##mml-first}}",
+    "tdEdit": "",
+    "thView": "First listen",
+    "thEdit": "",
+    "tt-hidden": ""
+}

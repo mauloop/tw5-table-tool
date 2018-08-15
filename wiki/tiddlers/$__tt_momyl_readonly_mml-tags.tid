@@ -1,0 +1,15 @@
+created: 20171104174258341
+modified: 20171104174339502
+tags: 
+title: $:/tt/momyl/readonly/mml-tags
+type: application/json
+
+{
+    "col-id": "mml-tags",
+    "col-label": "Tags",
+    "tdView": "<<showTags>>",
+    "tdEdit": "",
+    "thView": "Tags",
+    "thEdit": "",
+    "tt-hidden": ""
+}

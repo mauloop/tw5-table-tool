@@ -1,0 +1,15 @@
+created: 20171029181418718
+modified: 20171105225104276
+title: $:/tt/momyl/default/mml-open
+type: application/json
+
+{
+    "col-id": "mml-open",
+    "col-label": "(open)",
+    "tdView": "<<openThis>>",
+    "tdEdit": "<<openThis>>",
+    "thView": "",
+    "thEdit": "",
+    "tt-hidden": "",
+    "tt-col-width": "30px"
+}

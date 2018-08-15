@@ -1,0 +1,15 @@
+created: 20171030000442471
+modified: 20171030001846952
+tags: 
+title: $:/tt/momyl/readonly/mml-notes
+type: application/json
+
+{
+    "col-id": "mml-notes",
+    "col-label": "Notes",
+    "tdView": "<$wikify name='this' text={{##mml-notes}} output='html'><<this>></$wikify>",
+    "tdEdit": "",
+    "thView": "Notes",
+    "thEdit": "",
+    "tt-hidden": ""
+}

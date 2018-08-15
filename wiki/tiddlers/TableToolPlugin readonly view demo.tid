@@ -1,0 +1,8 @@
+created: 20171104165951453
+modified: 20171104170023361
+tags: 
+title: TableToolPlugin readonly view demo
+type: text/vnd.tiddlywiki
+
+''A readonly view''
+<<table-tool "momyl" "readonly" "hide">>

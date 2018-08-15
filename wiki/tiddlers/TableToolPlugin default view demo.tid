@@ -1,0 +1,8 @@
+created: 20171104165833658
+modified: 20171104165936058
+tags: 
+title: TableToolPlugin default view demo
+type: text/vnd.tiddlywiki
+
+''Default view''
+<<table-tool "momyl">>

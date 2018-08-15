@@ -1,0 +1,15 @@
+created: 20171104003202219
+modified: 20171105235322717
+title: $:/tt/momyl/default/mml-video
+type: application/json
+
+{
+    "col-id": "mml-video",
+    "col-label": "YouTube",
+    "tdView": "<<show-ytvideo>>",
+    "tdEdit": "<<inputVal>>",
+    "thView": "<<tt-head-menu>>",
+    "thEdit": "",
+    "tt-hidden": "",
+	"tt-col-width": "212px"
+}

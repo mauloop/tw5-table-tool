@@ -1,0 +1,13 @@
+created: 20171029161833304
+modified: 20171105234541358
+tags: 
+title: The music of my life
+type: text/vnd.tiddlywiki
+
+\define show-ytvideo()
+<iframe width="210" height="120" src={{##$(tt-col-id)$}} frameborder="0" allowfullscreen></iframe>
+\end
+
+These are simple TableTool usage examples.
+
+<<tabs """[[TableToolPlugin default view demo]] [[TableToolPlugin readonly view demo]]""" """[[TableToolPlugin default view demo]]""">>

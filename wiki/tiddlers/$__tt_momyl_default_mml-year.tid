@@ -1,0 +1,15 @@
+created: 20171103224749331
+modified: 20171105225511757
+title: $:/tt/momyl/default/mml-year
+type: application/json
+
+{
+    "col-id": "mml-year",
+    "col-label": "Year",
+    "tdView": "<<showVal>>",
+    "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
+    "thView": "<<tt-head-menu>>",
+    "thEdit": "",
+    "tt-hidden": "",
+    "tt-col-width": "120px"
+}
