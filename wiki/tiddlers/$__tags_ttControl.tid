@@ -1,7 +1,7 @@
 created: 20170415231403552
 creator: )+(auloop
-list: $:/plugins/mau/TableTool/controls/new-column $:/plugins/mau/TableTool/controls/new-raw $:/plugins/mau/TableTool/controls/edit-selected $:/plugins/mau/TableTool/controls/delete-selected $:/plugins/mau/TableTool/controls/reset $:/plugins/mau/TableTool/controls/hide-show-col
-modified: 20171102114023122
+list: $:/plugins/mau/TableTool/controls/new-column $:/plugins/mau/TableTool/controls/new-raw $:/plugins/mau/TableTool/controls/edit-selected $:/plugins/mau/TableTool/controls/delete-selected $:/plugins/mau/TableTool/controls/reset $:/plugins/mau/TableTool/controls/hide-show-col $:/plugins/mau/TableTool/controls/prev-page $:/plugins/mau/TableTool/controls/next-page
+modified: 20180818095315165
 modifier: )+(auloop
 tags: TableToolPlugin
 title: $:/tags/ttControl

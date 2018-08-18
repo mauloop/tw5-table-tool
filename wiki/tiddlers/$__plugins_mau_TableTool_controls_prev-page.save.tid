@@ -1,0 +1,34 @@
+created: 20180117140949496
+creator: )+(auloop
+modified: 20180818095314966
+modifier: )+(auloop
+select-all: false
+tags: TableToolPlugin
+title: $:/plugins/mau/TableTool/controls/prev-page.save
+type: text/vnd.tiddlywiki
+
+\define tt-max-rows-neg() -$(tt-max-rows-val)$
+
+\define tt-start-row-prev()
+<$macrocall $name="incr" val="""$(tt-start-row-val)$""" add="""$(tt-max-rows-neg)$"""/>
+\end
+
+\define tt-prev-page()
+<$set name="tt-max-rows-val" tiddler="""$(tt-max-rows)$""" >
+<$set name="tt-start-row-val" tiddler="""$(tt-start-row)$""" >
+<$wikify name="tt-start-row-prev" text=<<tt-start-row-prev>> >
+<$action-setfield $tiddler="""$(tt-last-row)$""" text={{$(tt-start-row)$}} />
+<$action-setfield $tiddler="""$(tt-start-row)$""" text=<<tt-start-row-prev>> />
+</$wikify>
+</$set>
+</$set>
+\end
+
+<!----------------
+-- "Prev-Page" control
+-->
+<$wikify name="tt-last-row-next" text=<<tt-last-row-next>> >
+<$button actions=<<tt-prev-page>> >
+{{$:/core/images/chevron-left}}
+</$button>
+</$wikify>
