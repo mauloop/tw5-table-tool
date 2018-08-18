@@ -1,0 +1,18 @@
+created: 20171222225340124
+description: An unsupported version of a database server is running on the remote host.
+fqdn: colt-repository.torta.priv
+ip-address: 10.1.1.21
+mac: 00:50:56:94:56:d2
+modified: 20180818112132108
+netbios: VRNS
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 317 Critical 10.1.1.21
+title: 10.1.1.21-317
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 317
+vuln-name: Microsoft SQL Server Unsupported Version Detection (remote check)
+

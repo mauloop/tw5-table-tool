@@ -1,0 +1,18 @@
+created: 20171222225340231
+description: The remote web server uses a version of PHP that is potentially affected by multiple vulnerabilities.
+fqdn: icinga.torta.priv
+ip-address: 10.1.1.77
+mac: 00:50:56:94:67:b2
+modified: 20180818112155860
+netbios: 
+os: Linux Kernel 2.6.32-40-server
+tags: VA201712 1736 Medium 10.1.1.77
+title: 10.1.1.77-1736
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1736
+vuln-name: PHP 5.3.x < 5.3.28 Multiple OpenSSL Vulnerabilities
+

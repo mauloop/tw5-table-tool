@@ -1,0 +1,18 @@
+created: 20171222225340253
+description: An unsupported version of MediaWiki is running on the remote host.
+fqdn: 
+ip-address: 10.1.1.95
+mac: 00:21:28:6b:9a:0b
+modified: 20180818112200113
+netbios: B-7100
+os: Solaris 11 (i386)
+tags: VA201712 5531 Critical 10.1.1.95
+title: 10.1.1.95-5531
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5531
+vuln-name: MediaWiki Unsupported Version Detection
+

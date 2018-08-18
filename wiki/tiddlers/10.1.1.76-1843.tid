@@ -1,0 +1,18 @@
+created: 20171222225340222
+description: The remote web server is affected by multiple vulnerabilities.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112153138
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 1843 Medium 10.1.1.76
+title: 10.1.1.76-1843
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1843
+vuln-name: Apache 2.2.x < 2.2.16 Multiple Vulnerabilities
+

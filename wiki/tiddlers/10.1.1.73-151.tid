@@ -1,0 +1,18 @@
+created: 20171222225340217
+description: The SSL certificate for this service cannot be trusted.
+fqdn: bcksrv.torta.priv
+ip-address: 10.1.1.73
+mac: 00:90:fa:13:92:78
+modified: 20180818112151531
+netbios: BCKSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 151 Medium 10.1.1.73
+title: 10.1.1.73-151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 151
+vuln-name: SSL Certificate Cannot Be Trusted
+

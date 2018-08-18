@@ -1,0 +1,14 @@
+created: 20171222230157024
+modified: 20180818112126151
+title: $:/tt/VA201712/default/va-vuln-id
+type: application/json
+
+{
+    "col-id": "va-vuln-id",
+    "col-label": "Vuln ID",
+    "tdView": "{{!!vuln-id}}",
+    "tdEdit": "",
+    "thView": "<<tt-head-menu>>",
+    "thEdit": "",
+    "tt-hidden": ""
+}

@@ -1,0 +1,18 @@
+created: 20171222225340164
+description: The SSL certificate for this service cannot be trusted.
+fqdn: 
+ip-address: 10.1.1.32
+mac: 00:17:c5:99:fd:09
+modified: 20180818112139828
+netbios: 
+os: SonicWALL
+tags: VA201712 151 Medium 10.1.1.32
+title: 10.1.1.32-151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 151
+vuln-name: SSL Certificate Cannot Be Trusted
+

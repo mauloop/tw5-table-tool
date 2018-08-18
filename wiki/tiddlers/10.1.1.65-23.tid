@@ -1,0 +1,18 @@
+created: 20171222225340206
+description: The remote host is susceptible to an information disclosure attack.
+fqdn: 
+ip-address: 10.1.1.65
+mac: 00:50:56:94:76:ee
+modified: 20180818112148755
+netbios: 
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 23 Medium 10.1.1.65
+title: 10.1.1.65-23
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 23
+vuln-name: OPIE w/ OpenSSH Account Enumeration
+

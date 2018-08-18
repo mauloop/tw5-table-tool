@@ -1,0 +1,18 @@
+created: 20171222225340252
+description: At least one iSCSI target is configured not to use authentication.
+fqdn: 
+ip-address: 10.1.1.95
+mac: 00:21:28:6b:9a:0b
+modified: 20180818112159870
+netbios: B-7100
+os: Solaris 11 (i386)
+tags: VA201712 2191 High 10.1.1.95
+title: 10.1.1.95-2191
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 2191
+vuln-name: iSCSI Unauthenticated Target Detection
+

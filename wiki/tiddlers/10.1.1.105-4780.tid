@@ -1,0 +1,21 @@
+created: 20171222225340096
+description: The SSH server on the remote host is affected by a memory corruption vulnerability.
+fqdn: 
+ip-address: 10.1.1.105
+mac: 02:32:18:9b:8c:32
+modified: 20180818112127647
+netbios: 
+os: Linux Kernel 3.10
+Linux Kernel 3.5
+Linux Kernel 3.8
+Linux Kernel 3.9
+tags: VA201712 4780 High 10.1.1.105
+title: 10.1.1.105-4780
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4780
+vuln-name: OpenSSH 6.2 and 6.3 AES-GCM Cipher Memory Corruption
+

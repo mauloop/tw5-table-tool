@@ -1,0 +1,18 @@
+created: 20171222225340215
+description: The remote database server is affected by multiple vulnerabilities.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112151067
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 4190 Medium 10.1.1.71
+title: 10.1.1.71-4190
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4190
+vuln-name: MySQL Community Server < 5.1.47 / 5.0.91 Multiple Vulnerabilities
+

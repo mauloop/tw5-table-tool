@@ -1,0 +1,18 @@
+created: 20171222225340145
+description: Firewall rulesets can be bypassed.
+fqdn: 
+ip-address: 10.1.1.250
+mac: 08:94:ef:08:5a:c0
+modified: 20180818112136549
+netbios: 
+os: VMware ESXi
+tags: VA201712 379 High 10.1.1.250
+title: 10.1.1.250-379
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 379
+vuln-name: Firewall UDP Packet Source Port 53 Ruleset Bypass
+

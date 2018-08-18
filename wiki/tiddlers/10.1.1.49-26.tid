@@ -1,0 +1,21 @@
+created: 20171222225340179
+description: The remote SSH service is susceptible to a remote denial of service attack.
+fqdn: 
+ip-address: 10.1.1.49
+mac: 
+modified: 20180818112142417
+netbios: 
+os: Apple Airport
+Canon imageRunner Printer
+HP Switch
+Nortel Switch
+tags: VA201712 26 Medium 10.1.1.49
+title: 10.1.1.49-26
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 26
+vuln-name: OpenSSH LoginGraceTime / MaxStartups DoS
+

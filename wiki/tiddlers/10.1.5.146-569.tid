@@ -1,0 +1,18 @@
+created: 20171222225340291
+description: The remote host might be infected by a Trojan / worm / malware.
+fqdn: 
+ip-address: 10.1.5.146
+mac: 98:e7:f4:bd:ad:9c
+modified: 20180818112204267
+netbios: 8CG7210Y9Z-PR
+os: Microsoft Windows 10 Pro
+tags: VA201712 569 Medium 10.1.5.146
+title: 10.1.5.146-569
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 569
+vuln-name: Trojan Horse Detection
+

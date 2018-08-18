@@ -1,0 +1,18 @@
+created: 20171222225340114
+description: The remote host is affected by an information disclosure vulnerability.
+fqdn: 
+ip-address: 10.1.1.110
+mac: 00:50:56:8f:0c:5b
+modified: 20180818112129289
+netbios: 
+os: N/A
+tags: VA201712 27 Medium 10.1.1.110
+title: 10.1.1.110-27
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 27
+vuln-name: OpenSSH S/KEY Authentication Account Enumeration
+

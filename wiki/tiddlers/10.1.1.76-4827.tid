@@ -1,0 +1,18 @@
+created: 20171222225340226
+description: The remote service supports the use of 64-bit block ciphers.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112154377
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 4827 Medium 10.1.1.76
+title: 10.1.1.76-4827
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4827
+vuln-name: SSL 64-bit Block Size Cipher Suites Supported (SWEET32)
+

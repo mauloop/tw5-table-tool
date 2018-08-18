@@ -1,0 +1,18 @@
+created: 20171222225340131
+description: The remote SSH service is prone to an X11 session hijacking vulnerability.
+fqdn: faxhw.torta.priv
+ip-address: 10.1.1.23
+mac: 
+modified: 20180818112133137
+netbios: 
+os: Linux Kernel 2.6.18-194.8.1.el5PAE
+tags: VA201712 2200 Medium 10.1.1.23
+title: 10.1.1.23-2200
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 2200
+vuln-name: OpenSSH X11 Forwarding Session Hijacking
+

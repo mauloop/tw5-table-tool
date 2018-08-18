@@ -1,0 +1,19 @@
+created: 20171222225340121
+description: The remote web server uses a version of PHP that is affected by multiple flaws.
+fqdn: as-400.torta.priv
+ip-address: 10.1.1.20
+mac: 
+modified: 20180818112131540
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 1734 High 10.1.1.20
+title: 10.1.1.20-1734
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1734
+vuln-name: PHP < 5.3.9 Multiple Vulnerabilities
+

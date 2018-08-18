@@ -1,0 +1,18 @@
+created: 20171222225340215
+description: The remote database server allows a local user to circumvent privileges.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112151056
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 4188 Medium 10.1.1.71
+title: 10.1.1.71-4188
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4188
+vuln-name: MySQL < 5.0.88 / 5.1.42 / 5.5.0 / 6.0.14 MyISAM CREATE TABLE Privilege Check Bypass
+

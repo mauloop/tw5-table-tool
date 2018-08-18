@@ -1,0 +1,18 @@
+created: 20171222225340206
+description: Firewall rulesets can be bypassed.
+fqdn: 
+ip-address: 10.1.1.65
+mac: 00:50:56:94:76:ee
+modified: 20180818112148804
+netbios: 
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 379 High 10.1.1.65
+title: 10.1.1.65-379
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 379
+vuln-name: Firewall UDP Packet Source Port 53 Ruleset Bypass
+

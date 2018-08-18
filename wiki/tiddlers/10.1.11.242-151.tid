@@ -1,0 +1,18 @@
+created: 20171222225340281
+description: The SSL certificate for this service cannot be trusted.
+fqdn: 
+ip-address: 10.1.11.242
+mac: 
+modified: 20180818112202736
+netbios: 
+os: N/A
+tags: VA201712 151 Medium 10.1.11.242
+title: 10.1.11.242-151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 151
+vuln-name: SSL Certificate Cannot Be Trusted
+

@@ -1,0 +1,18 @@
+created: 20171222225340196
+description: The remote service supports the use of 64-bit block ciphers.
+fqdn: vdp.torta.priv
+ip-address: 10.1.1.59
+mac: 
+modified: 20180818112145806
+netbios: TORTA-MASTER
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 4827 Medium 10.1.1.59
+title: 10.1.1.59-4827
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4827
+vuln-name: SSL 64-bit Block Size Cipher Suites Supported (SWEET32)
+

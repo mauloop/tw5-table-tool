@@ -1,0 +1,18 @@
+created: 20171222225340219
+description: The remote service supports the use of 64-bit block ciphers.
+fqdn: b-gen.torta.priv
+ip-address: 10.1.1.74
+mac: 00:50:56:99:16:03
+modified: 20180818112152494
+netbios: EXCHSRV02
+os: Microsoft Windows Server 2012 R2 Standard
+tags: VA201712 4827 Medium 10.1.1.74
+title: 10.1.1.74-4827
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4827
+vuln-name: SSL 64-bit Block Size Cipher Suites Supported (SWEET32)
+

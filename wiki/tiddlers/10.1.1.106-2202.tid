@@ -1,0 +1,18 @@
+created: 20171222225340100
+description: The remote web server hosts a PHP script that is prone to a cross- site scripting attack.
+fqdn: 
+ip-address: 10.1.1.106
+mac: 6c:ae:8b:00:eb:39
+modified: 20180818112128204
+netbios: S0628E7T
+os: IBMi OS V7R1M0
+tags: VA201712 2202 Medium 10.1.1.106
+title: 10.1.1.106-2202
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 2202
+vuln-name: phpMyAdmin error.php BBcode Tag XSS (PMASA-2010-9)
+

@@ -1,0 +1,18 @@
+created: 20171222225340167
+description: The remote web server might be prone to cross-site request forgery attacks.
+fqdn: adsrv.torta.priv
+ip-address: 10.1.1.36
+mac: 00:50:56:99:2e:d9
+modified: 20180818112140566
+netbios: ADSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 17 Medium 10.1.1.36
+title: 10.1.1.36-17
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 17
+vuln-name: CGI Generic Cross-Site Request Forgery Detection (potential)
+

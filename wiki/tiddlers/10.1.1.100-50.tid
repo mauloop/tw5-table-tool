@@ -1,0 +1,20 @@
+created: 20171222225340090
+description: The remote host has IP forwarding enabled.
+fqdn: 
+ip-address: 10.1.1.100
+mac: 00:50:56:99:4e:07
+modified: 20180818112126298
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 50 Medium 10.1.1.100
+title: 10.1.1.100-50
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 50
+vuln-name: IP Forwarding Enabled
+

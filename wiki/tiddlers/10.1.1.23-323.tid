@@ -1,0 +1,18 @@
+created: 20171222225340132
+description: The remote web server is affected by multiple vulnerabilities.
+fqdn: faxhw.torta.priv
+ip-address: 10.1.1.23
+mac: 
+modified: 20180818112133315
+netbios: 
+os: Linux Kernel 2.6.18-194.8.1.el5PAE
+tags: VA201712 323 Critical 10.1.1.23
+title: 10.1.1.23-323
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 323
+vuln-name: HP System Management Homepage < 7.2.5 / 7.4.1 Multiple Vulnerabilities (POODLE)
+

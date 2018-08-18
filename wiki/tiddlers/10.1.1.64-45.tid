@@ -1,0 +1,18 @@
+created: 20171222225340204
+description: The remote host supports a set of weak ciphers.
+fqdn: readynas2100_2.torta.priv
+ip-address: 10.1.1.64
+mac: 
+modified: 20180818112148455
+netbios: READYNAS2100_2
+os: Linux Kernel 2.6 on Debian 4.0 (etch)
+tags: VA201712 45 Medium 10.1.1.64
+title: 10.1.1.64-45
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 45
+vuln-name: SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK)
+

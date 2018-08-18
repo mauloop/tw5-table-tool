@@ -1,0 +1,19 @@
+created: 20171222225340140
+description: The SSL certificate chain for this service ends in an unrecognized self-signed certificate.
+fqdn: apc.torta.priv
+ip-address: 10.1.1.241
+mac: 
+modified: 20180818112135418
+netbios: 
+os: Linux Kernel 3.2
+Linux Kernel 3.3
+tags: VA201712 156 Medium 10.1.1.241
+title: 10.1.1.241-156
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 156
+vuln-name: SSL Self-Signed Certificate
+

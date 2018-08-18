@@ -1,0 +1,18 @@
+created: 20171222225340190
+description: The remote web server uses a version of PHP that is affected by multiple flaws.
+fqdn: tortacrm.torta.priv
+ip-address: 10.1.1.58
+mac: 00:50:56:94:45:cc
+modified: 20180818112144769
+netbios: CRM
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1734 High 10.1.1.58
+title: 10.1.1.58-1734
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1734
+vuln-name: PHP < 5.3.9 Multiple Vulnerabilities
+

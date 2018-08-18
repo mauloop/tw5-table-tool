@@ -1,0 +1,18 @@
+created: 20171222225340139
+description: A virtualization management application installed on the remote host is affected by a remote code execution vulnerability.
+fqdn: vcentersrv.torta.priv
+ip-address: 10.1.1.240
+mac: 00:50:56:94:19:16
+modified: 20180818112135234
+netbios: VCENTERSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 5733 High 10.1.1.240
+title: 10.1.1.240-5733
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5733
+vuln-name: VMware vCenter Server 6.0.x < 6.0u3b / 6.5.x < 6.5c BlazeDS AMF3 RCE (VMSA-2017-0007)
+

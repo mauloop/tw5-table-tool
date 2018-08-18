@@ -1,0 +1,18 @@
+created: 20171222225340161
+description: The remote web server uses a version of PHP that is affected by a remote code execution vulnerability.
+fqdn: printsrv.torta.priv
+ip-address: 10.1.1.31
+mac: 00:50:56:94:68:9f
+modified: 20180818112139121
+netbios: PRINTSRV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1727 High 10.1.1.31
+title: 10.1.1.31-1727
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1727
+vuln-name: PHP < 5.3.12 / 5.4.2 CGI Query String Code Execution
+

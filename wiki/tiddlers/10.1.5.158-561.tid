@@ -1,0 +1,18 @@
+created: 20171222225340293
+description: Signing is not required on the remote SMB server.
+fqdn: 
+ip-address: 10.1.5.158
+mac: 98:e7:f4:bd:b1:f3
+modified: 20180818112204506
+netbios: 8CG7210Y75-ML
+os: Microsoft Windows 10 Pro
+tags: VA201712 561 Medium 10.1.5.158
+title: 10.1.5.158-561
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 561
+vuln-name: SMB Signing Disabled
+

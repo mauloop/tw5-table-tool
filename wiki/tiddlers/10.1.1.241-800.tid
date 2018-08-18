@@ -1,0 +1,19 @@
+created: 20171222225340142
+description: The remote SSH server is configured to allow weak encryption algorithms or no algorithm at all.
+fqdn: apc.torta.priv
+ip-address: 10.1.1.241
+mac: 
+modified: 20180818112135743
+netbios: 
+os: Linux Kernel 3.2
+Linux Kernel 3.3
+tags: VA201712 800 Medium 10.1.1.241
+title: 10.1.1.241-800
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 800
+vuln-name: SSH Weak Algorithms Supported
+

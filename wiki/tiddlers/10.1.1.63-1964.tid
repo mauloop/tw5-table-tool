@@ -1,0 +1,18 @@
+created: 20171222225340201
+description: The remote Samba server is affected by multiple vulnerabilities.
+fqdn: readynas2100.torta.priv
+ip-address: 10.1.1.63
+mac: 
+modified: 20180818112146963
+netbios: READYNAS2100
+os: Unix
+tags: VA201712 1964 Critical 10.1.1.63
+title: 10.1.1.63-1964
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1964
+vuln-name: Samba 3.x < 4.2.10 / 4.2.x < 4.2.10 / 4.3.x < 4.3.7 / 4.4.x < 4.4.1 Multiple Vulnerabilities (Badlock)
+

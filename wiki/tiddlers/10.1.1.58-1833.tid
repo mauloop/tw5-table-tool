@@ -1,0 +1,18 @@
+created: 20171222225340191
+description: The remote host may be affected by a denial of service vulnerability.
+fqdn: tortacrm.torta.priv
+ip-address: 10.1.1.58
+mac: 00:50:56:94:45:cc
+modified: 20180818112144989
+netbios: CRM
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1833 Medium 10.1.1.58
+title: 10.1.1.58-1833
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1833
+vuln-name: OpenSSL 0.9.8 < 0.9.8x DTLS CBC Denial of Service
+

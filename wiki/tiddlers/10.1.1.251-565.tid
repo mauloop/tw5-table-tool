@@ -1,0 +1,18 @@
+created: 20171222225340147
+description: It may be possible to obtain sensitive information from the remote host with SSL/TLS-enabled services.
+fqdn: 
+ip-address: 10.1.1.251
+mac: 
+modified: 20180818112136903
+netbios: DD2200TO
+os: EMC Data Domain OS
+tags: VA201712 565 Medium 10.1.1.251
+title: 10.1.1.251-565
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 565
+vuln-name: SSL/TLS Protocol Initialization Vector Implementation Information Disclosure Vulnerability (BEAST)
+

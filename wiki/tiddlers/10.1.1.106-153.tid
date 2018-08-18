@@ -1,0 +1,18 @@
+created: 20171222225340097
+description: The SSL certificate for this service is for a different host.
+fqdn: 
+ip-address: 10.1.1.106
+mac: 6c:ae:8b:00:eb:39
+modified: 20180818112127760
+netbios: S0628E7T
+os: IBMi OS V7R1M0
+tags: VA201712 153 Medium 10.1.1.106
+title: 10.1.1.106-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

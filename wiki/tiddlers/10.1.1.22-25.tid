@@ -1,0 +1,20 @@
+created: 20171222225340128
+description: The remote SSH server may permit anonymous port bouncing.
+fqdn: juniperstrm.torta.priv
+ip-address: 10.1.1.22
+mac: 
+modified: 20180818112132746
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 25 Medium 10.1.1.22
+title: 10.1.1.22-25
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 25
+vuln-name: OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing
+

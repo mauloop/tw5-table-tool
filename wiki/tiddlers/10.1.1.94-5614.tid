@@ -1,0 +1,18 @@
+created: 20171222225340250
+description: The remote NTP server responds to mode 6 queries.
+fqdn: 
+ip-address: 10.1.1.94
+mac: 00:50:56:99:7e:b9
+modified: 20180818112159481
+netbios: B-7100
+os: Solaris 11 (i86pc)
+tags: VA201712 5614 Medium 10.1.1.94
+title: 10.1.1.94-5614
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5614
+vuln-name: Network Time Protocol (NTP) Mode 6 Scanner
+

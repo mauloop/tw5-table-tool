@@ -1,0 +1,18 @@
+created: 20171222225340137
+description: A security framework running on the remote web server is affected by an information disclosure vulnerability.
+fqdn: blues.torta.priv
+ip-address: 10.1.1.24
+mac: 00:50:56:94:0e:8d
+modified: 20180818112134829
+netbios: BLUES
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 3438 Medium 10.1.1.24
+title: 10.1.1.24-3438
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 3438
+vuln-name: Apache Shiro URI Path Security Directory Traversal Information Disclosure
+

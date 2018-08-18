@@ -1,0 +1,18 @@
+created: 20171222225340186
+description: The SSH server running on the remote host is affected by multiple vulnerabilities.
+fqdn: dd620colt.torta.priv
+ip-address: 10.1.1.52
+mac: 
+modified: 20180818112143880
+netbios: DD620COLT
+os: Linux Kernel 3.2.33-ddr532316 (x86_64)
+tags: VA201712 4078 High 10.1.1.52
+title: 10.1.1.52-4078
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4078
+vuln-name: OpenSSH < 7.3 Multiple Vulnerabilities
+

@@ -1,0 +1,20 @@
+created: 20171222225340129
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: juniperstrm.torta.priv
+ip-address: 10.1.1.22
+mac: 
+modified: 20180818112132558
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 559 Medium 10.1.1.22
+title: 10.1.1.22-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

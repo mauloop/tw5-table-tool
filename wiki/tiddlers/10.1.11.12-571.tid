@@ -1,0 +1,18 @@
+created: 20171222225340271
+description: The remote host allows SSH connections with one or more Diffie-Hellman moduli less than or equal to 1024 bits.
+fqdn: 
+ip-address: 10.1.11.12
+mac: 00:50:41:4c:4d:03
+modified: 20180818112200947
+netbios: 
+os: Linux Kernel 2.6.32
+tags: VA201712 571 Low 10.1.11.12
+title: 10.1.11.12-571
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 571
+vuln-name: SSH Diffie-Hellman Modulus <= 1024 Bits (Logjam)
+

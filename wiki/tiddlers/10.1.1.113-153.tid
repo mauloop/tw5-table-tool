@@ -1,0 +1,21 @@
+created: 20171222225340115
+description: The SSL certificate for this service is for a different host.
+fqdn: 
+ip-address: 10.1.1.113
+mac: 00:50:56:a2:c3:5e
+modified: 20180818112129901
+netbios: DBSRV01
+os: Microsoft Windows Server 2003
+Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Window
+tags: VA201712 153 Medium 10.1.1.113
+title: 10.1.1.113-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

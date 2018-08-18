@@ -1,0 +1,18 @@
+created: 20171222225340093
+description: The remote web server is prone to cross-site scripting attacks.
+fqdn: 
+ip-address: 10.1.1.102
+mac: 18:66:da:f4:af:9c
+modified: 20180818112126813
+netbios: SEARCH
+os: Microsoft Windows Server 2012 R2 Standard
+tags: VA201712 21 Medium 10.1.1.102
+title: 10.1.1.102-21
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 21
+vuln-name: CGI Generic XSS (quick test)
+

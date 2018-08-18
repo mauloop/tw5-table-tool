@@ -1,0 +1,18 @@
+created: 20171222225340246
+description: An unsupported version of Microsoft IIS is running on the remote Windows host.
+fqdn: 
+ip-address: 10.1.1.92
+mac: 00:50:56:94:52:8c
+modified: 20180818112158729
+netbios: CONVERTERIMG
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 5681 Critical 10.1.1.92
+title: 10.1.1.92-5681
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5681
+vuln-name: Microsoft IIS 6.0 Unsupported Version Detection
+

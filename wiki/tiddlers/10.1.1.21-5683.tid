@@ -1,0 +1,18 @@
+created: 20171222225340125
+description: The remote Apache Tomcat server is affected by an information disclosure vulnerability.
+fqdn: colt-repository.torta.priv
+ip-address: 10.1.1.21
+mac: 00:50:56:94:56:d2
+modified: 20180818112132157
+netbios: VRNS
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 5683 Medium 10.1.1.21
+title: 10.1.1.21-5683
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5683
+vuln-name: Apache Tomcat 6.0.x < 6.0.53 / 7.0.x < 7.0.77 / 8.0.x < 8.0.43 Pipelined Requests Information Disclosure
+

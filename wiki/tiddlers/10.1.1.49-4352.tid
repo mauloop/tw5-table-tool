@@ -1,0 +1,21 @@
+created: 20171222225340180
+description: It is possible to enumerate valid users on the remote host.
+fqdn: 
+ip-address: 10.1.1.49
+mac: 
+modified: 20180818112142713
+netbios: 
+os: Apple Airport
+Canon imageRunner Printer
+HP Switch
+Nortel Switch
+tags: VA201712 4352 Medium 10.1.1.49
+title: 10.1.1.49-4352
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4352
+vuln-name: OpenSSH w/ PAM Multiple Timing Attack Weaknesses
+

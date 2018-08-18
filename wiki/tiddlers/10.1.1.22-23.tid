@@ -1,0 +1,20 @@
+created: 20171222225340126
+description: The remote host is susceptible to an information disclosure attack.
+fqdn: juniperstrm.torta.priv
+ip-address: 10.1.1.22
+mac: 
+modified: 20180818112132465
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 23 Medium 10.1.1.22
+title: 10.1.1.22-23
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 23
+vuln-name: OPIE w/ OpenSSH Account Enumeration
+

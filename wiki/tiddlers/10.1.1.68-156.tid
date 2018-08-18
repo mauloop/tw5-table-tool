@@ -1,0 +1,19 @@
+created: 20171222225340208
+description: The SSL certificate chain for this service ends in an unrecognized self-signed certificate.
+fqdn: 
+ip-address: 10.1.1.68
+mac: 00:22:57:65:44:6f
+modified: 20180818112149313
+netbios: 
+os: Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 156 Medium 10.1.1.68
+title: 10.1.1.68-156
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 156
+vuln-name: SSL Self-Signed Certificate
+

@@ -1,0 +1,18 @@
+created: 20171222225340225
+description: The SSH server running on the remote host has a privilege escalation vulnerability.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112154218
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 4200 Medium 10.1.1.76
+title: 10.1.1.76-4200
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4200
+vuln-name: Red Hat Enterprise Linux OpenSSH ChrootDirectory Local Privilege Escalation
+

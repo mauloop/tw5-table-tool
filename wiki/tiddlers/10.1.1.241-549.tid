@@ -1,0 +1,19 @@
+created: 20171222225340141
+description: The SSH server running on the remote host is affected by multiple vulnerabilities.
+fqdn: apc.torta.priv
+ip-address: 10.1.1.241
+mac: 
+modified: 20180818112135504
+netbios: 
+os: Linux Kernel 3.2
+Linux Kernel 3.3
+tags: VA201712 549 High 10.1.1.241
+title: 10.1.1.241-549
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 549
+vuln-name: OpenSSH < 6.9 Multiple Vulnerabilities
+

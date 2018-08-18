@@ -1,0 +1,18 @@
+created: 20171222225340187
+description: The remote NTP server is affected by multiple vulnerabilities.
+fqdn: dd620colt.torta.priv
+ip-address: 10.1.1.52
+mac: 
+modified: 20180818112144016
+netbios: DD620COLT
+os: Linux Kernel 3.2.33-ddr532316 (x86_64)
+tags: VA201712 548 High 10.1.1.52
+title: 10.1.1.52-548
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 548
+vuln-name: Network Time Protocol Daemon (ntpd) < 4.2.8p4 Multiple Vulnerabilities
+

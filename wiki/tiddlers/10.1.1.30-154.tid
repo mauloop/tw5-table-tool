@@ -1,0 +1,18 @@
+created: 20171222225340154
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: 
+ip-address: 10.1.1.30
+mac: 00:50:56:94:57:b3
+modified: 20180818112138616
+netbios: MAILTORTA
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 154 Medium 10.1.1.30
+title: 10.1.1.30-154
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 154
+vuln-name: SSL Version 2 and 3 Protocol Detection
+

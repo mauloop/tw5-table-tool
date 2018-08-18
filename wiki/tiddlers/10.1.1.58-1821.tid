@@ -1,0 +1,18 @@
+created: 20171222225340191
+description: The remote host may be affected by a memory corruption vulnerability.
+fqdn: tortacrm.torta.priv
+ip-address: 10.1.1.58
+mac: 00:50:56:94:45:cc
+modified: 20180818112144842
+netbios: CRM
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1821 High 10.1.1.58
+title: 10.1.1.58-1821
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1821
+vuln-name: OpenSSL < 0.9.8w ASN.1 asn1_d2i_read_bio Memory Corruption
+

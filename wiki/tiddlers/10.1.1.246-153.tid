@@ -1,0 +1,18 @@
+created: 20171222225340143
+description: The SSL certificate for this service is for a different host.
+fqdn: esx02.torta.priv
+ip-address: 10.1.1.246
+mac: 
+modified: 20180818112135839
+netbios: 
+os: VMware ESXi
+tags: VA201712 153 Medium 10.1.1.246
+title: 10.1.1.246-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

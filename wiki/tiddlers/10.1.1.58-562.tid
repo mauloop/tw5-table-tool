@@ -1,0 +1,18 @@
+created: 20171222225340193
+description: The remote web server may fail to mitigate a class of web application vulnerabilities.
+fqdn: tortacrm.torta.priv
+ip-address: 10.1.1.58
+mac: 00:50:56:94:45:cc
+modified: 20180818112145406
+netbios: CRM
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 562 Medium 10.1.1.58
+title: 10.1.1.58-562
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 562
+vuln-name: Web Application Potentially Vulnerable to Clickjacking
+

@@ -1,0 +1,18 @@
+created: 20171222225340281
+description: Arbitrary files may be modified on the remote host.
+fqdn: 
+ip-address: 10.1.11.221
+mac: 
+modified: 20180818112202748
+netbios: 
+os: N/A
+tags: VA201712 5151 Medium 10.1.11.221
+title: 10.1.11.221-5151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5151
+vuln-name: CGI Generic Path Traversal (write test)
+

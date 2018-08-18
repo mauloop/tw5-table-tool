@@ -1,0 +1,18 @@
+created: 20171222225340271
+description: The community name of the remote SNMP server can be guessed.
+fqdn: 
+ip-address: 10.1.11.126
+mac: 50:eb:1a:b3:06:c0
+modified: 20180818112201090
+netbios: 
+os: Brocade Switch
+tags: VA201712 147 High 10.1.11.126
+title: 10.1.11.126-147
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 147
+vuln-name: SNMP Agent Default Community Name (public)
+

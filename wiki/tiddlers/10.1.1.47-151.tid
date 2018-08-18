@@ -1,0 +1,18 @@
+created: 20171222225340177
+description: The SSL certificate for this service cannot be trusted.
+fqdn: 
+ip-address: 10.1.1.47
+mac: 00:50:56:94:71:b6
+modified: 20180818112142045
+netbios: RSAEXTRANET
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 151 Medium 10.1.1.47
+title: 10.1.1.47-151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 151
+vuln-name: SSL Certificate Cannot Be Trusted
+

@@ -1,0 +1,18 @@
+created: 20171222225340196
+description: The remote name server is affected by a denial of service vulnerability.
+fqdn: vdp.torta.priv
+ip-address: 10.1.1.59
+mac: 
+modified: 20180818112145796
+netbios: TORTA-MASTER
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 3941 Medium 10.1.1.59
+title: 10.1.1.59-3941
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 3941
+vuln-name: ISC BIND 9.7.0.x < 9.9.6-P2 DNSSEC Validation DoS
+

@@ -1,0 +1,18 @@
+created: 20171222225340116
+description: The remote Telnet server transmits traffic in cleartext.
+fqdn: 
+ip-address: 10.1.1.13
+mac: 00:20:b7:00:42:c5
+modified: 20180818112130311
+netbios: 
+os: Linux Kernel 2.4
+tags: VA201712 18 Medium 10.1.1.13
+title: 10.1.1.13-18
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 18
+vuln-name: Unencrypted Telnet Server
+

@@ -1,0 +1,18 @@
+created: 20171222225340212
+description: The remote host contains an unsupported version of a caching proxy server.
+fqdn: proxy7.torta.priv
+ip-address: 10.1.1.7
+mac: 
+modified: 20180818112150435
+netbios: 
+os: N/A
+tags: VA201712 6056 Critical 10.1.1.7
+title: 10.1.1.7-6056
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 6056
+vuln-name: Squid Unsupported Version Detection
+

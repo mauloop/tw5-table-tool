@@ -1,0 +1,18 @@
+created: 20171222225340255
+description: The SSL certificate for this service cannot be trusted.
+fqdn: 
+ip-address: 10.1.1.98
+mac: 
+modified: 20180818112200414
+netbios: PRINTERSRV
+os: Palo Alto Networks PAN-OS
+tags: VA201712 151 Medium 10.1.1.98
+title: 10.1.1.98-151
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 151
+vuln-name: SSL Certificate Cannot Be Trusted
+

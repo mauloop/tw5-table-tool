@@ -1,0 +1,18 @@
+created: 20171222225340138
+description: The SSL certificate chain for this service ends in an unrecognized self-signed certificate.
+fqdn: vcentersrv.torta.priv
+ip-address: 10.1.1.240
+mac: 00:50:56:94:19:16
+modified: 20180818112135032
+netbios: VCENTERSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 156 Medium 10.1.1.240
+title: 10.1.1.240-156
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 156
+vuln-name: SSL Self-Signed Certificate
+

@@ -1,0 +1,18 @@
+created: 20171222225340118
+description: The remote host has IP forwarding enabled.
+fqdn: 
+ip-address: 10.1.1.174
+mac: 40:01:c6:73:e3:c8
+modified: 20180818112130375
+netbios: 
+os: 3Com Baseline 2928-SFP Plus Switch
+tags: VA201712 50 Medium 10.1.1.174
+title: 10.1.1.174-50
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 50
+vuln-name: IP Forwarding Enabled
+

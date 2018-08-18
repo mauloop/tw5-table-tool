@@ -1,0 +1,18 @@
+created: 20171222225340192
+description: The remote web server is affected by multiple vulnerabilities
+fqdn: tortacrm.torta.priv
+ip-address: 10.1.1.58
+mac: 00:50:56:94:45:cc
+modified: 20180818112145027
+netbios: CRM
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1875 Critical 10.1.1.58
+title: 10.1.1.58-1875
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1875
+vuln-name: Apache 2.2.x < 2.2.15 Multiple Vulnerabilities
+

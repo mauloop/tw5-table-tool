@@ -1,0 +1,18 @@
+created: 20171222225340197
+description: The remote name server is affected by multiple vulnerabilities.
+fqdn: vdp.torta.priv
+ip-address: 10.1.1.59
+mac: 
+modified: 20180818112145964
+netbios: TORTA-MASTER
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 6059 High 10.1.1.59
+title: 10.1.1.59-6059
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 6059
+vuln-name: ISC BIND 9 < 9.9.10-P2 / 9.9.10-S3 / 9.10.5-P2 / 9.10.5-S3 / 9.11.1-P2 Multiple Vulnerabilities
+

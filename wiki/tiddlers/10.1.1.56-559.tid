@@ -1,0 +1,18 @@
+created: 20171222225340188
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: exchsrv01.torta.priv
+ip-address: 10.1.1.56
+mac: 00:50:56:99:40:2f
+modified: 20180818112144401
+netbios: EXCHSRV01
+os: Microsoft Windows Server 2012 R2 Standard
+tags: VA201712 559 Medium 10.1.1.56
+title: 10.1.1.56-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

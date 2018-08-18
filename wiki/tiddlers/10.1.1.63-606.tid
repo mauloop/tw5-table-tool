@@ -1,0 +1,18 @@
+created: 20171222225340202
+description: The remote web server is affected by an information disclosure vulnerability.
+fqdn: readynas2100.torta.priv
+ip-address: 10.1.1.63
+mac: 
+modified: 20180818112147299
+netbios: READYNAS2100
+os: Unix
+tags: VA201712 606 Medium 10.1.1.63
+title: 10.1.1.63-606
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 606
+vuln-name: Apache Server ETag Header Information Disclosure
+

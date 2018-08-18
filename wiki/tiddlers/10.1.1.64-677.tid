@@ -1,0 +1,18 @@
+created: 20171222225340205
+description: The SSH service running on the remote host has an information disclosure vulnerability.
+fqdn: readynas2100_2.torta.priv
+ip-address: 10.1.1.64
+mac: 
+modified: 20180818112148710
+netbios: READYNAS2100_2
+os: Linux Kernel 2.6 on Debian 4.0 (etch)
+tags: VA201712 677 Medium 10.1.1.64
+title: 10.1.1.64-677
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 677
+vuln-name: OpenSSH < 5.2 CBC Plaintext Disclosure
+

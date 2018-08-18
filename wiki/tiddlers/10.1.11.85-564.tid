@@ -1,0 +1,18 @@
+created: 20171222225340286
+description: The remote web server discloses information via HTTP headers.
+fqdn: 
+ip-address: 10.1.11.85
+mac: 
+modified: 20180818112203483
+netbios: 
+os: N/A
+tags: VA201712 564 Medium 10.1.11.85
+title: 10.1.11.85-564
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 564
+vuln-name: Web Server HTTP Header Information Disclosure
+

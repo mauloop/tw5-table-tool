@@ -1,0 +1,18 @@
+created: 20171222225340275
+description: It may be possible to bypass firewall rules.
+fqdn: 
+ip-address: 10.1.11.180
+mac: 84:34:97:ec:8a:c0
+modified: 20180818112201617
+netbios: 
+os: N/A
+tags: VA201712 835 Medium 10.1.11.180
+title: 10.1.11.180-835
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 835
+vuln-name: TCP/IP SYN+FIN Packet Filtering Weakness
+

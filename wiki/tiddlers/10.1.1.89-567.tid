@@ -1,0 +1,18 @@
+created: 20171222225340244
+description: The web application framework used on the remote host may be susceptible to cross-site scripting attacks.
+fqdn: updatesrv.torta.priv
+ip-address: 10.1.1.89
+mac: 00:50:56:99:71:ff
+modified: 20180818112158318
+netbios: UPDATESRV
+os: Microsoft Windows Server 2012 R2 Standard
+tags: VA201712 567 Medium 10.1.1.89
+title: 10.1.1.89-567
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 567
+vuln-name: Microsoft ASP.NET ValidateRequest Filters Bypass
+

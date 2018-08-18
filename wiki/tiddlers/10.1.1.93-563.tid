@@ -1,0 +1,18 @@
+created: 20171222225340247
+description: An SSL certificate in the certificate chain has been signed using a weak hash algorithm.
+fqdn: 
+ip-address: 10.1.1.93
+mac: 00:50:56:99:79:f4
+modified: 20180818112158940
+netbios: AVSRV
+os: Microsoft Windows Server 2012 R2 Standard
+tags: VA201712 563 Medium 10.1.1.93
+title: 10.1.1.93-563
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 563
+vuln-name: SSL Certificate Signed Using Weak Hashing Algorithm
+

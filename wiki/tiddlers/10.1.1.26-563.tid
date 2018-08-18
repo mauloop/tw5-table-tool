@@ -1,0 +1,20 @@
+created: 20171222225340152
+description: An SSL certificate in the certificate chain has been signed using a weak hash algorithm.
+fqdn: ws500v.torta.priv
+ip-address: 10.1.1.26
+mac: 
+modified: 20180818112138297
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 563 Medium 10.1.1.26
+title: 10.1.1.26-563
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 563
+vuln-name: SSL Certificate Signed Using Weak Hashing Algorithm
+

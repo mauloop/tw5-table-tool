@@ -1,0 +1,18 @@
+created: 20171222225340160
+description: A framework used by the remote web server has a denial of service vulnerability.
+fqdn: 
+ip-address: 10.1.1.30
+mac: 00:50:56:94:57:b3
+modified: 20180818112138985
+netbios: MAILTORTA
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 566 Medium 10.1.1.30
+title: 10.1.1.30-566
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 566
+vuln-name: Microsoft ASP.NET MS-DOS Device Name DoS (PCI-DSS check)
+

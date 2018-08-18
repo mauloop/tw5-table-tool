@@ -1,0 +1,19 @@
+created: 20171222225340208
+description: The remote web server might be prone to cross-site request forgery attacks.
+fqdn: 
+ip-address: 10.1.1.68
+mac: 00:22:57:65:44:6f
+modified: 20180818112149302
+netbios: 
+os: Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 17 Medium 10.1.1.68
+title: 10.1.1.68-17
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 17
+vuln-name: CGI Generic Cross-Site Request Forgery Detection (potential)
+

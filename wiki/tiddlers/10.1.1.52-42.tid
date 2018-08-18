@@ -1,0 +1,18 @@
+created: 20171222225340186
+description: The X.509 certificate chain used by this service contains certificates with RSA keys shorter than 2048 bits.
+fqdn: dd620colt.torta.priv
+ip-address: 10.1.1.52
+mac: 
+modified: 20180818112143916
+netbios: DD620COLT
+os: Linux Kernel 3.2.33-ddr532316 (x86_64)
+tags: VA201712 42 Medium 10.1.1.52
+title: 10.1.1.52-42
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 42
+vuln-name: SSL Certificate Chain Contains RSA Keys Less Than 2048 bits (PCI DSS)
+

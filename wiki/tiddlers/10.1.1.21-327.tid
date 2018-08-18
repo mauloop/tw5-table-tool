@@ -1,0 +1,18 @@
+created: 20171222225340124
+description: The remote Apache Tomcat server is affected by multiple vulnerabilities.
+fqdn: colt-repository.torta.priv
+ip-address: 10.1.1.21
+mac: 00:50:56:94:56:d2
+modified: 20180818112132094
+netbios: VRNS
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 327 Critical 10.1.1.21
+title: 10.1.1.21-327
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 327
+vuln-name: Apache Tomcat 6.0.x < 6.0.45 Multiple Vulnerabilities
+

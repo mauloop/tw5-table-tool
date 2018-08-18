@@ -1,0 +1,19 @@
+created: 20171222225340184
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: as50.torta.priv
+ip-address: 10.1.1.50
+mac: 
+modified: 20180818112143597
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 559 Medium 10.1.1.50
+title: 10.1.1.50-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

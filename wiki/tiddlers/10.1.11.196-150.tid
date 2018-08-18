@@ -1,0 +1,18 @@
+created: 20171222225340276
+description: It was possible to send spoofed RST packets to the remote system.
+fqdn: 
+ip-address: 10.1.11.196
+mac: 84:34:97:ec:48:80
+modified: 20180818112201859
+netbios: 
+os: N/A
+tags: VA201712 150 Medium 10.1.11.196
+title: 10.1.11.196-150
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 150
+vuln-name: TCP/IP Sequence Prediction Blind Reset Spoofing DoS
+

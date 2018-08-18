@@ -1,0 +1,18 @@
+created: 20171222225340163
+description: The remote web server is affected by multiple vulnerabilities.
+fqdn: printsrv.torta.priv
+ip-address: 10.1.1.31
+mac: 00:50:56:94:68:9f
+modified: 20180818112139674
+netbios: PRINTSRV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 5883 High 10.1.1.31
+title: 10.1.1.31-5883
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5883
+vuln-name: Apache 2.2.x < 2.2.34 Multiple Vulnerabilities
+

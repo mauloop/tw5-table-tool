@@ -1,0 +1,18 @@
+created: 20171222225340226
+description: The remote Samba server is affected by a buffer overflow vulnerability.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112154808
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 4866 High 10.1.1.76
+title: 10.1.1.76-4866
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4866
+vuln-name: Samba 3.x < 3.5.5 / 3.4.9 / 3.3.14 sid_parse Buffer Overflow
+

@@ -1,0 +1,21 @@
+created: 20171222225340180
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: 
+ip-address: 10.1.1.49
+mac: 
+modified: 20180818112142749
+netbios: 
+os: Apple Airport
+Canon imageRunner Printer
+HP Switch
+Nortel Switch
+tags: VA201712 559 Medium 10.1.1.49
+title: 10.1.1.49-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

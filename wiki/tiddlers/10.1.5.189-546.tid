@@ -1,0 +1,18 @@
+created: 20171222225340297
+description: Firewalling rules may be circumvented.
+fqdn: 
+ip-address: 10.1.5.189
+mac: 98:e7:f4:bd:ac:b9
+modified: 20180818112205103
+netbios: 8CG7210Y7H-LCA
+os: Microsoft Windows 10 Pro
+tags: VA201712 546 High 10.1.5.189
+title: 10.1.5.189-546
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 546
+vuln-name: Multiple BSD ipfw / ip6fw ECE Bit Filtering Evasion
+

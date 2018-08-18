@@ -1,0 +1,18 @@
+created: 20171222225340279
+description: A CGI application hosted on the remote web server is potentially prone to SQL injection attack.
+fqdn: 
+ip-address: 10.1.11.203
+mac: 84:34:97:ec:20:80
+modified: 20180818112202305
+netbios: 
+os: N/A
+tags: VA201712 434 High 10.1.11.203
+title: 10.1.11.203-434
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 434
+vuln-name: CGI Generic SQL Injection (blind, time based)
+

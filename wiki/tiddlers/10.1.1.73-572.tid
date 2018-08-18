@@ -1,0 +1,18 @@
+created: 20171222225340219
+description: A cross-site scripting vulnerability in SQL Server could allow an elevation of privilege.
+fqdn: bcksrv.torta.priv
+ip-address: 10.1.1.73
+mac: 00:90:fa:13:92:78
+modified: 20180818112151860
+netbios: BCKSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 572 Medium 10.1.1.73
+title: 10.1.1.73-572
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 572
+vuln-name: MS14-044: Vulnerability in SQL Server Could Allow Elevation of Privilege (2984340) (uncredentialed check)
+

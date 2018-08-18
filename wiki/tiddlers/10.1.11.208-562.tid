@@ -1,0 +1,18 @@
+created: 20171222225340279
+description: The remote web server may fail to mitigate a class of web application vulnerabilities.
+fqdn: 
+ip-address: 10.1.11.208
+mac: 84:34:97:ec:c4:82
+modified: 20180818112202387
+netbios: 
+os: N/A
+tags: VA201712 562 Medium 10.1.11.208
+title: 10.1.11.208-562
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 562
+vuln-name: Web Application Potentially Vulnerable to Clickjacking
+

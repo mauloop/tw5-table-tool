@@ -1,0 +1,18 @@
+created: 20171222225340139
+description: The remote DNS server could be used in a distributed denial of service attack.
+fqdn: vcentersrv.torta.priv
+ip-address: 10.1.1.240
+mac: 00:50:56:94:19:16
+modified: 20180818112135075
+netbios: VCENTERSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 39 Medium 10.1.1.240
+title: 10.1.1.240-39
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 39
+vuln-name: DNS Server Spoofed Request Amplification DDoS
+

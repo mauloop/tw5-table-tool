@@ -1,0 +1,19 @@
+created: 20171222225340198
+description: An SSL certificate in the certificate chain has been signed using a weak hash algorithm.
+fqdn: 
+ip-address: 10.1.1.6
+mac: 
+modified: 20180818112146131
+netbios: S06291BT
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 563 Medium 10.1.1.6
+title: 10.1.1.6-563
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 563
+vuln-name: SSL Certificate Signed Using Weak Hashing Algorithm
+

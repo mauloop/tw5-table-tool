@@ -1,0 +1,20 @@
+created: 20171222225340130
+description: The SSH server on the remote host has multiple denial of service vulnerabilities.
+fqdn: juniperstrm.torta.priv
+ip-address: 10.1.1.22
+mac: 
+modified: 20180818112132869
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 679 Medium 10.1.1.22
+title: 10.1.1.22-679
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 679
+vuln-name: OpenSSH < 5.9 Multiple DoS
+

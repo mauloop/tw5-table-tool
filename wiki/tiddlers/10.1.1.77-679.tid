@@ -1,0 +1,18 @@
+created: 20171222225340235
+description: The SSH server on the remote host has multiple denial of service vulnerabilities.
+fqdn: icinga.torta.priv
+ip-address: 10.1.1.77
+mac: 00:50:56:94:67:b2
+modified: 20180818112156564
+netbios: 
+os: Linux Kernel 2.6.32-40-server
+tags: VA201712 679 Medium 10.1.1.77
+title: 10.1.1.77-679
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 679
+vuln-name: OpenSSH < 5.9 Multiple DoS
+

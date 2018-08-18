@@ -1,0 +1,18 @@
+created: 20171222225340281
+description: It may be possible to run arbitrary code on the remote web server.
+fqdn: 
+ip-address: 10.1.11.221
+mac: 
+modified: 20180818112202718
+netbios: 
+os: N/A
+tags: VA201712 433 High 10.1.11.221
+title: 10.1.11.221-433
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 433
+vuln-name: CGI Generic Command Execution (time-based)
+

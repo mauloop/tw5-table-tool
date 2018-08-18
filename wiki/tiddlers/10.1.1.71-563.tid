@@ -1,0 +1,18 @@
+created: 20171222225340216
+description: An SSL certificate in the certificate chain has been signed using a weak hash algorithm.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112151188
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 563 Medium 10.1.1.71
+title: 10.1.1.71-563
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 563
+vuln-name: SSL Certificate Signed Using Weak Hashing Algorithm
+

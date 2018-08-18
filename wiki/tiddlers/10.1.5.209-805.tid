@@ -1,0 +1,21 @@
+created: 20171222225340301
+description: The remote Terminal Services doesn't use Network Level Authentication only.
+fqdn: 
+ip-address: 10.1.5.209
+mac: f0:1f:af:5e:69:b1
+modified: 20180818112205660
+netbios: 7VWPYZ1-LC
+os: Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Windows Server 2008 R2
+Microsoft Win
+tags: VA201712 805 Medium 10.1.5.209
+title: 10.1.5.209-805
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 805
+vuln-name: Terminal Services Doesn't Use Network Level Authentication (NLA) Only
+

@@ -1,0 +1,18 @@
+created: 20171222225340306
+description: The remote Terminal Services doesn't use Network Level Authentication only.
+fqdn: 
+ip-address: 10.1.5.51
+mac: 98:e7:f4:bd:ac:db
+modified: 20180818112206499
+netbios: 8CG7210Y7Q-KK
+os: Microsoft Windows 10 Pro
+tags: VA201712 805 Medium 10.1.5.51
+title: 10.1.5.51-805
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 805
+vuln-name: Terminal Services Doesn't Use Network Level Authentication (NLA) Only
+

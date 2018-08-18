@@ -1,0 +1,18 @@
+created: 20171222225340125
+description: The remote web server discloses information via a default error page.
+fqdn: colt-repository.torta.priv
+ip-address: 10.1.1.21
+mac: 00:50:56:94:56:d2
+modified: 20180818112132433
+netbios: VRNS
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 574 Medium 10.1.1.21
+title: 10.1.1.21-574
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 574
+vuln-name: Web Server Error Page Information Disclosure
+

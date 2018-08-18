@@ -1,0 +1,18 @@
+created: 20171222225340273
+description: The remote SNMP daemon is affected by a vulnerability that allows a reflected distributed denial of service attack.
+fqdn: 
+ip-address: 10.1.11.172
+mac: 24:be:05:4a:f0:12
+modified: 20180818112201444
+netbios: 
+os: HP Switch
+tags: VA201712 979 Medium 10.1.11.172
+title: 10.1.11.172-979
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 979
+vuln-name: SNMP 'GETBULK' Reflection DDoS
+

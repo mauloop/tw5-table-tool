@@ -1,0 +1,18 @@
+created: 20171222225340223
+description: The remote SSH service is affected by multiple vulnerabilities.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112153821
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 3216 High 10.1.1.76
+title: 10.1.1.76-3216
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 3216
+vuln-name: OpenSSH < 4.5 Multiple Vulnerabilities
+

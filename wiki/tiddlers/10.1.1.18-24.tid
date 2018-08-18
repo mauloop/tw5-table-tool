@@ -1,0 +1,18 @@
+created: 20171222225340118
+description: The SSH server on the remote host is affected by multiple vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.18
+mac: 00:50:41:4c:4d:03
+modified: 20180818112130570
+netbios: 
+os: Linux Kernel 2.6.32
+tags: VA201712 24 High 10.1.1.18
+title: 10.1.1.18-24
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 24
+vuln-name: OpenSSH < 6.6 Multiple Vulnerabilities
+

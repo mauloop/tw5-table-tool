@@ -1,0 +1,18 @@
+created: 20171222225340272
+description: The remote network time service could be used for network reconnaissance or abused in a distributed denial of service attack.
+fqdn: 
+ip-address: 10.1.11.164
+mac: 
+modified: 20180818112201296
+netbios: 
+os: Linux Kernel 2.6.15.4
+tags: VA201712 673 Medium 10.1.11.164
+title: 10.1.11.164-673
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 673
+vuln-name: NTP monlist Command Enabled
+

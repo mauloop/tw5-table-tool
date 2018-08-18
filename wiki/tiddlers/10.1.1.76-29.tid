@@ -1,0 +1,18 @@
+created: 20171222225340223
+description: The remote service has a configuration that may make it vulnerable to the CRIME attack.
+fqdn: b-fax.torta.priv
+ip-address: 10.1.1.76
+mac: 00:50:56:88:7c:5f
+modified: 20180818112153811
+netbios: B-FAX
+os: Linux Kernel 2.6.22.14-72.fc6
+tags: VA201712 29 Medium 10.1.1.76
+title: 10.1.1.76-29
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 29
+vuln-name: Transport Layer Security (TLS) Protocol CRIME Vulnerability
+

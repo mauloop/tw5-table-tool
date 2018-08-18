@@ -1,0 +1,18 @@
+created: 20171222225340151
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: 
+ip-address: 10.1.1.253
+mac: 
+modified: 20180818112138088
+netbios: DD2200TO
+os: EMC Data Domain OS
+tags: VA201712 559 Medium 10.1.1.253
+title: 10.1.1.253-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

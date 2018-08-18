@@ -1,0 +1,21 @@
+created: 20171222225340094
+description: It may be possible to get access to the remote host.
+fqdn: bydnl52.torta.priv
+ip-address: 10.1.1.104
+mac: 64:00:6a:11:6e:9b
+modified: 20180818112127055
+netbios: BYDNL52
+os: Microsoft Windows Server 2003
+Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Window
+tags: VA201712 193 Medium 10.1.1.104
+title: 10.1.1.104-193
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 193
+vuln-name: Microsoft Windows Remote Desktop Protocol Server Man-in-the-Middle Weakness
+

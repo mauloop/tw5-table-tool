@@ -1,0 +1,21 @@
+created: 20171222225340177
+description: The remote host might be infected by a Trojan / worm / malware.
+fqdn: grmvf4j-aro.torta.priv
+ip-address: 10.1.1.46
+mac: 00:24:e8:20:86:59
+modified: 20180818112142071
+netbios: GRMVF4J-ARO
+os: Microsoft Windows Server 2003
+Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Window
+tags: VA201712 569 Medium 10.1.1.46
+title: 10.1.1.46-569
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 569
+vuln-name: Trojan Horse Detection
+

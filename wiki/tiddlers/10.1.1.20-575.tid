@@ -1,0 +1,19 @@
+created: 20171222225340123
+description: A framework used by the remote web server has a denial of service vulnerability.
+fqdn: as-400.torta.priv
+ip-address: 10.1.1.20
+mac: 
+modified: 20180818112131729
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 575 Medium 10.1.1.20
+title: 10.1.1.20-575
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 575
+vuln-name: Microsoft ASP.NET MS-DOS Device Name DoS
+

@@ -1,0 +1,18 @@
+created: 20171222225340212
+description: The SSH server running on the remote host is affected by multiple vulnerabilities.
+fqdn: proxy7.torta.priv
+ip-address: 10.1.1.7
+mac: 
+modified: 20180818112150381
+netbios: 
+os: N/A
+tags: VA201712 5208 Medium 10.1.1.7
+title: 10.1.1.7-5208
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5208
+vuln-name: OpenSSH < 7.4 Multiple Vulnerabilities
+

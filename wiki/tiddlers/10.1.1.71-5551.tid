@@ -1,0 +1,18 @@
+created: 20171222225340216
+description: The remote database is vulnerable to a denial fo service attack.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112151142
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 5551 Medium 10.1.1.71
+title: 10.1.1.71-5551
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5551
+vuln-name: MySQL <  5.0.54 / 5.1.23 / 6.0.4 Denial of Service
+

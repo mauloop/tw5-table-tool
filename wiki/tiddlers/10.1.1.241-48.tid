@@ -1,0 +1,19 @@
+created: 20171222225340140
+description: The remote SSH server is configured to allow MD5 and 96-bit MAC algorithms.
+fqdn: apc.torta.priv
+ip-address: 10.1.1.241
+mac: 
+modified: 20180818112135551
+netbios: 
+os: Linux Kernel 3.2
+Linux Kernel 3.3
+tags: VA201712 48 Low 10.1.1.241
+title: 10.1.1.241-48
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 48
+vuln-name: SSH Weak MAC Algorithms Enabled
+

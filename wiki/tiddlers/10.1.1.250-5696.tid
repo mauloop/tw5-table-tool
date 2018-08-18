@@ -1,0 +1,18 @@
+created: 20171222225340146
+description: The remote operating system is no longer supported.
+fqdn: 
+ip-address: 10.1.1.250
+mac: 08:94:ef:08:5a:c0
+modified: 20180818112136636
+netbios: 
+os: VMware ESXi
+tags: VA201712 5696 Critical 10.1.1.250
+title: 10.1.1.250-5696
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5696
+vuln-name: Microsoft Windows Vista Unsupported Installation Detection
+

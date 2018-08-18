@@ -1,0 +1,18 @@
+created: 20171222225340250
+description: The remote web application has a command execution vulnerability.
+fqdn: 
+ip-address: 10.1.1.94
+mac: 00:50:56:99:7e:b9
+modified: 20180818112159376
+netbios: B-7100
+os: Solaris 11 (i86pc)
+tags: VA201712 5537 High 10.1.1.94
+title: 10.1.1.94-5537
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5537
+vuln-name: Carello E-Commerce Carello.dll Command Execution
+

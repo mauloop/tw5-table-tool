@@ -1,0 +1,18 @@
+created: 20171222225340218
+description: The remote service supports the use of medium strength SSL ciphers.
+fqdn: bcksrv.torta.priv
+ip-address: 10.1.1.73
+mac: 00:90:fa:13:92:78
+modified: 20180818112151651
+netbios: BCKSRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 28 Medium 10.1.1.73
+title: 10.1.1.73-28
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 28
+vuln-name: SSL Medium Strength Cipher Suites Supported
+

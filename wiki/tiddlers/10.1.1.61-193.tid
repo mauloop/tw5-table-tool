@@ -1,0 +1,18 @@
+created: 20171222225340199
+description: It may be possible to get access to the remote host.
+fqdn: mergedocn.torta.priv
+ip-address: 10.1.1.61
+mac: 00:50:56:94:4f:40
+modified: 20180818112146421
+netbios: MERGEDOCN
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 193 Medium 10.1.1.61
+title: 10.1.1.61-193
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 193
+vuln-name: Microsoft Windows Remote Desktop Protocol Server Man-in-the-Middle Weakness
+

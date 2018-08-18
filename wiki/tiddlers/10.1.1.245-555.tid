@@ -1,0 +1,18 @@
+created: 20171222225340142
+description: The remote web server is affected by an authentication bypass vulnerability.
+fqdn: esx01.torta.priv
+ip-address: 10.1.1.245
+mac: 00:90:fa:0d:38:5a
+modified: 20180818112135924
+netbios: 
+os: VMware ESXi
+tags: VA201712 555 High 10.1.1.245
+title: 10.1.1.245-555
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 555
+vuln-name: Xerver Double Slash Authentication Bypass
+

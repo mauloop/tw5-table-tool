@@ -1,0 +1,21 @@
+created: 20171222225340180
+description: The SSH server running on the remote host is affected by a file creation restriction bypass vulnerability.
+fqdn: 
+ip-address: 10.1.1.49
+mac: 
+modified: 20180818112142793
+netbios: 
+os: Apple Airport
+Canon imageRunner Printer
+HP Switch
+Nortel Switch
+tags: VA201712 6034 Medium 10.1.1.49
+title: 10.1.1.49-6034
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 6034
+vuln-name: OpenSSH < 7.6
+

@@ -1,0 +1,18 @@
+created: 20171222225340254
+description: The remote NTP server is affected by multiple vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.95
+mac: 00:21:28:6b:9a:0b
+modified: 20180818112200346
+netbios: B-7100
+os: Solaris 11 (i386)
+tags: VA201712 676 Medium 10.1.1.95
+title: 10.1.1.95-676
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 676
+vuln-name: Network Time Protocol Daemon (ntpd) < 4.2.8p6 Multiple Vulnerabilities
+

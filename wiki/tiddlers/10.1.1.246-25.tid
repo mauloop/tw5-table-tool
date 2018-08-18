@@ -1,0 +1,18 @@
+created: 20171222225340143
+description: The remote SSH server may permit anonymous port bouncing.
+fqdn: esx02.torta.priv
+ip-address: 10.1.1.246
+mac: 
+modified: 20180818112136093
+netbios: 
+os: VMware ESXi
+tags: VA201712 25 Medium 10.1.1.246
+title: 10.1.1.246-25
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 25
+vuln-name: OpenSSH >= 2.3.0 AllowTcpForwarding Port Bouncing
+

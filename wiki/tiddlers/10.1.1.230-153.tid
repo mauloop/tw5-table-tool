@@ -1,0 +1,18 @@
+created: 20171222225340134
+description: The SSL certificate for this service is for a different host.
+fqdn: 
+ip-address: 10.1.1.230
+mac: 00:25:90:11:b9:93
+modified: 20180818112133925
+netbios: 
+os: Juniper SSL VPN Appliance
+tags: VA201712 153 Medium 10.1.1.230
+title: 10.1.1.230-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

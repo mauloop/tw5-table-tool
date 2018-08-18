@@ -1,0 +1,18 @@
+created: 20171222225340249
+description: The remote web server contains a CGI script that is affected a remote command execution vulnerability.
+fqdn: 
+ip-address: 10.1.1.94
+mac: 00:50:56:99:7e:b9
+modified: 20180818112159325
+netbios: B-7100
+os: Solaris 11 (i86pc)
+tags: VA201712 4860 High 10.1.1.94
+title: 10.1.1.94-4860
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4860
+vuln-name: AnyForm CGI Arbitrary Command Execution
+

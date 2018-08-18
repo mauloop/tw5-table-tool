@@ -1,0 +1,18 @@
+created: 20171222225340214
+description: The remote SQL Server installation is affected by multiple vulnerabilities.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112150943
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 375 High 10.1.1.71
+title: 10.1.1.71-375
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 375
+vuln-name: MS15-058: Vulnerabilities in SQL Server Could Allow Remote Code Execution (3065718) (uncredentialed check)
+

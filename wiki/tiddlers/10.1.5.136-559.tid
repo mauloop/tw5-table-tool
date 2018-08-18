@@ -1,0 +1,18 @@
+created: 20171222225340290
+description: The remote service encrypts traffic using a protocol with known weaknesses.
+fqdn: 
+ip-address: 10.1.5.136
+mac: c8:d3:ff:9e:70:8f
+modified: 20180818112204083
+netbios: CZC70679NM-PC
+os: Microsoft Windows 10 Pro
+tags: VA201712 559 Medium 10.1.5.136
+title: 10.1.5.136-559
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 559
+vuln-name: TLS Version 1.0 Protocol Detection (PCI DSS)
+

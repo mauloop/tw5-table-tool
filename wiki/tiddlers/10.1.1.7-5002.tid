@@ -1,0 +1,18 @@
+created: 20171222225340212
+description: The remote proxy server is affected by a remote code execution vulnerability.
+fqdn: proxy7.torta.priv
+ip-address: 10.1.1.7
+mac: 
+modified: 20180818112150340
+netbios: 
+os: N/A
+tags: VA201712 5002 Medium 10.1.1.7
+title: 10.1.1.7-5002
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5002
+vuln-name: Squid 2.x / 3.x < 3.5.17 / 4.x < 4.0.9 cachemgr.cgi RCE
+

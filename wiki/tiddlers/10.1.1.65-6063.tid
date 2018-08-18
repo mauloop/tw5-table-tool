@@ -1,0 +1,18 @@
+created: 20171222225340207
+description: The remote proxy server is affected by multiple vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.65
+mac: 00:50:56:94:76:ee
+modified: 20180818112148968
+netbios: 
+os: Linux Kernel 3.16 on Debian 8.0 (jessie)
+tags: VA201712 6063 Medium 10.1.1.65
+title: 10.1.1.65-6063
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 6063
+vuln-name: Squid 3.x < 3.5.17 / 4.x < 4.0.9 Esi.cc Multiple Vulnerabilities
+

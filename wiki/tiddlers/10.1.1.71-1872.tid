@@ -1,0 +1,18 @@
+created: 20171222225340214
+description: The remote host is running an unsupported version of a database server.
+fqdn: b-db.torta.priv
+ip-address: 10.1.1.71
+mac: 00:50:56:99:08:7f
+modified: 20180818112150812
+netbios: B-DB
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 1872 Critical 10.1.1.71
+title: 10.1.1.71-1872
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1872
+vuln-name: MySQL Unsupported Version Detection
+

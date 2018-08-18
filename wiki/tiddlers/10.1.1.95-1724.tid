@@ -1,0 +1,18 @@
+created: 20171222225340251
+description: The remote host contains an unsupported version of a web application scripting language.
+fqdn: 
+ip-address: 10.1.1.95
+mac: 00:21:28:6b:9a:0b
+modified: 20180818112159728
+netbios: B-7100
+os: Solaris 11 (i386)
+tags: VA201712 1724 Critical 10.1.1.95
+title: 10.1.1.95-1724
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1724
+vuln-name: PHP Unsupported Version Detection
+

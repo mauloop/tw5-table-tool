@@ -1,0 +1,18 @@
+created: 20171222225340152
+description: A secure shell client on the remote host could be used to bypass host verification methods.
+fqdn: 
+ip-address: 10.1.1.253
+mac: 
+modified: 20180818112138243
+netbios: DD2200TO
+os: EMC Data Domain OS
+tags: VA201712 841 Medium 10.1.1.253
+title: 10.1.1.253-841
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 841
+vuln-name: OpenSSH SSHFP Record Verification Weakness
+

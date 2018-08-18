@@ -1,0 +1,18 @@
+created: 20171222225340112
+description: The remote host is using weak cryptography.
+fqdn: juncollect.torta.priv
+ip-address: 10.1.1.11
+mac: 00:50:56:99:15:1c
+modified: 20180818112128912
+netbios: JUNCOLLECT
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 198 Medium 10.1.1.11
+title: 10.1.1.11-198
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 198
+vuln-name: Terminal Services Encryption Level is Medium or Low
+

@@ -1,0 +1,18 @@
+created: 20171222225340250
+description: The remote web server contains a PHP application that is affected by multiple vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.94
+mac: 00:50:56:99:7e:b9
+modified: 20180818112159420
+netbios: B-7100
+os: Solaris 11 (i86pc)
+tags: VA201712 5546 Medium 10.1.1.94
+title: 10.1.1.94-5546
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5546
+vuln-name: MediaWiki < 1.17.3 / 1.18.2 Multiple Vulnerabilities
+

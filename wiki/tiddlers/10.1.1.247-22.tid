@@ -1,0 +1,18 @@
+created: 20171222225340144
+description: It may be possible to predict TCP/IP Initial Sequence Numbers for the remote host.
+fqdn: esx03.torta.priv
+ip-address: 10.1.1.247
+mac: 
+modified: 20180818112136172
+netbios: 
+os: VMware ESXi
+tags: VA201712 22 Medium 10.1.1.247
+title: 10.1.1.247-22
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 22
+vuln-name: Linux Kernel TCP Sequence Number Generation Security Weakness
+

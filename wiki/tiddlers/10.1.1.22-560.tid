@@ -1,0 +1,20 @@
+created: 20171222225340129
+description: The remote service supports the use of the RC4 cipher.
+fqdn: juniperstrm.torta.priv
+ip-address: 10.1.1.22
+mac: 
+modified: 20180818112132823
+netbios: 
+os: Linux Kernel 2.2
+Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 560 Low 10.1.1.22
+title: 10.1.1.22-560
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 560
+vuln-name: SSL RC4 Cipher Suites Supported (Bar Mitzvah)
+

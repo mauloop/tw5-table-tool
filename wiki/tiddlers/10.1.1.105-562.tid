@@ -1,0 +1,21 @@
+created: 20171222225340096
+description: The remote web server may fail to mitigate a class of web application vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.105
+mac: 02:32:18:9b:8c:32
+modified: 20180818112127564
+netbios: 
+os: Linux Kernel 3.10
+Linux Kernel 3.5
+Linux Kernel 3.8
+Linux Kernel 3.9
+tags: VA201712 562 Medium 10.1.1.105
+title: 10.1.1.105-562
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 562
+vuln-name: Web Application Potentially Vulnerable to Clickjacking
+

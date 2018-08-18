@@ -1,0 +1,18 @@
+created: 20171222225340136
+description: The remote Windows host is affected by multiple vulnerabilities.
+fqdn: printfleetsrv.torta.priv
+ip-address: 10.1.1.236
+mac: 00:50:56:99:7c:eb
+modified: 20180818112134545
+netbios: PRINTFLEETSRV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 5834 Critical 10.1.1.236
+title: 10.1.1.236-5834
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5834
+vuln-name: MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)
+

@@ -1,0 +1,18 @@
+created: 20171222225340161
+description: The remote web server uses a version of PHP that is affected by  multiple vulnerabilities.
+fqdn: printsrv.torta.priv
+ip-address: 10.1.1.31
+mac: 00:50:56:94:68:9f
+modified: 20180818112139133
+netbios: PRINTSRV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 1726 High 10.1.1.31
+title: 10.1.1.31-1726
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1726
+vuln-name: PHP < 5.3.11 Multiple Vulnerabilities
+

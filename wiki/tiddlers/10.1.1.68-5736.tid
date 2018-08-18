@@ -1,0 +1,19 @@
+created: 20171222225340209
+description: The SSH server running on the remote host is affected by an information disclosure vulnerability.
+fqdn: 
+ip-address: 10.1.1.68
+mac: 00:22:57:65:44:6f
+modified: 20180818112149464
+netbios: 
+os: Linux Kernel 2.4
+Linux Kernel 2.6
+tags: VA201712 5736 Medium 10.1.1.68
+title: 10.1.1.68-5736
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 5736
+vuln-name: OpenSSH < 7.5
+

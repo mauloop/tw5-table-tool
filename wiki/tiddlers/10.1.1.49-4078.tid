@@ -1,0 +1,21 @@
+created: 20171222225340179
+description: The SSH server running on the remote host is affected by multiple vulnerabilities.
+fqdn: 
+ip-address: 10.1.1.49
+mac: 
+modified: 20180818112142626
+netbios: 
+os: Apple Airport
+Canon imageRunner Printer
+HP Switch
+Nortel Switch
+tags: VA201712 4078 High 10.1.1.49
+title: 10.1.1.49-4078
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4078
+vuln-name: OpenSSH < 7.3 Multiple Vulnerabilities
+

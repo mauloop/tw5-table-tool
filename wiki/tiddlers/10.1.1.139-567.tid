@@ -1,0 +1,18 @@
+created: 20171222225340117
+description: The web application framework used on the remote host may be susceptible to cross-site scripting attacks.
+fqdn: aro-vmdev.torta.priv
+ip-address: 10.1.1.139
+mac: 00:50:56:94:00:0a
+modified: 20180818112130134
+netbios: ARO-VMDEV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 567 Medium 10.1.1.139
+title: 10.1.1.139-567
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 567
+vuln-name: Microsoft ASP.NET ValidateRequest Filters Bypass
+

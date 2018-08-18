@@ -1,0 +1,18 @@
+created: 20171222225340284
+description: The remote service supports the use of 64-bit block ciphers.
+fqdn: 
+ip-address: 10.1.11.247
+mac: 
+modified: 20180818112203100
+netbios: 
+os: Linux Kernel 2.6
+tags: VA201712 4827 Medium 10.1.11.247
+title: 10.1.11.247-4827
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 4827
+vuln-name: SSL 64-bit Block Size Cipher Suites Supported (SWEET32)
+

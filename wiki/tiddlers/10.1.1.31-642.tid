@@ -1,0 +1,18 @@
+created: 20171222225340164
+description: Some directories on the remote web server are browsable.
+fqdn: printsrv.torta.priv
+ip-address: 10.1.1.31
+mac: 00:50:56:94:68:9f
+modified: 20180818112139804
+netbios: PRINTSRV
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 642 Medium 10.1.1.31
+title: 10.1.1.31-642
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 642
+vuln-name: Browsable Web Directories
+

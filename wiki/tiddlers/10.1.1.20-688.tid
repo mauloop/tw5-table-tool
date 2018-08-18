@@ -1,0 +1,19 @@
+created: 20171222225340123
+description: The remote web server seems to transmit credentials in cleartext.
+fqdn: as-400.torta.priv
+ip-address: 10.1.1.20
+mac: 
+modified: 20180818112131906
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 688 Low 10.1.1.20
+title: 10.1.1.20-688
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 688
+vuln-name: Web Server Uses Basic Authentication Without HTTPS
+

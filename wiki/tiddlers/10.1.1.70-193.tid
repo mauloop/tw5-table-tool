@@ -1,0 +1,18 @@
+created: 20171222225340213
+description: It may be possible to get access to the remote host.
+fqdn: filesrv.torta.priv
+ip-address: 10.1.1.70
+mac: 00:50:56:94:21:d7
+modified: 20180818112150590
+netbios: FILESRV
+os: Microsoft Windows Server 2008 R2 Standard Service Pack 1
+tags: VA201712 193 Medium 10.1.1.70
+title: 10.1.1.70-193
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 193
+vuln-name: Microsoft Windows Remote Desktop Protocol Server Man-in-the-Middle Weakness
+

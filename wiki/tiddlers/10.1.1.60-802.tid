@@ -1,0 +1,18 @@
+created: 20171222225340199
+description: The remote Windows host is affected by an elevation of privilege vulnerability.
+fqdn: dmz.torta.priv
+ip-address: 10.1.1.60
+mac: 00:50:56:94:6a:79
+modified: 20180818112146397
+netbios: APPSRV
+os: Microsoft Windows Server 2012 Standard
+tags: VA201712 802 Medium 10.1.1.60
+title: 10.1.1.60-802
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 802
+vuln-name: MS16-047: Security Update for SAM and LSAD Remote Protocols (3148527) (Badlock) (uncredentialed check)
+

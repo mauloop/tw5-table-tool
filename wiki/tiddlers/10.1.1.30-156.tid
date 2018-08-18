@@ -1,0 +1,18 @@
+created: 20171222225340154
+description: The SSL certificate chain for this service ends in an unrecognized self-signed certificate.
+fqdn: 
+ip-address: 10.1.1.30
+mac: 00:50:56:94:57:b3
+modified: 20180818112138693
+netbios: MAILTORTA
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 156 Medium 10.1.1.30
+title: 10.1.1.30-156
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 156
+vuln-name: SSL Self-Signed Certificate
+

@@ -1,0 +1,18 @@
+created: 20171222225340284
+description: The remote service supports the use of medium strength SSL ciphers.
+fqdn: 
+ip-address: 10.1.11.247
+mac: 
+modified: 20180818112203083
+netbios: 
+os: Linux Kernel 2.6
+tags: VA201712 28 Medium 10.1.11.247
+title: 10.1.11.247-28
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 28
+vuln-name: SSL Medium Strength Cipher Suites Supported
+

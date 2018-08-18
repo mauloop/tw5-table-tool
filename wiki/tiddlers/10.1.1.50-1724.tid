@@ -1,0 +1,19 @@
+created: 20171222225340182
+description: The remote host contains an unsupported version of a web application scripting language.
+fqdn: as50.torta.priv
+ip-address: 10.1.1.50
+mac: 
+modified: 20180818112143140
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 1724 Critical 10.1.1.50
+title: 10.1.1.50-1724
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1724
+vuln-name: PHP Unsupported Version Detection
+

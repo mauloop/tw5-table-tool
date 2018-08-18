@@ -1,0 +1,18 @@
+created: 20171222225340275
+description: The remote host supports IPMI version 2.0.
+fqdn: 
+ip-address: 10.1.11.192
+mac: 
+modified: 20180818112201647
+netbios: 
+os: N/A
+tags: VA201712 398 High 10.1.11.192
+title: 10.1.11.192-398
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 398
+vuln-name: IPMI v2.0 Password Hash Disclosure
+

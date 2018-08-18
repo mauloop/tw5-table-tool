@@ -1,0 +1,18 @@
+created: 20171222225340307
+description: The remote host is running a 'chargen' service.
+fqdn: 
+ip-address: 10.1.5.90
+mac: 98:e7:f4:bd:ac:cc
+modified: 20180818112206819
+netbios: 8CG7210Y8F-SLO
+os: Microsoft Windows 10 Pro
+tags: VA201712 2138 Medium 10.1.5.90
+title: 10.1.5.90-2138
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 2138
+vuln-name: Chargen UDP Service Remote DoS
+

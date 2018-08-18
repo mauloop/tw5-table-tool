@@ -1,0 +1,18 @@
+created: 20171222225340168
+description: The SSL certificate for this service is for a different host.
+fqdn: w7gvvrt.torta.priv
+ip-address: 10.1.1.38
+mac: 
+modified: 20180818112140787
+netbios: W7GVVRT
+os: Microsoft Windows 7 Professional
+tags: VA201712 153 Medium 10.1.1.38
+title: 10.1.1.38-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

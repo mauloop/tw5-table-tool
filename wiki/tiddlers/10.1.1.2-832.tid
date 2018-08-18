@@ -1,0 +1,18 @@
+created: 20171222225340120
+description: The SSH server running on the remote host is affected by a security bypass vulnerability.
+fqdn: 
+ip-address: 10.1.1.2
+mac: 00:1b:17:7c:91:16
+modified: 20180818112131231
+netbios: 
+os: N/A
+tags: VA201712 832 Medium 10.1.1.2
+title: 10.1.1.2-832
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 832
+vuln-name: OpenSSH < 7.2 Untrusted X11 Forwarding Fallback Security Bypass
+

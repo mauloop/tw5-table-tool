@@ -1,0 +1,21 @@
+created: 20171222225340295
+description: The SSL certificate chain for this service ends in an unrecognized self-signed certificate.
+fqdn: 
+ip-address: 10.1.5.177
+mac: 
+modified: 20180818112204807
+netbios: B9FBC5J-PV
+os: Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Windows Server 2008 R2
+Microsoft Win
+tags: VA201712 156 Medium 10.1.5.177
+title: 10.1.5.177-156
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 156
+vuln-name: SSL Self-Signed Certificate
+

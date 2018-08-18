@@ -1,0 +1,18 @@
+created: 20171222225340248
+description: The configuration of PHP on the remote host allows disclosure of sensitive information.
+fqdn: 
+ip-address: 10.1.1.94
+mac: 00:50:56:99:7e:b9
+modified: 20180818112159107
+netbios: B-7100
+os: Solaris 11 (i86pc)
+tags: VA201712 1737 Medium 10.1.1.94
+title: 10.1.1.94-1737
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 1737
+vuln-name: PHP expose_php Information Disclosure
+

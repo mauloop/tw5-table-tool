@@ -1,0 +1,19 @@
+created: 20171222225340183
+description: The remote Telnet server transmits traffic in cleartext.
+fqdn: as50.torta.priv
+ip-address: 10.1.1.50
+mac: 
+modified: 20180818112143451
+netbios: S0628E7T
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 18 Medium 10.1.1.50
+title: 10.1.1.50-18
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 18
+vuln-name: Unencrypted Telnet Server
+

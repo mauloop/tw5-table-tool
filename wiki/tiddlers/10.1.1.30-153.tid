@@ -1,0 +1,18 @@
+created: 20171222225340154
+description: The SSL certificate for this service is for a different host.
+fqdn: 
+ip-address: 10.1.1.30
+mac: 00:50:56:94:57:b3
+modified: 20180818112138630
+netbios: MAILTORTA
+os: Microsoft Windows Server 2003 Service Pack 2
+tags: VA201712 153 Medium 10.1.1.30
+title: 10.1.1.30-153
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 153
+vuln-name: SSL Certificate with Wrong Hostname
+

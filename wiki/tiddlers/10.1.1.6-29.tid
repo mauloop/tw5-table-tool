@@ -1,0 +1,19 @@
+created: 20171222225340197
+description: The remote service has a configuration that may make it vulnerable to the CRIME attack.
+fqdn: 
+ip-address: 10.1.1.6
+mac: 
+modified: 20180818112146120
+netbios: S06291BT
+os: Mac OS X 10.3
+Mac OS X 10.4
+tags: VA201712 29 Medium 10.1.1.6
+title: 10.1.1.6-29
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 29
+vuln-name: Transport Layer Security (TLS) Protocol CRIME Vulnerability
+

@@ -1,0 +1,21 @@
+created: 20171222225340303
+description: The remote operating system is no longer supported.
+fqdn: 
+ip-address: 10.1.5.234
+mac: 
+modified: 20180818112206094
+netbios: 618M05J--FB
+os: Microsoft Windows Server 2003
+Microsoft Windows Vista
+Microsoft Windows Server 2008
+Microsoft Window
+tags: VA201712 321 Critical 10.1.5.234
+title: 10.1.5.234-321
+type: text/vnd.tiddlywiki
+va-description: tdView
+va-select: tdView
+va-vuln-id: tdView
+va-vuln-name: tdView
+vuln-id: 321
+vuln-name: Microsoft Windows Server 2003 Unsupported Installation Detection
+
