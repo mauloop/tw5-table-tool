@@ -1,6 +1,6 @@
 created: 20170417221320425
 creator: )+(auloop
-modified: 20171105222709783
+modified: 20180819150016331
 modifier: )+(auloop
 tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/templates/table-template
@@ -10,6 +10,7 @@ type: text/vnd.tiddlywiki
 <$importvariables filter="[tag[$:/tags/ttMacro]]">
 
 <$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
+<$wikify name="start-row" text=<<start-row>> >
 
 <$set name="display" filter="""[enlist<tt-controls>] -[[show]]""" value="" emptyValue="tt-display-controls">
 <$macrocall $name=<<display>> />
@@ -21,11 +22,12 @@ type: text/vnd.tiddlywiki
 <!-- header -->
 <$transclude tiddler=<<tt-raw>> />
 <!-- data -->
-<$list filter="""[tag<tt-name>]""" template=<<tt-raw>> />
+<$list filter=<<tt-filter>> template=<<tt-raw>> />
 </table>
 
 </$tiddler>
 
+</$wikify>
 </$wikify>
 
 </$importvariables>

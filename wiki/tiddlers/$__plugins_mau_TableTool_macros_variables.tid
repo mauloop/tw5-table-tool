@@ -1,6 +1,6 @@
 created: 20170519160134098
 creator: )+(auloop
-modified: 20171105224541523
+modified: 20180819143016355
 modifier: )+(auloop
 tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/variables
@@ -12,6 +12,9 @@ type: text/vnd.tiddlywiki
 \define tt-list-hidden() $(tt-conf)$!!tt-list-hidden
 \define tt-col() $(tt-conf)$/$(tt-col-id)$
 \define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]
+
+\define tt-max-rows() $(tt-plugin)$/config/tt-max-rows
+\define tt-start-row() $:/state/tt/$(tt-name)$/start-row
 
 \define tt-conf-prefix() {{$(tt-plugin)$/config/tt-conf-prefix}}
 \define tt-mode() {{!!$(tt-col-id)$}}
