@@ -1,24 +1,19 @@
 created: 20180404134354633
 creator: )+(auloop
-modified: 20180818095314973
+modified: 20180819150549353
 modifier: )+(auloop
 select-all: false
 tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/prev-page
 type: text/vnd.tiddlywiki
 
-\define tt-last-row-next() <$macrocall $name="incr" val={{$(tt-last-row)$}} add={{$(tt-max-rows)$}}/>
-
-\define tt-next-page()
-<$action-setfield $tiddler="""$(tt-start-row)$""" text={{$(tt-last-row)$}} />
-<$action-setfield $tiddler="""$(tt-last-row)$""" text="""$(tt-last-row-next)$""" />
+\define tt-prev-page()
+<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tt-name)$]allbefore<start-row>last{$(tt-max-rows)$}first[]]}}} />
 \end
 
 <!----------------
 -- "Next-Page" control
 -->
-<$wikify name="tt-last-row-next" text=<<tt-last-row-next>> >
-<$button actions=<<tt-next-page>> >
+<$button actions=<<tt-prev-page>> >
 {{$:/core/images/chevron-left}}
 </$button>
-</$wikify>
