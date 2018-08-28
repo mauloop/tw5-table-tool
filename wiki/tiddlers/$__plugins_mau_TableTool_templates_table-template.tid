@@ -1,6 +1,6 @@
 created: 20170417221320425
 creator: )+(auloop
-modified: 20180819150016331
+modified: 20180820195310452
 modifier: )+(auloop
 tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/templates/table-template
@@ -20,9 +20,9 @@ type: text/vnd.tiddlywiki
 
 <table class="tbt">
 <!-- header -->
-<$transclude tiddler=<<tt-raw>> />
+<$transclude tiddler=<<tt-row>> />
 <!-- data -->
-<$list filter=<<tt-filter>> template=<<tt-raw>> />
+<$list filter=<<tt-filter>> template=<<tt-row>> />
 </table>
 
 </$tiddler>

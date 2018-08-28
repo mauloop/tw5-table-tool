@@ -1,9 +1,9 @@
 created: 20170418162629326
 creator: )+(auloop
-modified: 20171106000024883
+modified: 20180820195225031
 modifier: )+(auloop
 tags: TableToolPlugin
-title: $:/plugins/mau/TableTool/templates/raw-template
+title: $:/plugins/mau/TableTool/templates/row-template
 tmap.id: b6706133-9f74-473f-beee-ae7beba59433
 type: text/vnd.tiddlywiki
 

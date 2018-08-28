@@ -1,28 +1,28 @@
 created: 20170412093519250
 creator: )+(auloop
-modified: 20171030224407335
+modified: 20180829173915046
 modifier: )+(auloop
 tags: $:/tags/ttControl TableToolPlugin
-title: $:/plugins/mau/TableTool/controls/new-raw
+title: $:/plugins/mau/TableTool/controls/new-row
 type: text/vnd.tiddlywiki
 
-\define tt-raw-id() $(tt-name)$/$(id)$
+\define tt-row-id() $(tt-name)$/$(id)$
 
 <!---------------------
 -- "New record" control
 -->
 <$set name="id" value=<<now "YYYY0MM0DD0hh0mm0ss">> >
 <$button>
-New raw
-<$action-setfield $tiddler=<<tt-raw-id>> type="application/json" />
-<$action-listops $tiddler=<<tt-raw-id>> $tags="""[<tt-name>]""" />
+New row
+<$action-setfield $tiddler=<<tt-row-id>> type="application/json" />
+<$action-listops $tiddler=<<tt-row-id>> $tags="""[<tt-name>]""" />
 
 
 <$list filter="""[list<tt-conf>] -[list<tt-list-hidden>]""" variable="tt-col-id">
-<$action-setfield $tiddler=<<tt-raw-id>> $field=<<tt-col-id>> $value="tdEdit" />
+<$action-setfield $tiddler=<<tt-row-id>> $field=<<tt-col-id>> $value="tdEdit" />
 </$list>
 <$list filter="""[list<tt-list-hidden>]""" variable="tt-col-id">
-<$action-setfield $tiddler=<<tt-raw-id>> $field=<<tt-col-id>> $value="tdView" />
+<$action-setfield $tiddler=<<tt-row-id>> $field=<<tt-col-id>> $value="tdView" />
 </$list>
 
 </$button>
