@@ -1,0 +1,30 @@
+created: 20180821081510349
+creator: )+(auloop
+footer: <$importvariables filter="[tag[$:/tags/ttMacro]]"><$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> ><<check-key>></$wikify></$importvariables><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tt/new-row" text="" /></$button>
+modified: 20180903161427758
+modifier: )+(auloop
+subtitle: Edit row
+tags: TableToolPlugin
+title: $:/plugins/mau/TableTool/controls/row-dialog
+type: text/vnd.tiddlywiki
+
+<$importvariables filter="[tag[$:/tags/ttMacro]]">
+<$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
+<$tiddler tiddler="$:/temp/tt/new-row">
+
+<!----------------------------
+-- "Row" dialog
+-->
+
+<table>
+<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
+<tr>
+<td><$transclude tiddler=<<tt-col>> index="col-label" /></td>
+<td><$transclude tiddler=<<tt-col>> index="tdEdit" /></td>
+</tr>
+</$list>
+</table>
+
+</$tiddler>
+</$wikify>
+</$importvariables>

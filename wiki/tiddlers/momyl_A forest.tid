@@ -1,6 +1,7 @@
 created: 20171029163042043
 mml-author: tdView
 mml-first: tdView
+mml-id: tdView
 mml-notes: tdView
 mml-open: tdView
 mml-select: tdView
@@ -8,10 +9,10 @@ mml-song: tdView
 mml-tags: tdView
 mml-video: tdView
 mml-year: tdView
-modified: 20171106001441446
+modified: 20180905204352666
 selected: false
 tags: [[new wave]] [[alternative rock]] [[gothic rock]] post-punk momyl
-title: momyl/20171029173017
+title: momyl/A forest
 tt-first: tdEdit
 type: application/json
 
@@ -21,5 +22,6 @@ type: application/json
     "mml-notes": "I was sixteen when I heard this the first time.<br>\nIt's  @@color:red;background:yellow;''the first song of my life''@@.<br>\nI did not use to listen to music before.\n\nI listened to it a lot of times...<br>\n//again, and again, and again, and again, and again...//",
     "mml-year": "8 Apr 1980",
     "mml-first": "Thanks to a friend",
-    "mml-video": "https://www.youtube.com/embed/hnVldyHRcjU"
+    "mml-video": "https://www.youtube.com/embed/hnVldyHRcjU",
+    "mml-id": "momyl/A forest"
 }

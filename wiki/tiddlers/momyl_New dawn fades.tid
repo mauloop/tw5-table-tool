@@ -1,6 +1,7 @@
 created: 20171104162201168
 mml-author: tdView
 mml-first: tdView
+mml-id: tdView
 mml-notes: tdView
 mml-open: tdView
 mml-select: tdView
@@ -8,10 +9,10 @@ mml-song: tdView
 mml-tags: tdView
 mml-video: tdView
 mml-year: tdView
-modified: 20180623173156055
+modified: 20180905204543756
 selected: false
 tags: rock [[new wave]] [[gothic rock]] post-punk momyl
-title: momyl/20171104172133
+title: momyl/New dawn fades
 type: application/json
 
 {
@@ -20,5 +21,6 @@ type: application/json
     "mml-song": "New dawn fades",
     "mml-video": "https://www.youtube.com/embed/GqUFbd8aAN0",
     "mml-first": "Thanks to a friend",
-    "mml-notes": "\"\"\"\nHe was too young to die.\nI was too young to know Joy Division.\n\"\"\""
+    "mml-notes": "\"\"\"\nHe was too young to die.\nI was too young to know Joy Division.\n\"\"\"",
+    "mml-id": "momyl/New dawn fades"
 }
