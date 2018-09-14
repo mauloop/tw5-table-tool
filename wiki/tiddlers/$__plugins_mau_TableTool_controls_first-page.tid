@@ -8,7 +8,7 @@ title: $:/plugins/mau/TableTool/controls/first-page
 type: text/vnd.tiddlywiki
 
 \define tt-first-page()
-<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tt-name)$]first[]]}}} />
+<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tbl-name)$]first[]]}}} />
 \end
 
 <!----------------

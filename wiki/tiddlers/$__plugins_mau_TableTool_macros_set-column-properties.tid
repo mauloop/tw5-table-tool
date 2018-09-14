@@ -40,7 +40,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $index="tt-hidden" $value={{$:/temp/tt/new-column##tt-hidden}} />
 </$list>
 
-<$list filter="""[tag<tt-name>]""">
+<$list filter="""[tag<tbl-name>]""">
 <$action-setfield $field=<<nc>> $value="tdView" />
 </$list>
 

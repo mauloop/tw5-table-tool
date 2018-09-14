@@ -7,5 +7,5 @@ title: $:/plugins/mau/TableTool/macros/show-tags
 type: text/vnd.tiddlywiki
 
 \define showTags()
-<$list filter="""[<currentTiddler>tags[]sort[title]] -[<tt-name>]""" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$list filter="""[<currentTiddler>tags[]sort[title]] -[<tbl-name>]""" template="$:/core/ui/TagTemplate" storyview="pop"/>
 \end

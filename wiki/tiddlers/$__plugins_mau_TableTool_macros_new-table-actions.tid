@@ -6,11 +6,11 @@ tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/new-table-actions
 type: text/vnd.tiddlywiki
 
-\define tt-conf-new() $(tt-conf-prefix)$/$(tt-name-new)$
+\define tt-conf-new() $(tt-conf-prefix)$/$(tbl-name-new)$
 
 \define tt-new-table-actions()
-<$set name="tt-name-new" value={{$:/temp/tt/new-table}}>
-<!-- $set name="tt-conf-new" filter="""[<tt-conf-prefix>] +[addsuffix[/]] +[addsuffix<tt-name-new>]""" -->
+<$set name="tbl-name-new" value={{$:/temp/tt/new-table}}>
+<!-- $set name="tt-conf-new" filter="""[<tt-conf-prefix>] +[addsuffix[/]] +[addsuffix<tbl-name-new>]""" -->
 <$set name="tt-conf-new" value=<<tt-conf-new>> >
 
 <$action-setfield $tiddler=<<tt-conf-new>> list="tt-select tt-open" tt-select="thView" tt-open="thView" />
@@ -23,7 +23,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield type="application/x-tiddler-dictionary" text=<<tt-open-column-defaults>> />
 </$list>
 
-<$action-setfield $field="tt-name" $value=<<tt-name-new>> />
+<$action-setfield $field="tbl-name" $value=<<tbl-name-new>> />
 <$action-setfield $tiddler="$:/temp/tt/new-table" text="" />
 
 </$set>

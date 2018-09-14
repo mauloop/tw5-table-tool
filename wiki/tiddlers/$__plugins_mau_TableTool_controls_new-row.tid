@@ -34,7 +34,7 @@ type: text/vnd.tiddlywiki
 <$wikify name="tt-row-id" text=<<tt-row-id>> >
 
 <$action-setfield $tiddler="$:/temp/tt/new-row" title=<<tt-row-id>> />
-<$action-listops $tiddler=<<tt-row-id>> $tags="""[<tt-name>]""" />
+<$action-listops $tiddler=<<tt-row-id>> $tags="""[<tbl-name>]""" />
 
 <$list filter="""[list<tt-conf>]""" variable="tt-col-id">
 <$action-setfield $tiddler=<<tt-row-id>> $field=<<tt-col-id>> $value="tdView" />
@@ -49,7 +49,7 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New row
-<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tt-name=<<tt-name>> tt-layout=<<tt-layout>> tt-conf=<<tt-conf>> tt-col-id=<<tt-col-id>> tt-col=<<tt-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> / -->
-<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tt-name=<<tt-name>> tt-layout=<<tt-layout>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> />
+<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tbl-name=<<tbl-name>> tt-layout=<<tt-layout>> tt-conf=<<tt-conf>> tt-col-id=<<tt-col-id>> tt-col=<<tt-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> / -->
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tbl-name=<<tbl-name>> tt-layout=<<tt-layout>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> />
 <$action-setfield $tiddler="$:/temp/tt/new-row" type="application/json" text="" />
 </$button>

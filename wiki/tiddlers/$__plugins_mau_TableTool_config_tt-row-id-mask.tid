@@ -6,4 +6,4 @@ tags: $:/tags/ttMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/config/tt-row-id-mask
 type: text/vnd.tiddlywiki
 
-\define tt-row-id() $(tt-name)$/{{##mml-song}}
+\define tt-row-id() $(tbl-name)$/{{##mml-song}}

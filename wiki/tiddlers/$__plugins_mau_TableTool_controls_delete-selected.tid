@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 Delete selected
-<$action-deletetiddler $filter="""[tag<tt-name>selected[true]]""" />
+<$action-deletetiddler $filter="""[tag<tbl-name>selected[true]]""" />
 </$button>

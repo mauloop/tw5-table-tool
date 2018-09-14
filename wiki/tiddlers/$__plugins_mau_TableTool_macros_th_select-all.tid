@@ -11,11 +11,11 @@ type: text/vnd.tiddlywiki
 <$checkbox field="select-all" checked="true" unchecked="false" />
 <$reveal state="!!select-all" type="nomatch" text="true">
 <$action-setfield select-all="true"/>
-<$list filter="""[tag<tt-name>]"""><$action-setfield selected="true"/></$list>
+<$list filter="""[tag<tbl-name>]"""><$action-setfield selected="true"/></$list>
 </$reveal>
 <$reveal state="!!select-all" type="match" text="true">
 <$action-setfield select-all="false"/>
-<$list filter="""[tag<tt-name>]"""><$action-setfield selected="false"/></$list>
+<$list filter="""[tag<tbl-name>]"""><$action-setfield selected="false"/></$list>
 </$reveal>
 </$button>
 \end

@@ -8,7 +8,7 @@ title: $:/plugins/mau/TableTool/controls/next-page
 type: text/vnd.tiddlywiki
 
 \define tt-next-page()
-<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tt-name)$]allafter<start-row>first{$(tt-max-rows)$}last[]]}}} />
+<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tbl-name)$]allafter<start-row>first{$(tt-max-rows)$}last[]]}}} />
 \end
 
 <!----------------
