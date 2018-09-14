@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 <$importvariables filter="[tag[$:/tags/tblMacro]]">
 
-<$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
+<$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> >
 <$wikify name="start-row" text=<<start-row>> >
 
 <$set name="display" filter="""[enlist<tbl-controls>] -[[show]]""" value="" emptyValue="tt-display-controls">
