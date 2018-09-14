@@ -7,7 +7,7 @@ title: $:/plugins/mau/TableTool/templates/table-template
 tmap.id: b50e9bd4-f5a3-445d-affc-80ddc2ac39ff
 type: text/vnd.tiddlywiki
 
-<$importvariables filter="[tag[$:/tags/ttMacro]]">
+<$importvariables filter="[tag[$:/tags/tblMacro]]">
 
 <$wikify name="tt-conf-prefix" text=<<tt-conf-prefix>> >
 <$wikify name="start-row" text=<<start-row>> >
