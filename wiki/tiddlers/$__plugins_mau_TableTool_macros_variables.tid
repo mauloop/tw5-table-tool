@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 \define tt-plugin() $:/plugins/mau/TableTool
 \define tt-row() $(tt-plugin)$/templates/row-template
-\define tt-conf() $(tt-conf-prefix)$/$(tbl-name)$/$(tt-layout)$
+\define tt-conf() $(tt-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
 \define tt-list-hidden() $(tt-conf)$!!tt-list-hidden
 \define tt-col() $(tt-conf)$/$(tt-col-id)$
 \define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]

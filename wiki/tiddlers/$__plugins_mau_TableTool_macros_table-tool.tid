@@ -6,8 +6,8 @@ tags: $:/tags/Macro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/table-tool
 type: text/vnd.tiddlywiki
 
-\define table-tool(tbl-name, tt-layout:"default", tt-controls:"show")
-<$vars tbl-name="""$tbl-name$""" tt-layout="""$tt-layout$""" tt-controls="""$tt-controls$""">
+\define table-tool(tbl-name, tbl-layout:"default", tt-controls:"show")
+<$vars tbl-name="""$tbl-name$""" tbl-layout="""$tbl-layout$""" tt-controls="""$tt-controls$""">
 {{||$:/plugins/mau/TableTool/templates/table-template}}
 </$vars>
 \end
