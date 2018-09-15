@@ -6,7 +6,7 @@ tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/hide-show-col
 type: text/vnd.tiddlywiki
 
-\define tt-hidden-state() $(tt-col)$##tt-hidden
+\define tt-hidden-state() $(tbl-col)$##tt-hidden
 
 <!------------------------
 -- "Hide/show columns" control
@@ -23,16 +23,16 @@ Hide/show columns
 <<<
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
 <$button class="tc-btn-invisible">
-<$checkbox tiddler=<<tt-col>> index="tt-hidden" checked="true" unchecked="false" default="false">
-<$transclude tiddler=<<tt-col>> index="col-label"/>
+<$checkbox tiddler=<<tbl-col>> index="tt-hidden" checked="true" unchecked="false" default="false">
+<$transclude tiddler=<<tbl-col>> index="col-label"/>
 
 <$reveal state=<<tt-hidden-state>> type="match" text="true" default="false">
-<$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="false" />
+<$action-setfield $tiddler=<<tbl-col>> $index="tt-hidden" $value="false" />
 <$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter="""-[<tbl-col-id>]""" />
 </$reveal>
 
 <$reveal state=<<tt-hidden-state>> type="nomatch" text="true" default="false">
-<$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="true" />
+<$action-setfield $tiddler=<<tbl-col>> $index="tt-hidden" $value="true" />
 <$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter=<<tbl-col-id>> />
 </$reveal>
 

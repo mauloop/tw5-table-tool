@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 <$set name="tt-head-menu-qualifier" value=<<qualify """$(tbl-col-id)$""">> >
 <$set name="tt-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-head-menu-qualifier>]""" >
 <$button popup=<<tt-head-menu-state>> class="tc-btn-invisible">
-{{$(tt-col)$##col-label}}
+{{$(tbl-col)$##col-label}}
 </$button>
 
 <$reveal type="popup" position="below" state=<<tt-head-menu-state>> >

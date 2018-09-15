@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 \define selectVal()
 <$select index="$(tbl-col-id)$">
-<$list filter="""[tag<tt-col>]""" variable="tt-select-opt">
+<$list filter="""[tag<tbl-col>]""" variable="tt-select-opt">
 <option><<tt-select-opt>></option>
 </$list>
 </$select>

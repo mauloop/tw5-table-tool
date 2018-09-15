@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 \define tbl-row() $(tbl-plugin)$/templates/row-template
 \define tbl-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
 \define tt-list-hidden() $(tbl-conf)$!!tt-list-hidden
-\define tt-col() $(tbl-conf)$/$(tbl-col-id)$
+\define tbl-col() $(tbl-conf)$/$(tbl-col-id)$
 \define tt-mode-filter() [<currentTiddler>regexp:$(tbl-col-id)$[^th.*]]
 
 \define tt-max-rows() $(tbl-plugin)$/config/tt-max-rows
@@ -18,6 +18,6 @@ type: text/vnd.tiddlywiki
 
 \define tbl-conf-prefix() {{$(tbl-plugin)$/config/tbl-conf-prefix}}
 \define tt-mode() {{!!$(tbl-col-id)$}}
-\define tbl-col-width() {{$(tt-col)$##col-width}}
+\define tbl-col-width() {{$(tbl-col)$##col-width}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->

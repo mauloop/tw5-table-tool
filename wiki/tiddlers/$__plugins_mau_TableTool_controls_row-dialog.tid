@@ -19,8 +19,8 @@ type: text/vnd.tiddlywiki
 <table>
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
 <tr>
-<td><$transclude tiddler=<<tt-col>> index="col-label" /></td>
-<td><$transclude tiddler=<<tt-col>> index="tdEdit" /></td>
+<td><$transclude tiddler=<<tbl-col>> index="col-label" /></td>
+<td><$transclude tiddler=<<tbl-col>> index="tdEdit" /></td>
 </tr>
 </$list>
 </table>

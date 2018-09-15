@@ -8,7 +8,7 @@ tmap.id: b6706133-9f74-473f-beee-ae7beba59433
 type: text/vnd.tiddlywiki
 
 \define tt-show-column()
-<$(tt-mode-tag)$ style="min-width:$(tbl-col-width)$;"><$transclude tiddler=<<tt-col>> index=<<tt-mode>> /></$(tt-mode-tag)$>
+<$(tt-mode-tag)$ style="min-width:$(tbl-col-width)$;"><$transclude tiddler=<<tbl-col>> index=<<tt-mode>> /></$(tt-mode-tag)$>
 \end
 
 <tr>
