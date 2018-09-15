@@ -31,13 +31,13 @@ type: text/vnd.tiddlywiki
 
 \define tt-set-new-row()
 <$set name="id" value=<<now "YYYY0MM0DD0hh0mm0ss">> >
-<$wikify name="tt-row-id" text=<<tt-row-id>> >
+<$wikify name="tbl-row-id" text=<<tbl-row-id>> >
 
-<$action-setfield $tiddler="$:/temp/tt/new-row" title=<<tt-row-id>> />
-<$action-listops $tiddler=<<tt-row-id>> $tags="""[<tbl-name>]""" />
+<$action-setfield $tiddler="$:/temp/tt/new-row" title=<<tbl-row-id>> />
+<$action-listops $tiddler=<<tbl-row-id>> $tags="""[<tbl-name>]""" />
 
 <$list filter="""[list<tbl-conf>]""" variable="tt-col-id">
-<$action-setfield $tiddler=<<tt-row-id>> $field=<<tt-col-id>> $value="tdView" />
+<$action-setfield $tiddler=<<tbl-row-id>> $field=<<tt-col-id>> $value="tdView" />
 </$list>
 
 </$wikify>
