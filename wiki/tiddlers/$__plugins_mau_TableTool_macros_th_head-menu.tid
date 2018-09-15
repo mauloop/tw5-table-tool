@@ -7,7 +7,7 @@ title: $:/plugins/mau/TableTool/macros/th/head-menu
 type: text/vnd.tiddlywiki
 
 \define tt-head-menu()
-<$set name="tt-head-menu-qualifier" value=<<qualify """$(tt-col-id)$""">> >
+<$set name="tt-head-menu-qualifier" value=<<qualify """$(tbl-col-id)$""">> >
 <$set name="tt-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-head-menu-qualifier>]""" >
 <$button popup=<<tt-head-menu-state>> class="tc-btn-invisible">
 {{$(tt-col)$##col-label}}

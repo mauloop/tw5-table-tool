@@ -7,7 +7,7 @@ title: $:/plugins/mau/TableTool/macros/show-val
 type: text/vnd.tiddlywiki
 
 \define showVal()
-<$button class="tc-btn-invisible" style="text-align: left;" set="!!$(tt-col-id)$" setTo="tdEdit">
-<$wikify name="val" text={{##$(tt-col-id)$}} output="html"><<val>></$wikify>
+<$button class="tc-btn-invisible" style="text-align: left;" set="!!$(tbl-col-id)$" setTo="tdEdit">
+<$wikify name="val" text={{##$(tbl-col-id)$}} output="html"><<val>></$wikify>
 </$button>
 \end

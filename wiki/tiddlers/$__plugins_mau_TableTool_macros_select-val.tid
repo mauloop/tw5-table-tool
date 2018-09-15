@@ -7,12 +7,12 @@ title: $:/plugins/mau/TableTool/macros/select-val
 type: text/vnd.tiddlywiki
 
 \define selectVal()
-<$select index="$(tt-col-id)$">
+<$select index="$(tbl-col-id)$">
 <$list filter="""[tag<tt-col>]""" variable="tt-select-opt">
 <option><<tt-select-opt>></option>
 </$list>
 </$select>
-<$button class="tc-btn-invisible" set="!!$(tt-col-id)$" setTo="tdView">
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end

@@ -7,8 +7,8 @@ title: $:/plugins/mau/TableTool/macros/edit-date
 type: text/vnd.tiddlywiki
 
 \define editDate(ef:"YYYY-MM-DD", vf:"YYYY-MM-DD", st, ss, s24)
-<$edit-date index=$(tt-col-id)$ firstDay="1" format="""$ef$""" fieldFormat="""$vf$""" $st$ $ss$ $s24$/>
-<$button class="tc-btn-invisible" set="!!$(tt-col-id)$" setTo="tdView">
+<$edit-date index=$(tbl-col-id)$ firstDay="1" format="""$ef$""" fieldFormat="""$vf$""" $st$ $ss$ $s24$/>
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end

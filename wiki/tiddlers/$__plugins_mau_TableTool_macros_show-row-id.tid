@@ -9,6 +9,6 @@ type: text/vnd.tiddlywiki
 \define showRowID()
 <$button class="tc-btn-invisible" style="text-align: left;">
 {{!!title}}
-<$action-setfield $(tt-col-id)$="tdEdit" $index="""$(tt-col-id)$""" $value={{!!title}} />
+<$action-setfield $(tbl-col-id)$="tdEdit" $index="""$(tbl-col-id)$""" $value={{!!title}} />
 </$button>
 \end

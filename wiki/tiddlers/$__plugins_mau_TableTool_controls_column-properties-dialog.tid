@@ -8,11 +8,11 @@ tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/column-properties-dialog
 type: text/vnd.tiddlywiki
 
-\define tt-col-id-enabled()
-<$reveal state="$:/temp/tt/new-column!!tt-col-id-enabled" type="match" text="enabled" default="disabled">
+\define tbl-col-id-enabled()
+<$reveal state="$:/temp/tt/new-column!!tbl-col-id-enabled" type="match" text="enabled" default="disabled">
 <$edit-text tiddler="$:/temp/tt/new-column" index="col-id" tag="input" placeholder="column-id" />
 </$reveal>
-<$reveal state="$:/temp/tt/new-column!!tt-col-id-enabled" type="nomatch" text="enabled" default="disabled">
+<$reveal state="$:/temp/tt/new-column!!tbl-col-id-enabled" type="nomatch" text="enabled" default="disabled">
 {{$:/temp/tt/new-column##col-id}}
 </$reveal>
 \end
@@ -30,7 +30,7 @@ type: text/vnd.tiddlywiki
 -- "Column properties" dialog
 -->
 
-|Column ID|<<tt-col-id-enabled>>|
+|Column ID|<<tbl-col-id-enabled>>|
 |Column label|<$edit-text tiddler="$:/temp/tt/new-column" index="col-label" tag="input" placeholder="Column Label" />|
 |Column data view|<$edit-text tiddler="$:/temp/tt/new-column" index="tdView" tag="input" />|
 |Column data edit|<$edit-text tiddler="$:/temp/tt/new-column" index="tdEdit" tag="input" />|

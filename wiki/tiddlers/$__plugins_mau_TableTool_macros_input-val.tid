@@ -7,8 +7,8 @@ title: $:/plugins/mau/TableTool/macros/input-val
 type: text/vnd.tiddlywiki
 
 \define inputVal()
-<$edit-text index=$(tt-col-id)$ tag="input"/>
-<$button class="tc-btn-invisible" set="!!$(tt-col-id)$" setTo="tdView">
+<$edit-text index=$(tbl-col-id)$ tag="input"/>
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end
