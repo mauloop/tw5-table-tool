@@ -18,6 +18,6 @@ type: text/vnd.tiddlywiki
 
 \define tbl-conf-prefix() {{$(tbl-plugin)$/config/tbl-conf-prefix}}
 \define tt-mode() {{!!$(tbl-col-id)$}}
-\define tbl-col-width() {{$(tt-col)$##tt-col-width}}
+\define tbl-col-width() {{$(tt-col)$##col-width}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->

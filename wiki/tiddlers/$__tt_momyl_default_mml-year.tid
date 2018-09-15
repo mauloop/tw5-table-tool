@@ -11,5 +11,5 @@ type: application/json
     "thView": "<<tt-head-menu>>",
     "thEdit": "",
     "tt-hidden": "",
-    "tt-col-width": "120px"
+    "col-width": "120px"
 }

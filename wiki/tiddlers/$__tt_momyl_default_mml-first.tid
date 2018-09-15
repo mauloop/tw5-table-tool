@@ -10,7 +10,7 @@ type: application/x-tiddler-dictionary
 "thView": "<<tt-head-menu>>",
 "thEdit": "",
 "tt-hidden": "",
-"tt-col-width": "200px"
+"col-width": "200px"
 col-id: mml-first
 col-label: First time listen
 tdView: <<showVal>>
