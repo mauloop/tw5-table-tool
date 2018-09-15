@@ -7,8 +7,8 @@ title: $:/plugins/mau/TableTool/controls/new-row
 type: text/vnd.tiddlywiki
 
 \define check-key-list() 
-<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
-<!-- $list filter="""[<tt-col-id>addprefix[/]addprefix<tt-conf>tt-key[yes]]""" variable="tt-col" -->
+<$list filter="""[list<tbl-conf>]""" variable="tt-col-id">
+<!-- $list filter="""[<tt-col-id>addprefix[/]addprefix<tbl-conf>tt-key[yes]]""" variable="tt-col" -->
 <$list filter="""[<tt-col>tt-key[yes]]""" variable="tt-col">
 <$set name="k" tiddler="$:/temp/tt/new-row" index=<<tt-col-id>> >
 <$set name="chk" filter="""[enlist<k>]""" value="" emptyValue="x"><<chk>></$set>
@@ -36,7 +36,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $tiddler="$:/temp/tt/new-row" title=<<tt-row-id>> />
 <$action-listops $tiddler=<<tt-row-id>> $tags="""[<tbl-name>]""" />
 
-<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
+<$list filter="""[list<tbl-conf>]""" variable="tt-col-id">
 <$action-setfield $tiddler=<<tt-row-id>> $field=<<tt-col-id>> $value="tdView" />
 </$list>
 
@@ -49,7 +49,7 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New row
-<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> tt-conf=<<tt-conf>> tt-col-id=<<tt-col-id>> tt-col=<<tt-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> / -->
+<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> tbl-conf=<<tbl-conf>> tt-col-id=<<tt-col-id>> tt-col=<<tt-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> / -->
 <$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tt/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tt-set-new-row=<<tt-set-new-row>> />
 <$action-setfield $tiddler="$:/temp/tt/new-row" type="application/json" text="" />
 </$button>

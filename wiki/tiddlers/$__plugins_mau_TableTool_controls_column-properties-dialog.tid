@@ -19,7 +19,7 @@ type: text/vnd.tiddlywiki
 
 \define tt-column-order()
 <$select tiddler="$:/temp/tt/new-column" index="tt-column-order" default="">
-<$list filter="""[list<tt-conf>]""" variable="tt-current-column">
+<$list filter="""[list<tbl-conf>]""" variable="tt-current-column">
 <option><<tt-current-column>></option>
 </$list>
 <option value="" selected="selected">place at the end</option>

@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New table
-<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/table-properties-dialog" tt-conf=<<tt-conf>> tbl-name=<<tbl-name>> tt-set-column-properties=<<tt-set-column-properties>>/>
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/table-properties-dialog" tbl-conf=<<tbl-conf>> tbl-name=<<tbl-name>> tt-set-column-properties=<<tt-set-column-properties>>/>
 </$button>

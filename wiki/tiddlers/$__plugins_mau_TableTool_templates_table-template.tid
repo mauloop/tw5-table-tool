@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 <$macrocall $name=<<display>> />
 </$set>
 
-<$tiddler tiddler=<<tt-conf>> >
+<$tiddler tiddler=<<tbl-conf>> >
 
 <table class="tbt">
 <!-- header -->

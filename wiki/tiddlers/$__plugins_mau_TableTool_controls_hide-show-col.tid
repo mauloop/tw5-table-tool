@@ -21,19 +21,19 @@ Hide/show columns
 <div class="tc-drop-down">
 
 <<<
-<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
+<$list filter="""[list<tbl-conf>]""" variable="tt-col-id">
 <$button class="tc-btn-invisible">
 <$checkbox tiddler=<<tt-col>> index="tt-hidden" checked="true" unchecked="false" default="false">
 <$transclude tiddler=<<tt-col>> index="col-label"/>
 
 <$reveal state=<<tt-hidden-state>> type="match" text="true" default="false">
 <$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="false" />
-<$action-listops $tiddler=<<tt-conf>> $field="tt-list-hidden" $subfilter="""-[<tt-col-id>]""" />
+<$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter="""-[<tt-col-id>]""" />
 </$reveal>
 
 <$reveal state=<<tt-hidden-state>> type="nomatch" text="true" default="false">
 <$action-setfield $tiddler=<<tt-col>> $index="tt-hidden" $value="true" />
-<$action-listops $tiddler=<<tt-conf>> $field="tt-list-hidden" $subfilter=<<tt-col-id>> />
+<$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter=<<tt-col-id>> />
 </$reveal>
 
 </$checkbox>

@@ -8,9 +8,9 @@ type: text/vnd.tiddlywiki
 
 \define tbl-plugin() $:/plugins/mau/TableTool
 \define tt-row() $(tbl-plugin)$/templates/row-template
-\define tt-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
-\define tt-list-hidden() $(tt-conf)$!!tt-list-hidden
-\define tt-col() $(tt-conf)$/$(tt-col-id)$
+\define tbl-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
+\define tt-list-hidden() $(tbl-conf)$!!tt-list-hidden
+\define tt-col() $(tbl-conf)$/$(tt-col-id)$
 \define tt-mode-filter() [<currentTiddler>regexp:$(tt-col-id)$[^th.*]]
 
 \define tt-max-rows() $(tbl-plugin)$/config/tt-max-rows

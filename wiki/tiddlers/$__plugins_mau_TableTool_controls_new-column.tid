@@ -11,6 +11,6 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New column
-<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/column-properties-dialog" tt-conf=<<tt-conf>> tbl-name=<<tbl-name>> tt-set-column-properties=<<tt-set-column-properties>>/>
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/column-properties-dialog" tbl-conf=<<tbl-conf>> tbl-name=<<tbl-name>> tt-set-column-properties=<<tt-set-column-properties>>/>
 <$action-setfield $tiddler="$:/temp/tt/new-column" type="application/x-tiddler-dictionary" text=<<tt-new-column-defaults>> tt-col-id-enabled="enabled" />
 </$button>

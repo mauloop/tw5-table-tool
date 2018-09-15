@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 -->
 
 <table>
-<$list filter="""[list<tt-conf>]""" variable="tt-col-id">
+<$list filter="""[list<tbl-conf>]""" variable="tt-col-id">
 <tr>
 <td><$transclude tiddler=<<tt-col>> index="col-label" /></td>
 <td><$transclude tiddler=<<tt-col>> index="tdEdit" /></td>
