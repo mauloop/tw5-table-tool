@@ -7,7 +7,7 @@ title: $:/plugins/mau/TableTool/macros/variables
 type: text/vnd.tiddlywiki
 
 \define tbl-plugin() $:/plugins/mau/TableTool
-\define tt-row() $(tbl-plugin)$/templates/row-template
+\define tbl-row() $(tbl-plugin)$/templates/row-template
 \define tbl-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
 \define tt-list-hidden() $(tbl-conf)$!!tt-list-hidden
 \define tt-col() $(tbl-conf)$/$(tt-col-id)$
