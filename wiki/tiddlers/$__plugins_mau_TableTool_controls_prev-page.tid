@@ -8,7 +8,7 @@ title: $:/plugins/mau/TableTool/controls/prev-page
 type: text/vnd.tiddlywiki
 
 \define tt-prev-page()
-<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tbl-name)$]allbefore<start-row>last{$(tbl-max-rows)$}first[]]}}} />
+<$action-setfield $tiddler="""$(tbl-start-row)$""" text={{{[tag[$(tbl-name)$]allbefore<start-row>last{$(tbl-max-rows)$}first[]]}}} />
 \end
 
 <!----------------

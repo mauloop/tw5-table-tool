@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 \define tt-mode-filter() [<currentTiddler>regexp:$(tbl-col-id)$[^th.*]]
 
 \define tbl-max-rows() $(tbl-plugin)$/config/tbl-max-rows
-\define tt-start-row() $:/state/tt/$(tbl-name)$/start-row
+\define tbl-start-row() $:/state/tt/$(tbl-name)$/start-row
 
 \define tbl-conf-prefix() {{$(tbl-plugin)$/config/tbl-conf-prefix}}
 \define tt-mode() {{!!$(tbl-col-id)$}}

@@ -7,5 +7,5 @@ title: $:/plugins/mau/TableTool/macros/start-row
 type: text/vnd.tiddlywiki
 
 \define start-row()
-<$set name="sr" filter="""[enlist{$(tt-start-row)$}]""" value={{$(tt-start-row)$}} emptyValue={{{[tag[$(tbl-name)$]first[]]}}} ><<sr>></$set>
+<$set name="sr" filter="""[enlist{$(tbl-start-row)$}]""" value={{$(tbl-start-row)$}} emptyValue={{{[tag[$(tbl-name)$]first[]]}}} ><<sr>></$set>
 \end
