@@ -4,4 +4,4 @@ tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/filter
 type: text/vnd.tiddlywiki
 
-\define tt-filter() [tag[$(tbl-name)$]allafter:include<start-row>first{$(tt-max-rows)$}]
+\define tt-filter() [tag[$(tbl-name)$]allafter:include<start-row>first{$(tbl-max-rows)$}]

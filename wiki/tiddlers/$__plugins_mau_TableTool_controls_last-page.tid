@@ -8,7 +8,7 @@ title: $:/plugins/mau/TableTool/controls/last-page
 type: text/vnd.tiddlywiki
 
 \define tt-last-page()
-<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tbl-name)$]last{$(tt-max-rows)$}first[]]}}} />
+<$action-setfield $tiddler="""$(tt-start-row)$""" text={{{[tag[$(tbl-name)$]last{$(tbl-max-rows)$}first[]]}}} />
 \end
 
 <!----------------

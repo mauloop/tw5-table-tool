@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 -- "Rows-per-Page" control
 -->
 Rows per page: 
-<$select tiddler=<<tt-max-rows>> default="30">
+<$select tiddler=<<tbl-max-rows>> default="30">
 <$list filter="""10 20 30 40 50 60 70 80 90 100""" variable="n">
 <option><<n>></option>
 </$list>
