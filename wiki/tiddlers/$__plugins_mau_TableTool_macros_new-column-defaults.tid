@@ -6,7 +6,7 @@ tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/new-column-defaults
 type: text/vnd.tiddlywiki
 
-\define tt-new-column-defaults()
+\define tbl-new-column-defaults()
 tdView:<<showVal>>
 tdEdit:<<inputVal>>
 thView:<<tt-head-menu>>

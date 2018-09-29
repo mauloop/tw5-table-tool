@@ -29,7 +29,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $tiddler=<<tbl-conf>> $field=<<nc>> $value="thView" />
 
 <$list filter="""[<tbl-conf>] +[addsuffix[/]] +[addsuffix<nc>]""">
-<!-- $action-setfield type="application/x-tiddler-dictionary" text=<<tt-new-column-defaults>> / -->
+<!-- $action-setfield type="application/x-tiddler-dictionary" text=<<tbl-new-column-defaults>> / -->
 <!-- $action-setfield type="application/x-tiddler-dictionary" caption={{$:/temp/tt/new-column##col-label}} / -->
 <$action-setfield $index="col-id" $value={{$:/temp/tt/new-column##col-id}} />
 <$action-setfield $index="col-label" $value={{$:/temp/tt/new-column##col-label}} />
