@@ -12,6 +12,6 @@ mml-year: thView
 modified: 20171104174441222
 tags: 
 title: $:/tt/momyl/readonly
-tt-list-hidden: mml-select mml-open
+tbl-list-hidden: mml-select mml-open
 type: text/vnd.tiddlywiki
 

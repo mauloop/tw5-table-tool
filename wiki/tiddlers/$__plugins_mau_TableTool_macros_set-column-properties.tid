@@ -18,11 +18,11 @@ type: text/vnd.tiddlywiki
 </$set>
 
 <$reveal state="$:/temp/tt/new-column##tt-hidden" type="match" text="true" default="false">
-<$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter=<<nc>> />
+<$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter=<<nc>> />
 </$reveal>
 
 <$reveal state="$:/temp/tt/new-column##tt-hidden" type="nomatch" text="true" default="false">
-<$action-listops $tiddler=<<tbl-conf>> $field="tt-list-hidden" $subfilter="""-[<nc>]""" />
+<$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter="""-[<nc>]""" />
 </$reveal>
 
 <!-- $action-listops $tiddler=<<tbl-conf>> $field="list" $subfilter=<<nc>> / -->

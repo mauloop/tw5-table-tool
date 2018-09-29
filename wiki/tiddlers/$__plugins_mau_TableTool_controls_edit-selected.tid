@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 <$button>
 Edit selected
 <$list filter="""[tag<tbl-name>selected[true]]""">
-<$list filter="""[list<tbl-conf>] -[list<tt-list-hidden>]""" variable="tbl-col-id">
+<$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
 <$action-setfield $field=<<tbl-col-id>> $value="tdEdit" />
 </$list>
 </$list>

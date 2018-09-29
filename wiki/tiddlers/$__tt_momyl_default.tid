@@ -14,7 +14,7 @@ modified: 20180829210421376
 select-all: false
 tags: 
 title: $:/tt/momyl/default
-tt-list-hidden: 
+tbl-list-hidden: 
 tt-tag: th
 type: text/vnd.tiddlywiki
 

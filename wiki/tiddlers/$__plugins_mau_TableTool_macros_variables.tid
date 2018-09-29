@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 \define tbl-plugin() $:/plugins/mau/TableTool
 \define tbl-row() $(tbl-plugin)$/templates/row-template
 \define tbl-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
-\define tt-list-hidden() $(tbl-conf)$!!tt-list-hidden
+\define tbl-list-hidden() $(tbl-conf)$!!tbl-list-hidden
 \define tbl-col() $(tbl-conf)$/$(tbl-col-id)$
 \define tt-mode-filter() [<currentTiddler>regexp:$(tbl-col-id)$[^th.*]]
 

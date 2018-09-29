@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 \end
 
 <tr>
-<$list filter="""[list<tbl-conf>] -[list<tt-list-hidden>]""" variable="tbl-col-id">
+<$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
 <$wikify name="tt-mode" text=<<tt-mode>> >
 <$wikify name="tbl-col-width" text=<<tbl-col-width>> >
 <$set name="tt-mode-tag" filter=<<tt-mode-filter>> value="th" emptyValue="td">
