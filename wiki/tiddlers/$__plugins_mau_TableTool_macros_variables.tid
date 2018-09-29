@@ -11,13 +11,13 @@ type: text/vnd.tiddlywiki
 \define tbl-conf() $(tbl-conf-prefix)$/$(tbl-name)$/$(tbl-layout)$
 \define tbl-list-hidden() $(tbl-conf)$!!tbl-list-hidden
 \define tbl-col() $(tbl-conf)$/$(tbl-col-id)$
-\define tt-mode-filter() [<currentTiddler>regexp:$(tbl-col-id)$[^th.*]]
+\define tbl-mode-filter() [<currentTiddler>regexp:$(tbl-col-id)$[^th.*]]
 
 \define tbl-max-rows() $(tbl-plugin)$/config/tbl-max-rows
 \define tbl-start-row() $:/state/tt/$(tbl-name)$/start-row
 
 \define tbl-conf-prefix() {{$(tbl-plugin)$/config/tbl-conf-prefix}}
-\define tt-mode() {{!!$(tbl-col-id)$}}
+\define tbl-mode() {{!!$(tbl-col-id)$}}
 \define tbl-col-width() {{$(tbl-col)$##col-width}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->
