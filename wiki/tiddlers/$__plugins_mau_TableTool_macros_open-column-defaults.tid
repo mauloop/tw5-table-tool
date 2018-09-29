@@ -6,7 +6,7 @@ tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/open-column-defaults
 type: text/vnd.tiddlywiki
 
-\define tt-open-column-defaults()
+\define tbl-open-column-defaults()
 tdView:<<openThis>>
 tdEdit:<<openThis>>
 thView:

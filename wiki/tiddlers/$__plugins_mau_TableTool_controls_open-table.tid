@@ -9,16 +9,16 @@ type: text/vnd.tiddlywiki
 <!-----------------------
 -- "Open table" controls
 -->
-<$button set="!!tt-open-table" setTo="show">
+<$button set="!!tbl-open-table" setTo="show">
 Open table
 </$button>
-<$reveal state="!!tt-open-table" type="match" text="show">
+<$reveal state="!!tbl-open-table" type="match" text="show">
 <$select field="tbl-name">
 <$list filter="""[removeprefix<tbl-conf-prefix>] +[removeprefix[/]] +[splitbefore[/]] +[removesuffix[/]]""">
 <option><<currentTiddler>></option>
 </$list>
 </$select>
-<$button class="tc-btn-invisible" set="!!tt-open-table" setTo="hide">
+<$button class="tc-btn-invisible" set="!!tbl-open-table" setTo="hide">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 </$reveal>

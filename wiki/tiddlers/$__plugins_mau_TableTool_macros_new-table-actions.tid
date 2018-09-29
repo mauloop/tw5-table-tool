@@ -13,14 +13,14 @@ type: text/vnd.tiddlywiki
 <!-- $set name="tt-conf-new" filter="""[<tbl-conf-prefix>] +[addsuffix[/]] +[addsuffix<tbl-name-new>]""" -->
 <$set name="tt-conf-new" value=<<tt-conf-new>> >
 
-<$action-setfield $tiddler=<<tt-conf-new>> list="tbl-select tt-open" tbl-select="thView" tt-open="thView" />
+<$action-setfield $tiddler=<<tt-conf-new>> list="tbl-select tbl-open" tbl-select="thView" tbl-open="thView" />
 
 <$list filter="""[<tt-conf-new>] +[addsuffix[/tbl-select]]""">
 <$action-setfield type="application/x-tiddler-dictionary" text=<<tbl-select-column-defaults>> />
 </$list>
 
-<$list filter="""[<tt-conf-new>] +[addsuffix[/tt-open]]""">
-<$action-setfield type="application/x-tiddler-dictionary" text=<<tt-open-column-defaults>> />
+<$list filter="""[<tt-conf-new>] +[addsuffix[/tbl-open]]""">
+<$action-setfield type="application/x-tiddler-dictionary" text=<<tbl-open-column-defaults>> />
 </$list>
 
 <$action-setfield $field="tbl-name" $value=<<tbl-name-new>> />
