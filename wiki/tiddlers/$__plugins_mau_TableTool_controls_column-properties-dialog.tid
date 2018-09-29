@@ -1,6 +1,6 @@
 created: 20170510053211490
 creator: )+(auloop
-footer: <$reveal state="$:/temp/tt/new-column##col-id" type="nomatch" text=""><$button message="tm-close-tiddler" actions=<<tt-set-column-properties>> >{{$:/core/images/done-button}}</$button></$reveal><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tt/new-column" text="" /></$button>
+footer: <$reveal state="$:/temp/tt/new-column##col-id" type="nomatch" text=""><$button message="tm-close-tiddler" actions=<<tbl-set-column-properties>> >{{$:/core/images/done-button}}</$button></$reveal><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tt/new-column" text="" /></$button>
 modified: 20171029143517738
 modifier: )+(auloop
 subtitle: Column properties
