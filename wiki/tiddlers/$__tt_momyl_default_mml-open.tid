@@ -10,6 +10,6 @@ type: application/json
     "tdEdit": "<<openThis>>",
     "thView": "",
     "thEdit": "",
-    "tt-hidden": "",
+    "tbl-hidden": "",
     "col-width": "30px"
 }

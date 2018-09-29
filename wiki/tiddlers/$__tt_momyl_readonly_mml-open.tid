@@ -11,5 +11,5 @@ type: application/json
     "tdEdit": "<<openThis>>",
     "thView": "",
     "thEdit": "",
-    "tt-hidden": "true"
+    "tbl-hidden": "true"
 }

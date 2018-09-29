@@ -10,5 +10,5 @@ type: application/json
     "tdEdit": "<<selectThis>>",
     "thView": "<<selectAll>>",
     "thEdit": "<<selectAll>>",
-    "tt-hidden": "false"
+    "tbl-hidden": "false"
 }

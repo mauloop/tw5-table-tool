@@ -11,6 +11,6 @@ type: application/json
     "tdEdit": "<<editVal>>",
     "thView": "<<tt-head-menu>>",
     "thEdit": "",
-    "tt-hidden": "",
+    "tbl-hidden": "",
     "col-width": "350px"
 }

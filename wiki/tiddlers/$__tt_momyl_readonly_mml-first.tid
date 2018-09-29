@@ -11,5 +11,5 @@ type: application/json
     "tdEdit": "",
     "thView": "First listen",
     "thEdit": "",
-    "tt-hidden": ""
+    "tbl-hidden": ""
 }

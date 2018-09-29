@@ -9,7 +9,7 @@ type: application/x-tiddler-dictionary
 "tdEdit": "<<selectVal>>",
 "thView": "<<tt-head-menu>>",
 "thEdit": "",
-"tt-hidden": "",
+"tbl-hidden": "",
 "col-width": "200px"
 col-id: mml-first
 col-label: First time listen
@@ -17,4 +17,4 @@ tdView: <<showVal>>
 tdEdit: <<selectVal>>
 thView: <<tt-head-menu>>
 thEdit: 
-tt-hidden: 
+tbl-hidden: 

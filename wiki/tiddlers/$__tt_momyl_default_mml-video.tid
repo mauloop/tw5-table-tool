@@ -10,6 +10,6 @@ type: application/json
     "tdEdit": "<<inputVal>>",
     "thView": "<<tt-head-menu>>",
     "thEdit": "",
-    "tt-hidden": "",
+    "tbl-hidden": "",
 	"col-width": "212px"
 }

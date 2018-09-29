@@ -11,5 +11,5 @@ type: application/json
     "tdEdit": "",
     "thView": "Tags",
     "thEdit": "",
-    "tt-hidden": ""
+    "tbl-hidden": ""
 }

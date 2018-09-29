@@ -37,5 +37,5 @@ type: text/vnd.tiddlywiki
 |Column header view|<$edit-text tiddler="$:/temp/tt/new-column" index="thView" tag="input" />|
 |Column header edit|<$edit-text tiddler="$:/temp/tt/new-column" index="thEdit" tag="input" />|
 |Column position|<<tt-column-order>>|
-|Column hidden|<$checkbox tiddler="$:/temp/tt/new-column" index="tt-hidden" checked="true" unchecked="false" default="false" />|
+|Column hidden|<$checkbox tiddler="$:/temp/tt/new-column" index="tbl-hidden" checked="true" unchecked="false" default="false" />|
 |noBorder|k

@@ -17,11 +17,11 @@ type: text/vnd.tiddlywiki
 <$action-listops $tiddler=<<tbl-conf>> $field="list" $subfilter="""+[insertbefore:tt-column-before<nc>]""" />
 </$set>
 
-<$reveal state="$:/temp/tt/new-column##tt-hidden" type="match" text="true" default="false">
+<$reveal state="$:/temp/tt/new-column##tbl-hidden" type="match" text="true" default="false">
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter=<<nc>> />
 </$reveal>
 
-<$reveal state="$:/temp/tt/new-column##tt-hidden" type="nomatch" text="true" default="false">
+<$reveal state="$:/temp/tt/new-column##tbl-hidden" type="nomatch" text="true" default="false">
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter="""-[<nc>]""" />
 </$reveal>
 
@@ -37,7 +37,7 @@ type: text/vnd.tiddlywiki
 <$action-setfield $index="tdEdit" $value={{$:/temp/tt/new-column##tdEdit}} />
 <$action-setfield $index="thView" $value={{$:/temp/tt/new-column##thView}} />
 <$action-setfield $index="thEdit" $value={{$:/temp/tt/new-column##thEdit}} />
-<$action-setfield $index="tt-hidden" $value={{$:/temp/tt/new-column##tt-hidden}} />
+<$action-setfield $index="tbl-hidden" $value={{$:/temp/tt/new-column##tbl-hidden}} />
 </$list>
 
 <$list filter="""[tag<tbl-name>]""">

@@ -10,5 +10,5 @@ type: application/json
     "tdEdit": "<<editRowID>>",
     "thView": "<<tt-head-menu>>",
     "thEdit": "",
-    "tt-hidden": ""
+    "tbl-hidden": ""
 }

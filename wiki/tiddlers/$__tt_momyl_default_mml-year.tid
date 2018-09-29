@@ -10,6 +10,6 @@ type: application/json
     "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
     "thView": "<<tt-head-menu>>",
     "thEdit": "",
-    "tt-hidden": "",
+    "tbl-hidden": "",
     "col-width": "120px"
 }
