@@ -10,5 +10,5 @@ type: text/vnd.tiddlywiki
 Change column properties
 <$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/column-properties-dialog" tbl-conf=<<tbl-conf>> tbl-name=<<tbl-name>> tbl-set-column-properties=<<tbl-set-column-properties>>/>
 <$action-setfield $tiddler=<<tbl-col>> title="$:/temp/tt/new-column" />
-<$action-setfield $tiddler="$:/temp/tt/new-column" $index="tt-column-order" $value={{{[list<tbl-conf>after<tbl-col-id>]}}} />
+<$action-setfield $tiddler="$:/temp/tt/new-column" $index="tbl-column-order" $value={{{[list<tbl-conf>after<tbl-col-id>]}}} />
 </$button>

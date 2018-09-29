@@ -17,8 +17,8 @@ type: text/vnd.tiddlywiki
 </$reveal>
 \end
 
-\define tt-column-order()
-<$select tiddler="$:/temp/tt/new-column" index="tt-column-order" default="">
+\define tbl-column-order()
+<$select tiddler="$:/temp/tt/new-column" index="tbl-column-order" default="">
 <$list filter="""[list<tbl-conf>]""" variable="tt-current-column">
 <option><<tt-current-column>></option>
 </$list>
@@ -36,6 +36,6 @@ type: text/vnd.tiddlywiki
 |Column data edit|<$edit-text tiddler="$:/temp/tt/new-column" index="tdEdit" tag="input" />|
 |Column header view|<$edit-text tiddler="$:/temp/tt/new-column" index="thView" tag="input" />|
 |Column header edit|<$edit-text tiddler="$:/temp/tt/new-column" index="thEdit" tag="input" />|
-|Column position|<<tt-column-order>>|
+|Column position|<<tbl-column-order>>|
 |Column hidden|<$checkbox tiddler="$:/temp/tt/new-column" index="tbl-hidden" checked="true" unchecked="false" default="false" />|
 |noBorder|k
