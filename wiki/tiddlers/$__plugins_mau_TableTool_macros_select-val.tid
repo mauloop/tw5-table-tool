@@ -8,8 +8,8 @@ type: text/vnd.tiddlywiki
 
 \define selectVal()
 <$select index="$(tbl-col-id)$">
-<$list filter="""[tag<tbl-col>]""" variable="tt-select-opt">
-<option><<tt-select-opt>></option>
+<$list filter="""[tag<tbl-col>]""" variable="tbl-select-opt">
+<option><<tbl-select-opt>></option>
 </$list>
 </$select>
 <$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">

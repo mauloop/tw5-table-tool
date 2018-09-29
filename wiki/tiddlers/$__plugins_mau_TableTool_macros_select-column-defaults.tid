@@ -6,7 +6,7 @@ tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/select-column-defaults
 type: text/vnd.tiddlywiki
 
-\define tt-select-column-defaults()
+\define tbl-select-column-defaults()
 tdView:<<selectThis>>
 tdEdit:<<selectThis>>
 thView:<<selectAll>>
