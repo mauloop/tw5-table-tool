@@ -1,20 +1,15 @@
 created: 20171104000013873
-modified: 20171106001441454
+modified: 20180930091704338
 title: $:/tt/momyl/default/mml-first
-type: application/x-tiddler-dictionary
+type: application/json
 
-"col-id": "mml-first",
-"col-label": "First listen",
-"tdView": "<<showVal>>",
-"tdEdit": "<<selectVal>>",
-"thView": "<<tt-head-menu>>",
-"thEdit": "",
-"tbl-hidden": "",
-"col-width": "200px"
-col-id: mml-first
-col-label: First time listen
-tdView: <<showVal>>
-tdEdit: <<selectVal>>
-thView: <<tt-head-menu>>
-thEdit: 
-tbl-hidden: 
+{
+    "col-id": "mml-first",
+    "col-label": "First listen",
+    "tdView": "<<showVal>>",
+    "tdEdit": "<<selectVal>>",
+    "thView": "<<tt-head-menu>>",
+    "thEdit": "",
+    "tbl-hidden": "",
+    "col-width": "200px"
+}
