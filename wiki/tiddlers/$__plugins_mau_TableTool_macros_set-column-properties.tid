@@ -13,8 +13,8 @@ type: text/vnd.tiddlywiki
 <$action-setfield $tiddler="$:/temp/tt/new-column" $index="col-label" $value=<<nc>> />
 </$reveal>
 
-<$set name="tt-column-before" value={{$:/temp/tt/new-column##tbl-column-order}}>
-<$action-listops $tiddler=<<tbl-conf>> $field="list" $subfilter="""+[insertbefore:tt-column-before<nc>]""" />
+<$set name="tbl-column-before" value={{$:/temp/tt/new-column##tbl-column-order}}>
+<$action-listops $tiddler=<<tbl-conf>> $field="list" $subfilter="""+[insertbefore:tbl-column-before<nc>]""" />
 </$set>
 
 <$reveal state="$:/temp/tt/new-column##tbl-hidden" type="match" text="true" default="false">
