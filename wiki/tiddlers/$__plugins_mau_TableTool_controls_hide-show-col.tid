@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 -- "Hide/show columns" control
 -->
 <$set name="tbl-hide-show-qualifier" value=<<qualify """hide-show-columns""">> >
-<$set name="tbl-hide-show-state" filter="""[[$:/state/tt/]] +[addsuffix<tbl-hide-show-qualifier>]""" >
+<$set name="tbl-hide-show-state" filter="""[[$:/state/tbl/]] +[addsuffix<tbl-hide-show-qualifier>]""" >
 <$button popup=<<tbl-hide-show-state>> >
 Hide/show columns
 </$button>

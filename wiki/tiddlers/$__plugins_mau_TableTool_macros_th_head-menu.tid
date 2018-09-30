@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 \define tbl-head-menu()
 <$set name="tbl-head-menu-qualifier" value=<<qualify """$(tbl-col-id)$""">> >
-<$set name="tbl-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tbl-head-menu-qualifier>]""" >
+<$set name="tbl-head-menu-state" filter="""[[$:/state/tbl/]] +[addsuffix<tbl-head-menu-qualifier>]""" >
 <$button popup=<<tbl-head-menu-state>> class="tc-btn-invisible">
 {{$(tbl-col)$##col-label}}
 </$button>
