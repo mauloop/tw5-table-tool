@@ -8,8 +8,8 @@ type: text/vnd.tiddlywiki
 
 \define check-key-list() 
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
-<!-- $list filter="""[<tbl-col-id>addprefix[/]addprefix<tbl-conf>tt-key[yes]]""" variable="tbl-col" -->
-<$list filter="""[<tbl-col>tt-key[yes]]""" variable="tbl-col">
+<!-- $list filter="""[<tbl-col-id>addprefix[/]addprefix<tbl-conf>tbl-key[yes]]""" variable="tbl-col" -->
+<$list filter="""[<tbl-col>tbl-key[yes]]""" variable="tbl-col">
 <$set name="k" tiddler="$:/temp/tt/new-row" index=<<tbl-col-id>> >
 <$set name="chk" filter="""[enlist<k>]""" value="" emptyValue="x"><<chk>></$set>
 </$set>
