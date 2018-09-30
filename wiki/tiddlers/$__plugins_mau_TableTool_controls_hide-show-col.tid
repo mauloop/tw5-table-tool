@@ -1,8 +1,9 @@
 created: 20170518152407734
 creator: )+(auloop
-modified: 20171029143517942
+list: 
+modified: 20180930110143951
 modifier: )+(auloop
-tags: $:/tags/ttControl TableToolPlugin
+tags: $:/tags/tbl-control TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/hide-show-col
 type: text/vnd.tiddlywiki
 

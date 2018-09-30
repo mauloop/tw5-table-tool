@@ -1,8 +1,9 @@
 created: 20170414141953796
 creator: )+(auloop
-modified: 20171029143517960
+list: 
+modified: 20180930110143968
 modifier: )+(auloop
-tags: $:/tags/ttControl TableToolPlugin
+tags: $:/tags/tbl-control TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/edit-selected
 type: text/vnd.tiddlywiki
 
