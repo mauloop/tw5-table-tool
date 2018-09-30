@@ -7,13 +7,13 @@ tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/next-page
 type: text/vnd.tiddlywiki
 
-\define tt-next-page()
+\define tbl-next-page()
 <$action-setfield $tiddler="""$(tbl-start-row)$""" text={{{[tag[$(tbl-name)$]allafter<start-row>first{$(tbl-max-rows)$}last[]]}}} />
 \end
 
 <!----------------
 -- "Next-Page" control
 -->
-<$button actions=<<tt-next-page>> >
+<$button actions=<<tbl-next-page>> >
 {{$:/core/images/right-arrow}}
 </$button>

@@ -7,13 +7,13 @@ tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/prev-page
 type: text/vnd.tiddlywiki
 
-\define tt-prev-page()
+\define tbl-prev-page()
 <$action-setfield $tiddler="""$(tbl-start-row)$""" text={{{[tag[$(tbl-name)$]allbefore<start-row>last{$(tbl-max-rows)$}first[]]}}} />
 \end
 
 <!----------------
 -- "Prev-Page" control
 -->
-<$button actions=<<tt-prev-page>> >
+<$button actions=<<tbl-prev-page>> >
 {{$:/core/images/left-arrow}}
 </$button>

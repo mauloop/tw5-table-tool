@@ -7,13 +7,13 @@ tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/first-page
 type: text/vnd.tiddlywiki
 
-\define tt-first-page()
+\define tbl-first-page()
 <$action-setfield $tiddler="""$(tbl-start-row)$""" text={{{[tag[$(tbl-name)$]first[]]}}} />
 \end
 
 <!----------------
 -- "First-Page" control
 -->
-<$button actions=<<tt-first-page>> >
+<$button actions=<<tbl-first-page>> >
 {{$:/core/images/chevron-left}}
 </$button>

@@ -7,13 +7,13 @@ tags: $:/tags/ttControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/last-page
 type: text/vnd.tiddlywiki
 
-\define tt-last-page()
+\define tbl-last-page()
 <$action-setfield $tiddler="""$(tbl-start-row)$""" text={{{[tag[$(tbl-name)$]last{$(tbl-max-rows)$}first[]]}}} />
 \end
 
 <!----------------
 -- "Last-Page" control
 -->
-<$button actions=<<tt-last-page>> >
+<$button actions=<<tbl-last-page>> >
 {{$:/core/images/chevron-right}}
 </$button>
