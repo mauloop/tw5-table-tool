@@ -1,8 +1,9 @@
 created: 20170417213415279
 creator: )+(auloop
-modified: 20171029143517768
+list: 
+modified: 20180930165149854
 modifier: )+(auloop
-tags: $:/tags/tblMacro TableToolPlugin
+tags: $:/tags/tbl-macro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/open-column-defaults
 type: text/vnd.tiddlywiki
 

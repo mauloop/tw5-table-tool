@@ -1,8 +1,9 @@
 created: 20170411161845759
 creator: )+(auloop
-modified: 20171029143518100
+list: 
+modified: 20180930165149822
 modifier: )+(auloop
-tags: $:/tags/tblMacro TableToolPlugin
+tags: $:/tags/tbl-macro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/select-val
 type: text/vnd.tiddlywiki
 
