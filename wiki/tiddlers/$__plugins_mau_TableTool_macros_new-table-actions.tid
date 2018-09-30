@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 \define tbl-conf-new() $(tbl-conf-prefix)$/$(tbl-name-new)$
 
 \define tbl-new-table-actions()
-<$set name="tbl-name-new" value={{$:/temp/tt/new-table}}>
+<$set name="tbl-name-new" value={{$:/temp/tbl/new-table}}>
 <!-- $set name="tbl-conf-new" filter="""[<tbl-conf-prefix>] +[addsuffix[/]] +[addsuffix<tbl-name-new>]""" -->
 <$set name="tbl-conf-new" value=<<tbl-conf-new>> >
 
@@ -25,7 +25,7 @@ type: text/vnd.tiddlywiki
 </$list>
 
 <$action-setfield $field="tbl-name" $value=<<tbl-name-new>> />
-<$action-setfield $tiddler="$:/temp/tt/new-table" text="" />
+<$action-setfield $tiddler="$:/temp/tbl/new-table" text="" />
 
 </$set>
 </$set>

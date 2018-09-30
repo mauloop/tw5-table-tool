@@ -8,21 +8,21 @@ title: $:/plugins/mau/TableTool/macros/set-column-properties
 type: text/vnd.tiddlywiki
 
 \define tbl-set-column-properties()
-<$set name="nc" value={{$:/temp/tt/new-column##col-id}} >
+<$set name="nc" value={{$:/temp/tbl/new-column##col-id}} >
 
-<$reveal state="$:/temp/tt/new-column##col-label" type="match" text="" default="">
-<$action-setfield $tiddler="$:/temp/tt/new-column" $index="col-label" $value=<<nc>> />
+<$reveal state="$:/temp/tbl/new-column##col-label" type="match" text="" default="">
+<$action-setfield $tiddler="$:/temp/tbl/new-column" $index="col-label" $value=<<nc>> />
 </$reveal>
 
-<$set name="tbl-column-before" value={{$:/temp/tt/new-column##tbl-column-order}}>
+<$set name="tbl-column-before" value={{$:/temp/tbl/new-column##tbl-column-order}}>
 <$action-listops $tiddler=<<tbl-conf>> $field="list" $subfilter="""+[insertbefore:tbl-column-before<nc>]""" />
 </$set>
 
-<$reveal state="$:/temp/tt/new-column##tbl-hidden" type="match" text="true" default="false">
+<$reveal state="$:/temp/tbl/new-column##tbl-hidden" type="match" text="true" default="false">
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter=<<nc>> />
 </$reveal>
 
-<$reveal state="$:/temp/tt/new-column##tbl-hidden" type="nomatch" text="true" default="false">
+<$reveal state="$:/temp/tbl/new-column##tbl-hidden" type="nomatch" text="true" default="false">
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter="""-[<nc>]""" />
 </$reveal>
 
@@ -31,14 +31,14 @@ type: text/vnd.tiddlywiki
 
 <$list filter="""[<tbl-conf>] +[addsuffix[/]] +[addsuffix<nc>]""">
 <!-- $action-setfield type="application/x-tiddler-dictionary" text=<<tbl-new-column-defaults>> / -->
-<!-- $action-setfield type="application/x-tiddler-dictionary" caption={{$:/temp/tt/new-column##col-label}} / -->
-<$action-setfield $index="col-id" $value={{$:/temp/tt/new-column##col-id}} />
-<$action-setfield $index="col-label" $value={{$:/temp/tt/new-column##col-label}} />
-<$action-setfield $index="tdView" $value={{$:/temp/tt/new-column##tdView}} />
-<$action-setfield $index="tdEdit" $value={{$:/temp/tt/new-column##tdEdit}} />
-<$action-setfield $index="thView" $value={{$:/temp/tt/new-column##thView}} />
-<$action-setfield $index="thEdit" $value={{$:/temp/tt/new-column##thEdit}} />
-<$action-setfield $index="tbl-hidden" $value={{$:/temp/tt/new-column##tbl-hidden}} />
+<!-- $action-setfield type="application/x-tiddler-dictionary" caption={{$:/temp/tbl/new-column##col-label}} / -->
+<$action-setfield $index="col-id" $value={{$:/temp/tbl/new-column##col-id}} />
+<$action-setfield $index="col-label" $value={{$:/temp/tbl/new-column##col-label}} />
+<$action-setfield $index="tdView" $value={{$:/temp/tbl/new-column##tdView}} />
+<$action-setfield $index="tdEdit" $value={{$:/temp/tbl/new-column##tdEdit}} />
+<$action-setfield $index="thView" $value={{$:/temp/tbl/new-column##thView}} />
+<$action-setfield $index="thEdit" $value={{$:/temp/tbl/new-column##thEdit}} />
+<$action-setfield $index="tbl-hidden" $value={{$:/temp/tbl/new-column##tbl-hidden}} />
 </$list>
 
 <$list filter="""[tag<tbl-name>]""">
@@ -46,5 +46,5 @@ type: text/vnd.tiddlywiki
 </$list>
 
 </$set>
-<$action-setfield $tiddler="$:/temp/tt/new-column" text="" />
+<$action-setfield $tiddler="$:/temp/tbl/new-column" text="" />
 \end

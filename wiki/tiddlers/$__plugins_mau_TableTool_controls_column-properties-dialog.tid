@@ -1,6 +1,6 @@
 created: 20170510053211490
 creator: )+(auloop
-footer: <$reveal state="$:/temp/tt/new-column##col-id" type="nomatch" text=""><$button message="tm-close-tiddler" actions=<<tbl-set-column-properties>> >{{$:/core/images/done-button}}</$button></$reveal><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tt/new-column" text="" /></$button>
+footer: <$reveal state="$:/temp/tbl/new-column##col-id" type="nomatch" text=""><$button message="tm-close-tiddler" actions=<<tbl-set-column-properties>> >{{$:/core/images/done-button}}</$button></$reveal><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tbl/new-column" text="" /></$button>
 modified: 20171029143517738
 modifier: )+(auloop
 subtitle: Column properties
@@ -9,16 +9,16 @@ title: $:/plugins/mau/TableTool/controls/column-properties-dialog
 type: text/vnd.tiddlywiki
 
 \define tbl-col-id-enabled()
-<$reveal state="$:/temp/tt/new-column!!tbl-col-id-enabled" type="match" text="enabled" default="disabled">
-<$edit-text tiddler="$:/temp/tt/new-column" index="col-id" tag="input" placeholder="column-id" />
+<$reveal state="$:/temp/tbl/new-column!!tbl-col-id-enabled" type="match" text="enabled" default="disabled">
+<$edit-text tiddler="$:/temp/tbl/new-column" index="col-id" tag="input" placeholder="column-id" />
 </$reveal>
-<$reveal state="$:/temp/tt/new-column!!tbl-col-id-enabled" type="nomatch" text="enabled" default="disabled">
-{{$:/temp/tt/new-column##col-id}}
+<$reveal state="$:/temp/tbl/new-column!!tbl-col-id-enabled" type="nomatch" text="enabled" default="disabled">
+{{$:/temp/tbl/new-column##col-id}}
 </$reveal>
 \end
 
 \define tbl-column-order()
-<$select tiddler="$:/temp/tt/new-column" index="tbl-column-order" default="">
+<$select tiddler="$:/temp/tbl/new-column" index="tbl-column-order" default="">
 <$list filter="""[list<tbl-conf>]""" variable="tbl-current-column">
 <option><<tbl-current-column>></option>
 </$list>
@@ -31,11 +31,11 @@ type: text/vnd.tiddlywiki
 -->
 
 |Column ID|<<tbl-col-id-enabled>>|
-|Column label|<$edit-text tiddler="$:/temp/tt/new-column" index="col-label" tag="input" placeholder="Column Label" />|
-|Column data view|<$edit-text tiddler="$:/temp/tt/new-column" index="tdView" tag="input" />|
-|Column data edit|<$edit-text tiddler="$:/temp/tt/new-column" index="tdEdit" tag="input" />|
-|Column header view|<$edit-text tiddler="$:/temp/tt/new-column" index="thView" tag="input" />|
-|Column header edit|<$edit-text tiddler="$:/temp/tt/new-column" index="thEdit" tag="input" />|
+|Column label|<$edit-text tiddler="$:/temp/tbl/new-column" index="col-label" tag="input" placeholder="Column Label" />|
+|Column data view|<$edit-text tiddler="$:/temp/tbl/new-column" index="tdView" tag="input" />|
+|Column data edit|<$edit-text tiddler="$:/temp/tbl/new-column" index="tdEdit" tag="input" />|
+|Column header view|<$edit-text tiddler="$:/temp/tbl/new-column" index="thView" tag="input" />|
+|Column header edit|<$edit-text tiddler="$:/temp/tbl/new-column" index="thEdit" tag="input" />|
 |Column position|<<tbl-column-order>>|
-|Column hidden|<$checkbox tiddler="$:/temp/tt/new-column" index="tbl-hidden" checked="true" unchecked="false" default="false" />|
+|Column hidden|<$checkbox tiddler="$:/temp/tbl/new-column" index="tbl-hidden" checked="true" unchecked="false" default="false" />|
 |noBorder|k

@@ -14,14 +14,14 @@ New table
 </$button>
 
 <$reveal state="!!tbl-new-table" type="match" text="show">
-<$edit-text tiddler="$:/temp/tt/new-table" tag="input" size=10 />
+<$edit-text tiddler="$:/temp/tbl/new-table" tag="input" size=10 />
 
 <$button class="tc-btn-invisible" set="!!tbl-new-table" setTo="hide">
 <small>{{$:/core/images/close-button}}</small>
 <$action-setfield $tiddler="$:/temp/tbl-new-table" text="" />
 </$button> 
 
-<$reveal state="$:/temp/tt/new-table" type="nomatch" text="">
+<$reveal state="$:/temp/tbl/new-table" type="nomatch" text="">
 <$button class="tc-btn-invisible" set="!!tbl-new-table" setTo="hide" actions=<<tbl-new-table-actions>> >
 <small>{{$:/core/images/done-button}}</small>
 </$button>
