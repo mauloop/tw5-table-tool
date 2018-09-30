@@ -1,10 +1,10 @@
 created: 20170412084142938
 creator: )+(auloop
 list: 
-modified: 20180930165149844
+modified: 20180930203020618
 modifier: )+(auloop
 tags: $:/tags/tbl-macro TableToolPlugin
-title: $:/plugins/mau/TableTool/macros/open-this
+title: $:/plugins/mau/TableTool/macros/td/open-this
 type: text/vnd.tiddlywiki
 
 \define openThis()

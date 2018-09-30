@@ -1,10 +1,10 @@
 created: 20170427165209789
 creator: )+(auloop
 list: 
-modified: 20180930165149906
+modified: 20180930202835821
 modifier: )+(auloop
 tags: $:/tags/tbl-macro TableToolPlugin
-title: $:/plugins/mau/TableTool/macros/edit-date
+title: $:/plugins/mau/TableTool/macros/td/edit-date
 type: text/vnd.tiddlywiki
 
 \define editDate(ef:"YYYY-MM-DD", vf:"YYYY-MM-DD", st, ss, s24)

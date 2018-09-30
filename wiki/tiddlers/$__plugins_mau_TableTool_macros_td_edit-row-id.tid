@@ -1,10 +1,10 @@
 created: 20180821134735927
 creator: )+(auloop
 list: 
-modified: 20180930165149898
+modified: 20180930202912774
 modifier: )+(auloop
 tags: $:/tags/tbl-macro TableToolPlugin
-title: $:/plugins/mau/TableTool/macros/edit-row-id
+title: $:/plugins/mau/TableTool/macros/td/edit-row-id
 type: text/vnd.tiddlywiki
 
 \define editRowID()
