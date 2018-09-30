@@ -11,13 +11,13 @@ type: text/vnd.tiddlywiki
 <!------------------------
 -- "Hide/show columns" control
 -->
-<$set name="tt-hide-show-qualifier" value=<<qualify """hide-show-columns""">> >
-<$set name="tt-hide-show-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-hide-show-qualifier>]""" >
-<$button popup=<<tt-hide-show-state>> >
+<$set name="tbl-hide-show-qualifier" value=<<qualify """hide-show-columns""">> >
+<$set name="tbl-hide-show-state" filter="""[[$:/state/tt/]] +[addsuffix<tbl-hide-show-qualifier>]""" >
+<$button popup=<<tbl-hide-show-state>> >
 Hide/show columns
 </$button>
 
-<$reveal type="popup" position="below" state=<<tt-hide-show-state>> >
+<$reveal type="popup" position="below" state=<<tbl-hide-show-state>> >
 <div class="tc-drop-down">
 
 <<<
