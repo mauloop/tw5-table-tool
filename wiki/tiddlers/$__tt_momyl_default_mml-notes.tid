@@ -9,7 +9,7 @@ type: application/json
     "col-label": "Notes",
     "tdView": "<<showVal>>",
     "tdEdit": "<<editVal>>",
-    "thView": "<<tt-head-menu>>",
+    "thView": "<<tbl-head-menu>>",
     "thEdit": "",
     "tbl-hidden": "",
     "col-width": "350px"

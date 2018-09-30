@@ -9,6 +9,6 @@ type: text/vnd.tiddlywiki
 \define tbl-new-column-defaults()
 tdView:<<showVal>>
 tdEdit:<<inputVal>>
-thView:<<tt-head-menu>>
+thView:<<tbl-head-menu>>
 thEdit:
 \end

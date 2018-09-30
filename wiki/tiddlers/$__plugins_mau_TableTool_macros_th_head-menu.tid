@@ -1,24 +1,24 @@
 created: 20170418101615496
 creator: )+(auloop
-modified: 20171029143518034
+modified: 20180930092802296
 modifier: )+(auloop
 tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/th/head-menu
 type: text/vnd.tiddlywiki
 
-\define tt-head-menu()
-<$set name="tt-head-menu-qualifier" value=<<qualify """$(tbl-col-id)$""">> >
-<$set name="tt-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tt-head-menu-qualifier>]""" >
-<$button popup=<<tt-head-menu-state>> class="tc-btn-invisible">
+\define tbl-head-menu()
+<$set name="tbl-head-menu-qualifier" value=<<qualify """$(tbl-col-id)$""">> >
+<$set name="tbl-head-menu-state" filter="""[[$:/state/tt/]] +[addsuffix<tbl-head-menu-qualifier>]""" >
+<$button popup=<<tbl-head-menu-state>> class="tc-btn-invisible">
 {{$(tbl-col)$##col-label}}
 </$button>
 
-<$reveal type="popup" position="below" state=<<tt-head-menu-state>> >
+<$reveal type="popup" position="below" state=<<tbl-head-menu-state>> >
 <div class="tc-drop-down">
 
 <<<
-<$list filter="""[tag[$:/tags/ttHeadMenu]]""" variable="tt-head-menu-item">
-<$transclude tiddler=<<tt-head-menu-item>> /><br>
+<$list filter="""[tag[$:/tags/ttHeadMenu]]""" variable="tbl-head-menu-item">
+<$transclude tiddler=<<tbl-head-menu-item>> /><br>
 </$list>
 <<<
 

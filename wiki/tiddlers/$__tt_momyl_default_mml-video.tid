@@ -8,7 +8,7 @@ type: application/json
     "col-label": "YouTube",
     "tdView": "<<show-ytvideo>>",
     "tdEdit": "<<inputVal>>",
-    "thView": "<<tt-head-menu>>",
+    "thView": "<<tbl-head-menu>>",
     "thEdit": "",
     "tbl-hidden": "",
 	"col-width": "212px"

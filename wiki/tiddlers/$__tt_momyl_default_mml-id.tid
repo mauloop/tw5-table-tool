@@ -8,7 +8,7 @@ type: application/json
     "col-label": "ID",
     "tdView": "<<showRowID>>",
     "tdEdit": "<<editRowID>>",
-    "thView": "<<tt-head-menu>>",
+    "thView": "<<tbl-head-menu>>",
     "thEdit": "",
     "tbl-hidden": ""
 }
