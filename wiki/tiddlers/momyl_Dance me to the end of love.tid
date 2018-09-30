@@ -9,11 +9,10 @@ mml-song: tdView
 mml-tags: tdView
 mml-video: tdView
 mml-year: tdView
-modified: 20180905204423730
+modified: 20180930194225462
 selected: false
 tags: [[soft rock]] folk momyl
 title: momyl/Dance me to the end of love
-tt-first: tdView
 type: application/json
 
 {
