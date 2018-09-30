@@ -1,7 +1,7 @@
 created: 20170412093519250
 creator: )+(auloop
 list: 
-modified: 20180930110143929
+modified: 20180930210052196
 modifier: )+(auloop
 tags: $:/tags/tbl-control TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/new-row
@@ -50,7 +50,7 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New row
-<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tbl/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> tbl-conf=<<tbl-conf>> tbl-col-id=<<tbl-col-id>> tbl-col=<<tbl-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tbl-set-new-row=<<tbl-set-new-row>> / -->
-<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/row-dialog" currentTiddler="$:/temp/tbl/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tbl-set-new-row=<<tbl-set-new-row>> />
+<!-- $action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/modals/row-dialog" currentTiddler="$:/temp/tbl/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> tbl-conf=<<tbl-conf>> tbl-col-id=<<tbl-col-id>> tbl-col=<<tbl-col>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tbl-set-new-row=<<tbl-set-new-row>> / -->
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/modals/row-dialog" currentTiddler="$:/temp/tbl/new-row" tbl-name=<<tbl-name>> tbl-layout=<<tbl-layout>> check-key=<<check-key>> check-key-list=<<check-key-list>> ok-to-set-new-row=<<ok-to-set-new-row>> tbl-set-new-row=<<tbl-set-new-row>> />
 <$action-setfield $tiddler="$:/temp/tbl/new-row" type="application/json" text="" />
 </$button>

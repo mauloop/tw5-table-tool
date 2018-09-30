@@ -1,11 +1,11 @@
 created: 20180821081510349
 creator: )+(auloop
 footer: <$importvariables filter="[tag[$:/tags/tbl-macro]]"><$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> ><<check-key>></$wikify></$importvariables><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tbl/new-row" text="" /></$button>
-modified: 20180930165426284
+modified: 20180930205951943
 modifier: )+(auloop
 subtitle: Edit row
 tags: TableToolPlugin
-title: $:/plugins/mau/TableTool/controls/row-dialog
+title: $:/plugins/mau/TableTool/modals/row-dialog
 type: text/vnd.tiddlywiki
 
 <$importvariables filter="[tag[$:/tags/tbl-macro]]">

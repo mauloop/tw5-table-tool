@@ -1,7 +1,7 @@
 created: 20170416205039818
 creator: )+(auloop
 list: 
-modified: 20180930110143937
+modified: 20180930205803421
 modifier: )+(auloop
 tags: $:/tags/tbl-control TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/new-column
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 -->
 <$button>
 New column
-<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/controls/column-properties-dialog" tbl-conf=<<tbl-conf>> tbl-name=<<tbl-name>> tbl-set-column-properties=<<tbl-set-column-properties>>/>
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/mau/TableTool/modals/column-dialog" tbl-conf=<<tbl-conf>> tbl-name=<<tbl-name>> tbl-set-column-properties=<<tbl-set-column-properties>>/>
 <$action-setfield $tiddler="$:/temp/tbl/new-column" type="application/x-tiddler-dictionary" text=<<tbl-new-column-defaults>> tbl-col-id-enabled="enabled" />
 </$button>
