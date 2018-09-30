@@ -1,6 +1,7 @@
-created: 20171029181418718
-modified: 20171105225104276
-title: $:/tt/momyl/default/mml-open
+created: 20171030000421762
+modified: 20180930173650914
+tags: 
+title: $:/tbl/momyl/readonly/mml-open
 type: application/json
 
 {
@@ -10,6 +11,5 @@ type: application/json
     "tdEdit": "<<openThis>>",
     "thView": "",
     "thEdit": "",
-    "tbl-hidden": "",
-    "col-width": "30px"
+    "tbl-hidden": "true"
 }

@@ -1,7 +1,6 @@
-created: 20171030000348215
-modified: 20171030000815134
-tags: 
-title: $:/tt/momyl/readonly/mml-select
+created: 20171029181302906
+modified: 20180930173650859
+title: $:/tbl/momyl/default/mml-select
 type: application/json
 
 {
@@ -11,5 +10,5 @@ type: application/json
     "tdEdit": "<<selectThis>>",
     "thView": "<<selectAll>>",
     "thEdit": "<<selectAll>>",
-    "tbl-hidden": "true"
+    "tbl-hidden": "false"
 }
