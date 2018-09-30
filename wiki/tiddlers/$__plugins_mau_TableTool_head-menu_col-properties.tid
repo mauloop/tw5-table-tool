@@ -1,10 +1,10 @@
 created: 20170517195222349
 creator: )+(auloop
 list: 
-modified: 20180930111354265
+modified: 20180930203906706
 modifier: )+(auloop
 tags: $:/tags/tbl-head-menu TableToolPlugin
-title: $:/plugins/mau/TableTool/controls/tthm-properties
+title: $:/plugins/mau/TableTool/head-menu/col-properties
 type: text/vnd.tiddlywiki
 
 <$button class="tc-btn-invisible">
