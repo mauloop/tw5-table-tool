@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 \define tt-conf-new() $(tbl-conf-prefix)$/$(tbl-name-new)$
 
-\define tt-new-table-actions()
+\define tbl-new-table-actions()
 <$set name="tbl-name-new" value={{$:/temp/tt/new-table}}>
 <!-- $set name="tt-conf-new" filter="""[<tbl-conf-prefix>] +[addsuffix[/]] +[addsuffix<tbl-name-new>]""" -->
 <$set name="tt-conf-new" value=<<tt-conf-new>> >
