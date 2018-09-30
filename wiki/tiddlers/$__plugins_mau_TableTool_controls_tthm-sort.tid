@@ -1,8 +1,9 @@
 created: 20170517195608152
 creator: )+(auloop
-modified: 20171029143517838
+list: 
+modified: 20180930111354256
 modifier: )+(auloop
-tags: $:/tags/ttHeadMenu TableToolPlugin
+tags: $:/tags/tbl-head-menu TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/tthm-sort
 type: text/vnd.tiddlywiki
 
