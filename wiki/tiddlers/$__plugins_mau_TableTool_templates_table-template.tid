@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 <$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> >
 <$wikify name="start-row" text=<<start-row>> >
 
-<$set name="display" filter="""[enlist<tbl-controls>] -[[show]]""" value="" emptyValue="tt-display-controls">
+<$set name="display" filter="""[enlist<tbl-controls>] -[[show]]""" value="" emptyValue="tbl-display-controls">
 <$macrocall $name=<<display>> />
 </$set>
 
