@@ -5,7 +5,7 @@ title: $:/plugins/mau/TableTool/macros/display-controls
 type: text/vnd.tiddlywiki
 
 \define tbl-display-controls()
-<$list filter="""[tag[$:/tags/ttControl]]""" variable="tt-control">
-<$transclude tiddler=<<tt-control>> />
+<$list filter="""[tag[$:/tags/ttControl]]""" variable="tbl-control">
+<$transclude tiddler=<<tbl-control>> />
 </$list>
 \end
