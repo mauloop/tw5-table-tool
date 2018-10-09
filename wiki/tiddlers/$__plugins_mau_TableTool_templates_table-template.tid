@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 
 <$tiddler tiddler=<<tbl-conf>> >
 
-<table class="tbt">
+<table class="tbl">
 <!-- header -->
 <$transclude tiddler=<<tbl-row>> />
 <!-- data -->
