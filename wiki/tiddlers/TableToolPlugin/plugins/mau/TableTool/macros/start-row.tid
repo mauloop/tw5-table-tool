@@ -1,0 +1,12 @@
+created: 20180819143414983
+creator: )+(auloop
+list: 
+modified: 20181011101830796
+modifier: )+(auloop
+tags: $:/tags/tbl-macro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/start-row
+type: text/vnd.tiddlywiki
+
+\define start-row()
+<$set name="sr" filter="""[enlist{$(tbl-start-row)$}]""" value={{$(tbl-start-row)$}} emptyValue={{{[tag[$(tbl-name)$]first[]]}}} ><<sr>></$set>
+\end

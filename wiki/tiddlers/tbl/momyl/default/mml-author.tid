@@ -1,0 +1,15 @@
+created: 20171029162853289
+modified: 20181011103227247
+title: $:/tbl/momyl/default/mml-author
+type: application/json
+
+{
+    "col-id": "mml-author",
+    "col-label": "Author",
+    "tdView": "{{##mml-author}}",
+    "tdEdit": "<<inputVal>>",
+    "thView": "<<tbl-head-menu>>",
+    "thEdit": "",
+    "tbl-hidden": "false",
+    "col-width": "120px"
+}

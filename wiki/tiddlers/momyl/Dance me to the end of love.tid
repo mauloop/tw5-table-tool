@@ -1,0 +1,26 @@
+created: 20171029234546105
+mml-author: tdView
+mml-first: tdView
+mml-id: tdView
+mml-notes: tdView
+mml-open: tdView
+mml-select: tdView
+mml-song: tdView
+mml-tags: tdView
+mml-video: tdView
+mml-year: tdView
+modified: 20181011102834117
+selected: false
+tags: [[soft rock]] folk momyl
+title: momyl/Dance me to the end of love
+type: application/json
+
+{
+    "mml-author": "[[Leonard Cohen|https://en.wikipedia.org/wiki/Leonard_Cohen]]",
+    "mml-song": "Dance me to the end of love",
+    "mml-year": "1 Dec 1984",
+    "mml-notes": "I saw him live in 2008. It happened at my birthday. \n\n!!What a gift!!!\n\n__Thank you, Leonard__.<br>\nNow you are dancing in a neverending love.",
+    "mml-first": "Live in concert",
+    "mml-video": "https://www.youtube.com/embed/NGorjBVag0I",
+    "mml-id": "momyl/Dance me to the end of love"
+}

@@ -1,0 +1,16 @@
+created: 20170414142821219
+creator: )+(auloop
+list: 
+modified: 20181011101830616
+modifier: )+(auloop
+tags: $:/tags/tbl-control TableToolPlugin
+title: $:/plugins/mau/TableTool/controls/delete-selected
+type: text/vnd.tiddlywiki
+
+<!--------------------------
+-- "Delete selected" control
+-->
+<$button>
+Delete selected
+<$action-deletetiddler $filter="""[tag<tbl-name>selected[true]]""" />
+</$button>
