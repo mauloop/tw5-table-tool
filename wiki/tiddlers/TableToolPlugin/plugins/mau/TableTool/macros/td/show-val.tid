@@ -1,0 +1,14 @@
+created: 20170411161423687
+creator: )+(auloop
+list: 
+modified: 20181011101830905
+modifier: )+(auloop
+tags: $:/tags/tbl-macro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/td/show-val
+type: text/vnd.tiddlywiki
+
+\define showVal()
+<$button class="tc-btn-invisible" style="text-align: left;" set="!!$(tbl-col-id)$" setTo="tdEdit">
+<$wikify name="val" text={{##$(tbl-col-id)$}} output="html"><<val>></$wikify>
+</$button>
+\end

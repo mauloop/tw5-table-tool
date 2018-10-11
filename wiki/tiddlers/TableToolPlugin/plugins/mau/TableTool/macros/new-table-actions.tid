@@ -1,0 +1,32 @@
+created: 20170417210556197
+creator: )+(auloop
+list: 
+modified: 20181011101830825
+modifier: )+(auloop
+tags: $:/tags/tbl-macro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/new-table-actions
+type: text/vnd.tiddlywiki
+
+\define tbl-conf-new() $(tbl-conf-prefix)$/$(tbl-name-new)$
+
+\define tbl-new-table-actions()
+<$set name="tbl-name-new" value={{$:/temp/tbl/new-table}}>
+<!-- $set name="tbl-conf-new" filter="""[<tbl-conf-prefix>] +[addsuffix[/]] +[addsuffix<tbl-name-new>]""" -->
+<$set name="tbl-conf-new" value=<<tbl-conf-new>> >
+
+<$action-setfield $tiddler=<<tbl-conf-new>> list="tbl-select tbl-open" tbl-select="thView" tbl-open="thView" />
+
+<$list filter="""[<tbl-conf-new>] +[addsuffix[/tbl-select]]""">
+<$action-setfield type="application/x-tiddler-dictionary" text=<<tbl-select-column-defaults>> />
+</$list>
+
+<$list filter="""[<tbl-conf-new>] +[addsuffix[/tbl-open]]""">
+<$action-setfield type="application/x-tiddler-dictionary" text=<<tbl-open-column-defaults>> />
+</$list>
+
+<$action-setfield $field="tbl-name" $value=<<tbl-name-new>> />
+<$action-setfield $tiddler="$:/temp/tbl/new-table" text="" />
+
+</$set>
+</$set>
+\end

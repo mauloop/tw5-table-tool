@@ -1,0 +1,12 @@
+created: 20170412084830861
+creator: )+(auloop
+list: 
+modified: 20181011101830743
+modifier: )+(auloop
+tags: $:/tags/tbl-macro TableToolPlugin
+title: $:/plugins/mau/TableTool/macros/td/select-this
+type: text/vnd.tiddlywiki
+
+\define selectThis()
+<$checkbox field="selected" checked="true" unchecked="false" />
+\end

@@ -1,0 +1,15 @@
+created: 20171104004000814
+modified: 20181011103227591
+tags: 
+title: $:/tbl/momyl/readonly/mml-year
+type: application/json
+
+{
+    "col-id": "mml-year",
+    "col-label": "Year",
+    "tdView": "{{##mml-year}}",
+    "tdEdit": "",
+    "thView": "Year",
+    "thEdit": "",
+    "tbl-hidden": ""
+}

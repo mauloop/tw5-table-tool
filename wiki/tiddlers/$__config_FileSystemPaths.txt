@@ -1,0 +1,3 @@
+[tag[TableToolPlugin]removeprefix[$:]addprefix[TableToolPlugin]]
+[prefix[$:/tbl/]removeprefix[$:/]]
+[prefix[momyl]]
