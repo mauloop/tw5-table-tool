@@ -9,10 +9,10 @@ mml-song: tbl-td-view
 mml-tags: tbl-td-view
 mml-video: tbl-td-view
 mml-year: tbl-td-view
-modified: 20181011102834155
+modified: 20181015211918178
 selected: false
 tags: [[art pop]] [[ambient rock]] post-progressive avant-rock momyl
-title: momyl/Before the bullfight
+title: momyl/20181015231845
 type: application/json
 
 {
@@ -22,5 +22,5 @@ type: application/json
     "mml-video": "https://www.youtube.com/embed/8WiM7dDAceM",
     "mml-first": "Thanks to a friend",
     "mml-notes": "\"\"\"\nSeen him three times.\nNever enough.\n\"\"\"",
-    "mml-id": "momyl/Before the bullfight"
+    "mml-id": "momyl/20181015231845"
 }

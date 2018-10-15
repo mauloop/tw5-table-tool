@@ -1,0 +1,21 @@
+created: 20181012100825820
+modified: 20181013104837681
+tags: tbl-howto
+title: How to define a new column
+type: text/vnd.tiddlywiki
+
+Clicking on the "//New column//" button it opens the "//Column properties//" dialog.
+
+[img[ColumnPropertiesDialog.JPG]]
+
+You have to fill at least the "//Column ID//" field prior to confirm. Here is a brief explanation of all of the dialog fields:
+
+|Field label|Property name|Description|h
+|''Column ID''|`tbl-col-id`|The ID internally used by the plugin. This must be compliant to the [[Tiddlywiki field name constraints|https://tiddlywiki.com/#TiddlerFields]].|
+|''Column label''|`tbl-col-label`|The column title displayed in the header. If not defined, the "//Column ID//" will be used.|
+|''Column data view''|`tbl-td-view`|These fields define what is displayed when the cell (or the column header) is in view or in edit mode. It could be a text string, a field or index reference or a macro. Use of macros is the preferred choice, since it gives the chance to dinamically switch between view and edit mode.<br><br>Some macros are provided to help in most common use cases, or to be used as templates for new macros as well. Default values for these fields enable to edit the cell value inline, clicking on the cell content, and display a context menu if one clicks on the column title.<br><br>At least the following should be provided:<ul><li>//Column data view//: `{{##MyColumnIdentifier}}`, where "//MyColumnIdentifier//" is the same as "//Column ID//"</li><li>//Column header view//: the same as "//Column label//"</li></ul>With this settings the table displays cells content, but the cells cannot be edited inline (if needed, the "//row tiddler//" has to be modified directly).|
+|''Column data edit''|`tbl-td-edit`|~|
+|''Column header view''|`tbl-th-view`|~|
+|''Column header edit''|`tbl-th-edit`|~|
+|''Column position''|none|Sets the order of the columns. Select the name of the column that this one should precede. Default is to place the new column at the end (at the right of the table). There isn't a specific property for this, but a "//list//" field in the layout configuration root tiddler.|
+|''Column hidden''|`tbl-col-hidden`|Flag this if you want the new column to be hidden.|

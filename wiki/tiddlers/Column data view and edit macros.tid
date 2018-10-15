@@ -1,0 +1,118 @@
+created: 20181014160420565
+modified: 20181015102714505
+tags: tbl-howto
+title: Column data view and edit macros
+type: text/vnd.tiddlywiki
+
+These macros are built in order to make every single cell editable and easily switch from tbl-td-view mode to tbl-td-edit mode and vice-versa, i.e., clicking on the cell.
+
+!!`<<tdvShowVal>>`
+Where to use: `tbl-td-view`
+
+<<<
+Shows the text contained in the corrisponding JSON key. The text is wikified. Clicking on the content of the cell makes it switch to tbl-td-edit mode.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-first]]
+:[[$:/tbl/momyl/default/mml-notes]]
+:[[$:/tbl/momyl/default/mml-song]]
+:[[$:/tbl/momyl/default/mml-year]]
+
+!!`<<tdeInputVal>>`
+Where to use: `tbl-td-edit`
+
+<<<
+Displays an edit-text widget that allows to enter a one line text string. Every edit is immediately saved, without confirmation needed. A "//Close//" button gives the chance to switch back to tbl-td-view mode.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-author]]
+:[[$:/tbl/momyl/default/mml-song]]
+:[[$:/tbl/momyl/default/mml-video]]
+
+!!`<<tdeEditVal>>`
+Where to use: `tbl-td-edit`
+
+<<<
+Displays a multi-line edit box. Every edit is immediately saved, without confirmation needed. A "//Close//" button gives the chance to switch back to tbl-td-view mode.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-notes]]
+
+!!`<<tdvSelectThis>>`
+Where to use: `tbl-td-view`
+
+<<<
+Displays a checkbox which, if flagged, marks the entire row as selected. Selected rows are affected by actions triggered by "//Edit selected//" and "//Delete selected//" in the control toolbar. Used as a tbl-td-view mode macro, it does not allow to switch to tbl-td-edit mode, since it would make no sense for this kind of column.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-select]]
+
+!!`<<tdvOpenThis>>`
+Where to use: `tbl-td-view`
+
+<<<
+Displays a clickable icon that opens the corresponding "//row tiddler//". Used as a tbl-td-view mode macro, it does not allow to switch to tbl-td-edit mode, since it would make no sense for this kind of column. 
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-open]]
+
+!!`<<tdeSelectVal>>`
+Where to use: `tbl-td-edit`
+
+<<<
+Displays a select widget. Allowed values that you can select can be added creating tiddlers tagged with the name of the column configuration tiddler (look at <<tag $:/tbl/momyl/default/mml-first>> for an example). A "//Close//" button gives the chance to switch back to tbl-td-view mode.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-first]]
+
+!!`<<tdeEditDate>>`
+Where to use: `tbl-td-edit`
+
+<<<
+Displays a date/time picker. It requires the [[DatePickerPlugin by kixam|http://kixam.github.io/TW5-datePicker/]] to be installed. This is the only component in TableToolPlugin which depends on other plugins. A "//Close//" button gives the chance to switch back to tbl-td-view mode.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-year]]
+
+!!`<<tdvShowTags>>`
+Where to use: `tbl-td-view`
+
+<<<
+Displays tagpills with tags from the "//row tiddler//", excluded the table tag. Used as a tbl-td-view mode macro, it does not allow to switch to tbl-td-edit mode, since I still have not developed a macro to add or remove tags from the "//row tiddler//" (it would be no too hard, just matter of available time). This is an example of how TableTool can be used to display any tiddler field, not just JSON indexes.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-tags]]
+
+!!`<<tdvShowRowID>>`
+Where to use: `tbl-td-view`
+
+<<<
+The "//RowID//" is basically the "//row tiddler//" title. This macro displays the "//row tiddler//" title as if it was the JSON key value related to the current column. Clicking on the content of the cell makes it switch to tbl-td-edit mode, after have the JSON key updated with the title value.
+
+;Note:
+:The "//RowID//" is automatically generated while the "//row tiddler//" is first created with the "//New row//" button. It consists of the table name, followed by a slash and the timestamp of the instant when the row was added. A more sophisticated RowID management is planned, but it is still not included in this TableTool version, since the development is not completed. In any case there are no side effects changing the "//row tiddler//" title to whatever one would like.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-id]]
+
+!!`<<tdeEditRowID>>`
+Where to use: `tbl-td-edit`
+
+<<<
+Displays an edit-text widget that allows to enter a one line text string, quite like the `<<inpuytVal>>` macro. However this one requires explicit confirmation for the changes to be applied. In that case the changed value is used to rename the current "//row tiddler//" title.
+
+;Note:
+:The "//RowID//" is automatically generated while the "//row tiddler//" is first created with the "//New row//" button. It consists of the table name, followed by a slash and the timestamp of the instant when the row was added. A more sophisticated RowID management is planned, but it is still not included in this TableTool version, since the development is not completed. In any case there are no side effects changing the "//row tiddler//" title to whatever one would like.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-id]]

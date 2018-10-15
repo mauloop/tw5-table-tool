@@ -9,10 +9,10 @@ mml-song: tbl-td-view
 mml-tags: tbl-td-view
 mml-video: tbl-td-view
 mml-year: tbl-td-view
-modified: 20181011102833999
+modified: 20181015211838205
 selected: false
 tags: [[new wave]] [[alternative rock]] [[gothic rock]] post-punk momyl
-title: momyl/A forest
+title: momyl/20181015231743
 type: application/json
 
 {
@@ -22,5 +22,5 @@ type: application/json
     "mml-year": "8 Apr 1980",
     "mml-first": "Thanks to a friend",
     "mml-video": "https://www.youtube.com/embed/hnVldyHRcjU",
-    "mml-id": "momyl/A forest"
+    "mml-id": "momyl/20181015231743"
 }

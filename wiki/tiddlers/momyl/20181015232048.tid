@@ -9,10 +9,10 @@ mml-song: tbl-td-view
 mml-tags: tbl-td-view
 mml-video: tbl-td-view
 mml-year: tbl-td-view
-modified: 20181011102834107
+modified: 20181015212112872
 selected: false
 tags: [[folk rock]] [[hard rock]] grunge [[alternative rock]] momyl
-title: momyl/LongNights
+title: momyl/20181015232048
 type: application/json
 
 {
@@ -21,6 +21,6 @@ type: application/json
     "mml-song": "Long nights",
     "mml-year": "18 Sep 2007",
     "mml-first": "Included in a film soundtrack",
-    "mml-notes": "Eddie Vedder has done great things with [[Pearl Jam|https://en.wikipedia.org/wiki/Pearl_Jam]].<br>I didn't know their music when I watched \"Into the wild\".<br>That film and his soundtrack still plays in my heart.",
-    "mml-id": "momyl/LongNights"
+    "mml-notes": "I didn't know [[Pearl Jam|https://en.wikipedia.org/wiki/Pearl_Jam]] when I watched \"Into the wild\".<br>That film and his soundtrack still plays in my heart.",
+    "mml-id": "momyl/20181015232048"
 }

@@ -1,0 +1,38 @@
+created: 20181015102740256
+modified: 20181015200031899
+tags: tbl-howto
+title: Column header view and edit macros
+type: text/vnd.tiddlywiki
+
+These macros enables the column header to do more than simply display che column title (for example show a context menu on click). They are used as tbl-th-view mode macros and do not allow to switch to tbl-th-edit mode. The tbl-th-edit mode is not effectively used.
+
+!!`<<thvHeadMenu>>`
+Where to use: `tbl-th-view`
+
+<<<
+If you click on the column title a menu will be displayed. Menu entries are defined by tiddlers tagged <<tag $:/tags/thvHeadMenu>>. Currently the header menu consists of two entries only:
+
+* //Change column properties//: it opens a "//Column properties//" dialog to change some column properties if needed.
+* //Sort by this column//: fake entry, still not implemented.
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-author]]
+:[[$:/tbl/momyl/default/mml-first]]
+:[[$:/tbl/momyl/default/mml-id]]
+:[[$:/tbl/momyl/default/mml-notes]]
+:[[$:/tbl/momyl/default/mml-song]]
+:[[$:/tbl/momyl/default/mml-tags]]
+:[[$:/tbl/momyl/default/mml-video]]
+:[[$:/tbl/momyl/default/mml-year]]
+
+!!`<<thvSelectAll>>`
+Where to use: `tbl-th-view`
+
+<<<
+Displays a checkbox which, if flagged, marks ''all of the table rows'' as selected. Selected rows are affected by actions triggered by "//Edit selected//" and "//Delete selected//" in the control toolbar (it is a chance to delete all of the rows).
+<<<
+
+;Examples
+:[[$:/tbl/momyl/default/mml-select]]
+

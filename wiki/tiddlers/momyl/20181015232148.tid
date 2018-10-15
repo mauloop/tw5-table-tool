@@ -9,10 +9,10 @@ mml-song: tbl-td-view
 mml-tags: tbl-td-view
 mml-video: tbl-td-view
 mml-year: tbl-td-view
-modified: 20181011102834027
+modified: 20181015212212291
 selected: false
 tags: [[experimental rock]] [[psychedelic rock]] rock momyl
-title: momyl/Octopus
+title: momyl/20181015232148
 type: application/json
 
 {
@@ -22,5 +22,5 @@ type: application/json
     "mml-video": "https://www.youtube.com/embed/8k5WQnfCjmk",
     "mml-first": "Found in a record store",
     "mml-notes": "Madness and genius. ",
-    "mml-id": "momyl/Octopus"
+    "mml-id": "momyl/20181015232148"
 }

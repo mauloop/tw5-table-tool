@@ -1,0 +1,24 @@
+created: 20181012193308424
+modified: 20181014200635496
+tags: tbl-howto
+title: How TableTool works
+type: text/vnd.tiddlywiki
+
+TableTool helps to create a table based on a collection of JSON tiddlers (the [[row tiddlers]]), where each tiddler represents a row and the values of the columns are stored as json keys.
+
+The "//rows tiddlers//" are tagged with the table name. Column properties are defined by tiddlers (the [[column tiddlers]]) which follows a specific naming convention:
+
+`<<tbl-conf-prefix>>`/`<<tbl-name>>`/`<<tbl-layout>>`/`<<tbl-col-id>>`
+
+For example:
+
+[[$:/tbl/momyl/default/mml-author]]
+
+|`<<tbl-conf-prefix>>`|Is the root path for the configuration of any table based on TableTool. Default is `$:/tbl`.|
+|`<<tbl-name>>`|Is the name of the table, the same used to tag the "//row tiddlers//"|
+|`<<tbl-layout>>`|Is the name of a particular table layout. Different layouts allow different views of the same table.|
+|`<<tbl-col-id>>`|The "//row tiddlers//" JSON key that identifies a specific column.|
+
+Columns can be added using a wizard which helps to define the column properties. Column values can be edited inline and new rows can be added with a mouse click.
+
+Helper macros are provided to fit different view and editing needs (single line input fields for text only values versus multiline edit box and formatted text, drop-down lists of values to choose from, time/date pickers, cells with embedded images or videos, transclusion of other tiddler fields, etc.). It should be quite easy to add new custom macros or to modify the ones included in the plugin.
