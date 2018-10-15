@@ -10,6 +10,6 @@ type: application/json
     "tbl-td-edit": "<<openThis>>",
     "tbl-th-view": "",
     "tbl-th-edit": "",
-    "tbl-hidden": "",
+    "tbl-col-hidden": "",
     "col-width": "30px"
 }

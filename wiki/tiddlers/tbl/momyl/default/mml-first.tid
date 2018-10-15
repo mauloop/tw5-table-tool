@@ -10,6 +10,6 @@ type: application/json
     "tbl-td-edit": "<<selectVal>>",
     "tbl-th-view": "<<tbl-head-menu>>",
     "tbl-th-edit": "",
-    "tbl-hidden": "",
+    "tbl-col-hidden": "",
     "col-width": "200px"
 }

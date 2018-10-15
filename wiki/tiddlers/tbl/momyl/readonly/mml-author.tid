@@ -11,5 +11,5 @@ type: application/json
     "tbl-td-edit": "",
     "tbl-th-view": "Author",
     "tbl-th-edit": "",
-    "tbl-hidden": "false"
+    "tbl-col-hidden": "false"
 }

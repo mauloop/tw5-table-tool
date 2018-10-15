@@ -11,5 +11,5 @@ type: application/json
     "tbl-td-edit": "",
     "tbl-th-view": "Tags",
     "tbl-th-edit": "",
-    "tbl-hidden": ""
+    "tbl-col-hidden": ""
 }
