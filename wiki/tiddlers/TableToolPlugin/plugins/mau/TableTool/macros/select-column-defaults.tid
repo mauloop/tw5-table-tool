@@ -8,8 +8,8 @@ title: $:/plugins/mau/TableTool/macros/select-column-defaults
 type: text/vnd.tiddlywiki
 
 \define tbl-select-column-defaults()
-tdView:<<selectThis>>
-tdEdit:<<selectThis>>
-thView:<<selectAll>>
-thEdit:<<selectAll>>
+tbl-td-view:<<selectThis>>
+tbl-td-edit:<<selectThis>>
+tbl-th-view:<<selectAll>>
+tbl-th-edit:<<selectAll>>
 \end

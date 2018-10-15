@@ -6,10 +6,10 @@ type: application/json
 {
     "tbl-col-id": "mml-year",
     "tbl-col-label": "Year",
-    "tdView": "<<showVal>>",
-    "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
+    "tbl-td-view": "<<showVal>>",
+    "tbl-td-edit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
+    "tbl-th-view": "<<tbl-head-menu>>",
+    "tbl-th-edit": "",
     "tbl-hidden": "",
     "col-width": "120px"
 }

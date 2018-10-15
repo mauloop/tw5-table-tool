@@ -6,10 +6,10 @@ type: application/json
 {
     "tbl-col-id": "mml-notes",
     "tbl-col-label": "Notes",
-    "tdView": "<<showVal>>",
-    "tdEdit": "<<editVal>>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
+    "tbl-td-view": "<<showVal>>",
+    "tbl-td-edit": "<<editVal>>",
+    "tbl-th-view": "<<tbl-head-menu>>",
+    "tbl-th-edit": "",
     "tbl-hidden": "",
     "col-width": "350px"
 }

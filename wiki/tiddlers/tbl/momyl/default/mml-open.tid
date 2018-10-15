@@ -6,10 +6,10 @@ type: application/json
 {
     "tbl-col-id": "mml-open",
     "tbl-col-label": "(open)",
-    "tdView": "<<openThis>>",
-    "tdEdit": "<<openThis>>",
-    "thView": "",
-    "thEdit": "",
+    "tbl-td-view": "<<openThis>>",
+    "tbl-td-edit": "<<openThis>>",
+    "tbl-th-view": "",
+    "tbl-th-edit": "",
     "tbl-hidden": "",
     "col-width": "30px"
 }

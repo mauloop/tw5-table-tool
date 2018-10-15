@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 \define editDate(ef:"YYYY-MM-DD", vf:"YYYY-MM-DD", st, ss, s24)
 <$edit-date index=$(tbl-col-id)$ firstDay="1" format="""$ef$""" fieldFormat="""$vf$""" $st$ $ss$ $s24$/>
-<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tbl-td-view">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end

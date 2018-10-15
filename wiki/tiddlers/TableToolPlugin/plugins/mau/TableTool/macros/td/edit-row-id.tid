@@ -12,12 +12,12 @@ type: text/vnd.tiddlywiki
 <$reveal state="""##$(tbl-col-id)$""" type="nomatch" text="" >
 <$button class="tc-btn-invisible">
 <small>{{$:/core/images/done-button}}</small>
-<$action-setfield $(tbl-col-id)$="tdView" title={{##$(tbl-col-id)$}} />
+<$action-setfield $(tbl-col-id)$="tbl-td-view" title={{##$(tbl-col-id)$}} />
 <$action-deletetiddler $tiddler=<<currentTiddler>> />
 </$button>
 </$reveal>
 <$button class="tc-btn-invisible">
 <small>{{$:/core/images/close-button}}</small>
-<$action-setfield $(tbl-col-id)$="tdView" $index="""$(tbl-col-id)$""" $value={{!!title}} />
+<$action-setfield $(tbl-col-id)$="tbl-td-view" $index="""$(tbl-col-id)$""" $value={{!!title}} />
 </$button>
 \end

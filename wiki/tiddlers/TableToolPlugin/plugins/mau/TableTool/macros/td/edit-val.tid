@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 \define editVal()
 <$edit-text index=$(tbl-col-id)$ tag="textarea"/>
-<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tbl-td-view">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end

@@ -7,9 +7,9 @@ type: application/json
 {
     "tbl-col-id": "mml-author",
     "tbl-col-label": "Author",
-    "tdView": "{{##mml-author}}",
-    "tdEdit": "",
-    "thView": "Author",
-    "thEdit": "",
+    "tbl-td-view": "{{##mml-author}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Author",
+    "tbl-th-edit": "",
     "tbl-hidden": "false"
 }

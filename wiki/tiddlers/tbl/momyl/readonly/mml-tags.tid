@@ -7,9 +7,9 @@ type: application/json
 {
     "tbl-col-id": "mml-tags",
     "tbl-col-label": "Tags",
-    "tdView": "<<showTags>>",
-    "tdEdit": "",
-    "thView": "Tags",
-    "thEdit": "",
+    "tbl-td-view": "<<showTags>>",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Tags",
+    "tbl-th-edit": "",
     "tbl-hidden": ""
 }

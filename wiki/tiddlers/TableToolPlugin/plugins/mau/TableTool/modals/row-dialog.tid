@@ -21,7 +21,7 @@ type: text/vnd.tiddlywiki
 <$list filter="""[<tbl-col>tbl-key[yes]]""" variable="tbl-col">
 <tr>
 <td><$transclude tiddler=<<tbl-col>> index="tbl-col-label" /></td>
-<td><$transclude tiddler=<<tbl-col>> index="tdEdit" /></td>
+<td><$transclude tiddler=<<tbl-col>> index="tbl-td-edit" /></td>
 </tr>
 </$list>
 </$list>

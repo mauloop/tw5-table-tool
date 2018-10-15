@@ -7,9 +7,9 @@ type: application/json
 {
     "tbl-col-id": "mml-year",
     "tbl-col-label": "Year",
-    "tdView": "{{##mml-year}}",
-    "tdEdit": "",
-    "thView": "Year",
-    "thEdit": "",
+    "tbl-td-view": "{{##mml-year}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Year",
+    "tbl-th-edit": "",
     "tbl-hidden": ""
 }

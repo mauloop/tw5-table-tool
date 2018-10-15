@@ -17,7 +17,7 @@ Reset
 <$action-setfield selected="false" />
 
 <$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
-<$action-setfield $field=<<tbl-col-id>> $value="tdView" />
+<$action-setfield $field=<<tbl-col-id>> $value="tbl-td-view" />
 </$list>
 
 </$list>

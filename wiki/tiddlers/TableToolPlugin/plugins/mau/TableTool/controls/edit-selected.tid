@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 Edit selected
 <$list filter="""[tag<tbl-name>selected[true]]""">
 <$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
-<$action-setfield $field=<<tbl-col-id>> $value="tdEdit" />
+<$action-setfield $field=<<tbl-col-id>> $value="tbl-td-edit" />
 </$list>
 </$list>
 </$button>

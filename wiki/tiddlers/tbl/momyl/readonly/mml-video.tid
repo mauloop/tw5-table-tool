@@ -7,9 +7,9 @@ type: application/json
 {
     "tbl-col-id": "mml-video",
     "tbl-col-label": "YouTube",
-    "tdView": "<<show-ytvideo>>",
-    "tdEdit": "",
-    "thView": "YouTube",
-    "thEdit": "",
+    "tbl-td-view": "<<show-ytvideo>>",
+    "tbl-td-edit": "",
+    "tbl-th-view": "YouTube",
+    "tbl-th-edit": "",
     "tbl-hidden": ""
 }

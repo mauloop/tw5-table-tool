@@ -38,7 +38,7 @@ type: text/vnd.tiddlywiki
 <$action-listops $tiddler=<<tbl-row-id>> $tags="""[<tbl-name>]""" />
 
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
-<$action-setfield $tiddler=<<tbl-row-id>> $field=<<tbl-col-id>> $value="tdEdit" />
+<$action-setfield $tiddler=<<tbl-row-id>> $field=<<tbl-col-id>> $value="tbl-td-edit" />
 </$list>
 
 </$wikify>

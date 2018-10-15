@@ -7,9 +7,9 @@ type: application/json
 {
     "tbl-col-id": "mml-notes",
     "tbl-col-label": "Notes",
-    "tdView": "<$wikify name='this' text={{##mml-notes}} output='html'><<this>></$wikify>",
-    "tdEdit": "",
-    "thView": "Notes",
-    "thEdit": "",
+    "tbl-td-view": "<$wikify name='this' text={{##mml-notes}} output='html'><<this>></$wikify>",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Notes",
+    "tbl-th-edit": "",
     "tbl-hidden": ""
 }
