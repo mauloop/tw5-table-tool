@@ -11,5 +11,5 @@ type: application/json
     "tbl-th-view": "<<tbl-head-menu>>",
     "tbl-th-edit": "",
     "tbl-col-hidden": "",
-    "col-width": "120px"
+    "tbl-col-width": "120px"
 }

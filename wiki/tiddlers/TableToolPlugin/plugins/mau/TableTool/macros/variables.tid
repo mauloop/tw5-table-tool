@@ -1,7 +1,7 @@
 created: 20170519160134098
 creator: )+(auloop
 list: 
-modified: 20181011101830883
+modified: 20181015190025645
 modifier: )+(auloop
 tags: $:/tags/tbl-macro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/variables
@@ -19,6 +19,6 @@ type: text/vnd.tiddlywiki
 
 \define tbl-conf-prefix() {{$(tbl-plugin)$/config/tbl-conf-prefix}}
 \define tbl-mode() {{!!$(tbl-col-id)$}}
-\define tbl-col-width() {{$(tbl-col)$##col-width}}
+\define tbl-col-width() {{$(tbl-col)$##tbl-col-width}}
 
 <!-- this variables have to be wikified: """<$wikify name="macro" text=<<macro>> >""" -->

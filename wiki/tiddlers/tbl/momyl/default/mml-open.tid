@@ -11,5 +11,5 @@ type: application/json
     "tbl-th-view": "",
     "tbl-th-edit": "",
     "tbl-col-hidden": "",
-    "col-width": "30px"
+    "tbl-col-width": "30px"
 }
