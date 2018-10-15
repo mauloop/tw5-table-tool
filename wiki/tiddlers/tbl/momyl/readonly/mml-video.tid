@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-video
 type: application/json
 
 {
-    "col-id": "mml-video",
-    "col-label": "YouTube",
-    "tdView": "<<show-ytvideo>>",
-    "tdEdit": "",
-    "thView": "YouTube",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-video",
+    "tbl-col-label": "YouTube",
+    "tbl-td-view": "<<show-ytvideo>>",
+    "tbl-td-edit": "",
+    "tbl-th-view": "YouTube",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": ""
 }

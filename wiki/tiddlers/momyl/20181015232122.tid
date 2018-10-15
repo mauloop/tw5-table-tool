@@ -1,18 +1,18 @@
 created: 20171104162201168
-mml-author: tdView
-mml-first: tdView
-mml-id: tdView
-mml-notes: tdView
-mml-open: tdView
-mml-select: tdView
-mml-song: tdView
-mml-tags: tdView
-mml-video: tdView
-mml-year: tdView
-modified: 20181011102834058
+mml-author: tbl-td-view
+mml-first: tbl-td-view
+mml-id: tbl-td-view
+mml-notes: tbl-td-view
+mml-open: tbl-td-view
+mml-select: tbl-td-view
+mml-song: tbl-td-view
+mml-tags: tbl-td-view
+mml-video: tbl-td-view
+mml-year: tbl-td-view
+modified: 20181015212145249
 selected: false
 tags: rock [[new wave]] [[gothic rock]] post-punk momyl
-title: momyl/New dawn fades
+title: momyl/20181015232122
 type: application/json
 
 {
@@ -22,5 +22,5 @@ type: application/json
     "mml-video": "https://www.youtube.com/embed/GqUFbd8aAN0",
     "mml-first": "Thanks to a friend",
     "mml-notes": "\"\"\"\nHe was too young to die.\nI was too young to know Joy Division.\n\"\"\"",
-    "mml-id": "momyl/New dawn fades"
+    "mml-id": "momyl/20181015232122"
 }

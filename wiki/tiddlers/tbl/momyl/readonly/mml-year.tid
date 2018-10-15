@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-year
 type: application/json
 
 {
-    "col-id": "mml-year",
-    "col-label": "Year",
-    "tdView": "{{##mml-year}}",
-    "tdEdit": "",
-    "thView": "Year",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-year",
+    "tbl-col-label": "Year",
+    "tbl-td-view": "{{##mml-year}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Year",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": ""
 }

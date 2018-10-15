@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-select
 type: application/json
 
 {
-    "col-id": "mml-select",
-    "col-label": "(select)",
-    "tdView": "<<selectThis>>",
-    "tdEdit": "<<selectThis>>",
-    "thView": "<<selectAll>>",
-    "thEdit": "<<selectAll>>",
-    "tbl-hidden": "true"
+    "tbl-col-id": "mml-select",
+    "tbl-col-label": "(select)",
+    "tbl-td-view": "<<tdvSelectThis>>",
+    "tbl-td-edit": "<<tdvSelectThis>>",
+    "tbl-th-view": "<<thvSelectAll>>",
+    "tbl-th-edit": "<<thvSelectAll>>",
+    "tbl-col-hidden": "true"
 }

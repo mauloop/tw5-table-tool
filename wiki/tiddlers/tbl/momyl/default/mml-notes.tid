@@ -1,16 +1,15 @@
 created: 20171029234921852
-modified: 20181011103227188
-tbl-key: yes
+modified: 20181014085852412
 title: $:/tbl/momyl/default/mml-notes
 type: application/json
 
 {
-    "col-id": "mml-notes",
-    "col-label": "Notes",
-    "tdView": "<<showVal>>",
-    "tdEdit": "<<editVal>>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
-    "tbl-hidden": "",
-    "col-width": "350px"
+    "tbl-col-id": "mml-notes",
+    "tbl-col-label": "Notes",
+    "tbl-td-view": "<<tdvShowVal>>",
+    "tbl-td-edit": "<<tdeEditVal>>",
+    "tbl-th-view": "<<thvHeadMenu>>",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "",
+    "tbl-col-width": "350px"
 }

@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-author
 type: application/json
 
 {
-    "col-id": "mml-author",
-    "col-label": "Author",
-    "tdView": "{{##mml-author}}",
-    "tdEdit": "",
-    "thView": "Author",
-    "thEdit": "",
-    "tbl-hidden": "false"
+    "tbl-col-id": "mml-author",
+    "tbl-col-label": "Author",
+    "tbl-td-view": "{{##mml-author}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Author",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "false"
 }

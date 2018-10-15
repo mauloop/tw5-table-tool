@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-song
 type: application/json
 
 {
-    "col-id": "mml-song",
-    "col-label": "Song",
-    "tdView": "{{##mml-song}}",
-    "tdEdit": "",
-    "thView": "Song",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-song",
+    "tbl-col-label": "Song",
+    "tbl-td-view": "{{##mml-song}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Song",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": ""
 }

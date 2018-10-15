@@ -1,15 +1,15 @@
 created: 20170412091708009
 creator: )+(auloop
 list: 
-modified: 20181011101830759
+modified: 20181015200311314
 modifier: )+(auloop
-tags: $:/tags/tbl-macro TableToolPlugin
+tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/td/input-val
 type: text/vnd.tiddlywiki
 
-\define inputVal()
+\define tdeInputVal()
 <$edit-text index=$(tbl-col-id)$ tag="input"/>
-<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tdView">
+<$button class="tc-btn-invisible" set="!!$(tbl-col-id)$" setTo="tbl-td-view">
 <small>{{$:/core/images/close-button}}</small>
 </$button>
 \end

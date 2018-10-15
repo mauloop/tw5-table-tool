@@ -4,12 +4,12 @@ title: $:/tbl/momyl/default/mml-year
 type: application/json
 
 {
-    "col-id": "mml-year",
-    "col-label": "Year",
-    "tdView": "<<showVal>>",
-    "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
-    "tbl-hidden": "",
-    "col-width": "120px"
+    "tbl-col-id": "mml-year",
+    "tbl-col-label": "Year",
+    "tbl-td-view": "<<tdvShowVal>>",
+    "tbl-td-edit": "<<tdeEditDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
+    "tbl-th-view": "<<thvHeadMenu>>",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "",
+    "tbl-col-width": "120px"
 }

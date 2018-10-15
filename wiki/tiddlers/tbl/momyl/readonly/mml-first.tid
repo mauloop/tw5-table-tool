@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-first
 type: application/json
 
 {
-    "col-id": "mml-first",
-    "col-label": "First listen",
-    "tdView": "{{##mml-first}}",
-    "tdEdit": "",
-    "thView": "First listen",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-first",
+    "tbl-col-label": "First listen",
+    "tbl-td-view": "{{##mml-first}}",
+    "tbl-td-edit": "",
+    "tbl-th-view": "First listen",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": ""
 }

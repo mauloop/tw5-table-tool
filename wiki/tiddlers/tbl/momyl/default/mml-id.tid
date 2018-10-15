@@ -1,14 +1,14 @@
 created: 20180821134201923
-modified: 20181011103227208
+modified: 20181015212232749
 title: $:/tbl/momyl/default/mml-id
 type: application/json
 
 {
-    "col-id": "mml-id",
-    "col-label": "ID",
-    "tdView": "<<showRowID>>",
-    "tdEdit": "<<editRowID>>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-id",
+    "tbl-col-label": "ID",
+    "tbl-td-view": "<<tdvShowRowID>>",
+    "tbl-td-edit": "<<tdeEditRowID>>",
+    "tbl-th-view": "<<thvHeadMenu>>",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "true"
 }

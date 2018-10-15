@@ -1,20 +1,27 @@
 created: 20171028192637865
 creator: danielo515
-modified: 20171028220633859
+modified: 20181014204018552
 modifier: )+(auloop
 title: HelloThere
 type: text/vnd.tiddlywiki
 
 ----
-Here are some TW5 customization I am working on to make it easier to create and modify tables built upon the content of other tiddlers. This work is not complete and not ready to be cloned and used as is. 
+Here are some TW5 customization I am working on to make it easier to create and modify tables built upon the content of other tiddlers. This work is not complete, even if it could be used with some caveats.
 
-As well, browsing the wiki, you can find something useful or maybe you can give me suggestions to improve it. In both the cases you are welcome.
+I'm aware that there are some better solutions out there to accomplish the same goal, first of all [["Dynamic Tables" by Jed Carty|https://ooktech.com/jed/ExampleWikis/DynamicTables/]]. Still I'd like to develop one on my own, to force me to learn Tiddlywiki.
+
+I hope you will find something useful browsing this wiki and maybe you will give me suggestions to improve it. In both the cases you are welcome.
+
+I planned to pack this as a plugin but I am still not ready. If you would like, you can download all of the required tiddlers as a [[JSON bundle|TableToolPlugin tiddlers list]]
 
 """
 The wiki URL is: http://mauloop.github.io/tw5-table-tool
 The GitHub repository is: https://github.com/mauloop/tw5-table-tool
 """
 
-It is originally cloned from [[the precious work of danielo515|https://github.com/danielo515/TW5-auto-publish2gh-pages]]. Everything related to hosting TW5 on GitHub and [[Travis CI|https://travis-ci.org/]] integration is well explained there.
+This site is built as a Github page, thanks to [[the precious work of danielo515|https://github.com/danielo515/TW5-auto-publish2gh-pages]]. Everything related to hosting TW5 on GitHub and [[Travis CI|https://travis-ci.org/]] integration is well explained there.
 
 If you are interested in TW5 itself, go to the [[Tiddlywiki home page|http://tiddlywiki.com/]].
+
+;Note:
+:My initial goal was to develop something to make it easier to manage tables in Tiddlywiki, also for first time users, used to click'n'play and unaware of Tiddlywiki internals or how to use macros and widgets. Despite this the actual development stage makes it suitable for users experienced with Tiddlywiki, who could eventually take this (or part of this) as a building block for other TW5 based projects. I'd like it could help.

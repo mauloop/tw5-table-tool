@@ -1,26 +1,26 @@
 created: 20180821143945689
-mml-author: tdView
-mml-first: tdView
-mml-id: tdView
-mml-notes: tdView
-mml-open: tdEdit
-mml-select: tdEdit
-mml-song: tdView
-mml-tags: tdEdit
-mml-video: tdView
-mml-year: tdView
-modified: 20181011102834141
+mml-author: tbl-td-view
+mml-first: tbl-td-view
+mml-id: tbl-td-view
+mml-notes: tbl-td-view
+mml-open: tbl-td-edit
+mml-select: tbl-td-edit
+mml-song: tbl-td-view
+mml-tags: tbl-td-edit
+mml-video: tbl-td-view
+mml-year: tbl-td-view
+modified: 20181015211951384
 selected: false
 tags: [[experimental rock]] [[folk rock]] [[indie rock]] [[art rock]] [[punk blues]] [[alternative rock]] momyl
-title: momyl/C'mon Billy
+title: momyl/20181015231925
 type: application/json
 
 {
     "mml-author": "[[PJ Harvey|https://en.wikipedia.org/wiki/PJ_Harvey]]",
     "mml-song": "C'mon Billy",
-    "mml-notes": "Where was I when __this angel__ fell on the Earth?",
+    "mml-notes": "Wonder how I didn't notice her when she fell on the Earth?",
     "mml-year": "27 Feb 1995",
     "mml-first": "Browsing YouTube",
     "mml-video": "https://www.youtube.com/embed/MHio6qA-GdM",
-    "mml-id": "momyl/C'mon Billy"
+    "mml-id": "momyl/20181015231925"
 }

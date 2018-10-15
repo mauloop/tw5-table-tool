@@ -1,10 +1,10 @@
 created: 20170414143029421
 creator: )+(auloop
 list: 
-modified: 20181011101830699
+modified: 20181015201310578
 modifier: )+(auloop
 select-all: false
-tags: $:/tags/tbl-control TableToolPlugin
+tags: $:/tags/tblControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/reset
 type: text/vnd.tiddlywiki
 
@@ -17,7 +17,7 @@ Reset
 <$action-setfield selected="false" />
 
 <$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
-<$action-setfield $field=<<tbl-col-id>> $value="tdView" />
+<$action-setfield $field=<<tbl-col-id>> $value="tbl-td-view" />
 </$list>
 
 </$list>

@@ -1,9 +1,9 @@
 created: 20170414141953796
 creator: )+(auloop
 list: 
-modified: 20181011101830608
+modified: 20181015201310638
 modifier: )+(auloop
-tags: $:/tags/tbl-control TableToolPlugin
+tags: $:/tags/tblControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/edit-selected
 type: text/vnd.tiddlywiki
 
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 Edit selected
 <$list filter="""[tag<tbl-name>selected[true]]""">
 <$list filter="""[list<tbl-conf>] -[list<tbl-list-hidden>]""" variable="tbl-col-id">
-<$action-setfield $field=<<tbl-col-id>> $value="tdEdit" />
+<$action-setfield $field=<<tbl-col-id>> $value="tbl-td-edit" />
 </$list>
 </$list>
 </$button>

@@ -5,11 +5,11 @@ title: $:/tbl/momyl/readonly/mml-tags
 type: application/json
 
 {
-    "col-id": "mml-tags",
-    "col-label": "Tags",
-    "tdView": "<<showTags>>",
-    "tdEdit": "",
-    "thView": "Tags",
-    "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-col-id": "mml-tags",
+    "tbl-col-label": "Tags",
+    "tbl-td-view": "<<tdvShowTags>>",
+    "tbl-td-edit": "",
+    "tbl-th-view": "Tags",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": ""
 }

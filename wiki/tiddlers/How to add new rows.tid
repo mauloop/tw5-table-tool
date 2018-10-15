@@ -1,0 +1,18 @@
+created: 20181014082756290
+modified: 20181014202907694
+tags: tbl-howto
+title: How to add new rows
+type: text/vnd.tiddlywiki
+
+To add a new row click on the "//New row//" button. A row with all of the columns in edit mode will be added at the end of the table.
+
+For every column it is possible to add value and close edit mode one by one. Alternatively you can add values to the columns and finally click the "//Reset//" button in the control toolbar to set all the columns to view mode only once.
+
+The newly generated "//row tiddler//" will be titled as follows:
+
+`<<tbl-name>>`/`<<now "YYYY0MM0DD0hh0mm0ss">>`
+
+The "//row tiddler//" title represents the "//RowID//".
+
+;Note:
+:The "//RowID//" is automatically generated while the "//row tiddler//" is first created with the "//New row//" button. It consists of the table name, followed by a slash and the timestamp of the instant when the row was added. A more sophisticated RowID management is planned, but it is still not included in this TableTool version, since the development is not completed. In any case there are no side effects changing the "//row tiddler//" title to whatever one would like.

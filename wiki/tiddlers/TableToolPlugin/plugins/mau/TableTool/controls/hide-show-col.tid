@@ -1,13 +1,13 @@
 created: 20170518152407734
 creator: )+(auloop
 list: 
-modified: 20181011101830592
+modified: 20181015201310623
 modifier: )+(auloop
-tags: $:/tags/tbl-control TableToolPlugin
+tags: $:/tags/tblControl TableToolPlugin
 title: $:/plugins/mau/TableTool/controls/hide-show-col
 type: text/vnd.tiddlywiki
 
-\define tbl-hidden-state() $(tbl-col)$##tbl-hidden
+\define tbl-col-hidden-state() $(tbl-col)$##tbl-col-hidden
 
 <!------------------------
 -- "Hide/show columns" control
@@ -24,16 +24,16 @@ Hide/show columns
 <<<
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
 <$button class="tc-btn-invisible">
-<$checkbox tiddler=<<tbl-col>> index="tbl-hidden" checked="true" unchecked="false" default="false">
-<$transclude tiddler=<<tbl-col>> index="col-label"/>
+<$checkbox tiddler=<<tbl-col>> index="tbl-col-hidden" checked="true" unchecked="false" default="false">
+<$transclude tiddler=<<tbl-col>> index="tbl-col-label"/>
 
-<$reveal state=<<tbl-hidden-state>> type="match" text="true" default="false">
-<$action-setfield $tiddler=<<tbl-col>> $index="tbl-hidden" $value="false" />
+<$reveal state=<<tbl-col-hidden-state>> type="match" text="true" default="false">
+<$action-setfield $tiddler=<<tbl-col>> $index="tbl-col-hidden" $value="false" />
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter="""-[<tbl-col-id>]""" />
 </$reveal>
 
-<$reveal state=<<tbl-hidden-state>> type="nomatch" text="true" default="false">
-<$action-setfield $tiddler=<<tbl-col>> $index="tbl-hidden" $value="true" />
+<$reveal state=<<tbl-col-hidden-state>> type="nomatch" text="true" default="false">
+<$action-setfield $tiddler=<<tbl-col>> $index="tbl-col-hidden" $value="true" />
 <$action-listops $tiddler=<<tbl-conf>> $field="tbl-list-hidden" $subfilter=<<tbl-col-id>> />
 </$reveal>
 

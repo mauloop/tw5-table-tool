@@ -4,12 +4,12 @@ title: $:/tbl/momyl/default/mml-open
 type: application/json
 
 {
-    "col-id": "mml-open",
-    "col-label": "(open)",
-    "tdView": "<<openThis>>",
-    "tdEdit": "<<openThis>>",
-    "thView": "",
-    "thEdit": "",
-    "tbl-hidden": "",
-    "col-width": "30px"
+    "tbl-col-id": "mml-open",
+    "tbl-col-label": "(open)",
+    "tbl-td-view": "<<tdvOpenThis>>",
+    "tbl-td-edit": "<<tdvOpenThis>>",
+    "tbl-th-view": "",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "",
+    "tbl-col-width": "30px"
 }

@@ -4,12 +4,12 @@ title: $:/tbl/momyl/default/mml-author
 type: application/json
 
 {
-    "col-id": "mml-author",
-    "col-label": "Author",
-    "tdView": "{{##mml-author}}",
-    "tdEdit": "<<inputVal>>",
-    "thView": "<<tbl-head-menu>>",
-    "thEdit": "",
-    "tbl-hidden": "false",
-    "col-width": "120px"
+    "tbl-col-id": "mml-author",
+    "tbl-col-label": "Author",
+    "tbl-td-view": "{{##mml-author}}",
+    "tbl-td-edit": "<<tdeInputVal>>",
+    "tbl-th-view": "<<thvHeadMenu>>",
+    "tbl-th-edit": "",
+    "tbl-col-hidden": "false",
+    "tbl-col-width": "120px"
 }

@@ -1,0 +1,27 @@
+created: 20181011163718017
+modified: 20181013103939409
+tags: tbl-howto
+title: How to create a new table
+type: text/vnd.tiddlywiki
+
+To create a new table use the macro `<<table-tool>>`. It takes three parameter:
+
+|Parameter|Description|Allowed values|Default value|Mandatory/Optional|h
+|`tbl-name`|The table name|Any kind of text string|none|Mandatory|
+|`tbl-layout`|Different layout/views of the same table are allowed.<br>This one selects a specific layout|Any kind of text string|"//default//"|Optional|
+|`tbl-controls`|Toggle the display of the control toolbar<br>at the head of the table on/off|"//show//" or "//hide//"|"//show//"|Optional|
+
+If the macro is invoked with a new (not existing) table name, it displays only the controls toolbar. By the use of "//New column//" and "//New row//" controls you can build your table and populate it. 
+
+For example: `<<table-tool "MyNewTable">>`, displays the following:
+
+<<table-tool "MyNewTable">>
+
+Simplest path is:
+
+# first use the macro with the basic syntax
+# creates of all the needed columns
+# add rows
+# clone the default layout and modify the cloned one to create new layouts
+
+A basic default layout and a read only layout [[examples|The music of my life]] are provided.

@@ -1,5 +1,5 @@
 created: 20171029161833304
-modified: 20171105234541358
+modified: 20181012093010518
 tags: 
 title: The music of my life
 type: text/vnd.tiddlywiki
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 These are simple TableTool usage examples.
 
-<<tabs """[[TableToolPlugin default view demo]] [[TableToolPlugin readonly view demo]]""" """[[TableToolPlugin default view demo]]""">>
+<<tabs """[[TableToolPlugin default view demo]] [[TableToolPlugin readonly view demo]]""" """TableToolPlugin default view demo""">>
