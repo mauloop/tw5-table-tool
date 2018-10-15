@@ -1,15 +1,15 @@
 created: 20170415223200010
 creator: )+(auloop
 list: 
-modified: 20181011101830653
+modified: 20181015200311373
 modifier: )+(auloop
-tags: $:/tags/tbl-macro TableToolPlugin
+tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/new-column-defaults
 type: text/vnd.tiddlywiki
 
 \define tbl-new-column-defaults()
-tbl-td-view:<<showVal>>
-tbl-td-edit:<<inputVal>>
-tbl-th-view:<<tbl-head-menu>>
+tbl-td-view:<<tdvShowVal>>
+tbl-td-edit:<<tdeInputVal>>
+tbl-th-view:<<thvHeadMenu>>
 tbl-th-edit:
 \end

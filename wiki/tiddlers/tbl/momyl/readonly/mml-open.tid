@@ -7,8 +7,8 @@ type: application/json
 {
     "tbl-col-id": "mml-open",
     "tbl-col-label": "(open)",
-    "tbl-td-view": "<<openThis>>",
-    "tbl-td-edit": "<<openThis>>",
+    "tbl-td-view": "<<tdvOpenThis>>",
+    "tbl-td-edit": "<<tdvOpenThis>>",
     "tbl-th-view": "",
     "tbl-th-edit": "",
     "tbl-col-hidden": "true"

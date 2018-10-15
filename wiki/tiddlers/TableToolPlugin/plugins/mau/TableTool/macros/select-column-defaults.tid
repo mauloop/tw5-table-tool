@@ -1,15 +1,15 @@
 created: 20170417213344727
 creator: )+(auloop
 list: 
-modified: 20181011101830811
+modified: 20181015200311359
 modifier: )+(auloop
-tags: $:/tags/tbl-macro TableToolPlugin
+tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/select-column-defaults
 type: text/vnd.tiddlywiki
 
 \define tbl-select-column-defaults()
-tbl-td-view:<<selectThis>>
-tbl-td-edit:<<selectThis>>
-tbl-th-view:<<selectAll>>
-tbl-th-edit:<<selectAll>>
+tbl-td-view:<<tdvSelectThis>>
+tbl-td-edit:<<tdvSelectThis>>
+tbl-th-view:<<thvSelectAll>>
+tbl-th-edit:<<thvSelectAll>>
 \end

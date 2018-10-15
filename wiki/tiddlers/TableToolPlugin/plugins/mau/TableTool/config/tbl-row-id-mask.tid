@@ -1,9 +1,9 @@
 created: 20180820194437205
 creator: )+(auloop
 list: 
-modified: 20181014102633060
+modified: 20181015200311388
 modifier: )+(auloop
-tags: $:/tags/tbl-macro TableToolPlugin
+tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/config/tbl-row-id-mask
 type: text/vnd.tiddlywiki
 

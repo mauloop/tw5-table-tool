@@ -6,9 +6,9 @@ type: application/json
 {
     "tbl-col-id": "mml-select",
     "tbl-col-label": "(select)",
-    "tbl-td-view": "<<selectThis>>",
-    "tbl-td-edit": "<<selectThis>>",
-    "tbl-th-view": "<<selectAll>>",
-    "tbl-th-edit": "<<selectAll>>",
+    "tbl-td-view": "<<tdvSelectThis>>",
+    "tbl-td-edit": "<<tdvSelectThis>>",
+    "tbl-th-view": "<<thvSelectAll>>",
+    "tbl-th-edit": "<<thvSelectAll>>",
     "tbl-col-hidden": "false"
 }

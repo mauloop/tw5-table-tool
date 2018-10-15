@@ -1,13 +1,13 @@
 created: 20170417221320425
 creator: )+(auloop
-modified: 20181011101830854
+modified: 20181015200459727
 modifier: )+(auloop
 tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/templates/table-template
 tmap.id: b50e9bd4-f5a3-445d-affc-80ddc2ac39ff
 type: text/vnd.tiddlywiki
 
-<$importvariables filter="[tag[$:/tags/tbl-macro]]">
+<$importvariables filter="[tag[$:/tags/tblMacro]]">
 
 <$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> >
 <$wikify name="start-row" text=<<start-row>> >

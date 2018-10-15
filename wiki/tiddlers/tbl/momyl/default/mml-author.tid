@@ -7,8 +7,8 @@ type: application/json
     "tbl-col-id": "mml-author",
     "tbl-col-label": "Author",
     "tbl-td-view": "{{##mml-author}}",
-    "tbl-td-edit": "<<inputVal>>",
-    "tbl-th-view": "<<tbl-head-menu>>",
+    "tbl-td-edit": "<<tdeInputVal>>",
+    "tbl-th-view": "<<thvHeadMenu>>",
     "tbl-th-edit": "",
     "tbl-col-hidden": "false",
     "tbl-col-width": "120px"

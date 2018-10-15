@@ -6,9 +6,9 @@ type: application/json
 {
     "tbl-col-id": "mml-first",
     "tbl-col-label": "First listen",
-    "tbl-td-view": "<<showVal>>",
-    "tbl-td-edit": "<<selectVal>>",
-    "tbl-th-view": "<<tbl-head-menu>>",
+    "tbl-td-view": "<<tdvShowVal>>",
+    "tbl-td-edit": "<<tdeSelectVal>>",
+    "tbl-th-view": "<<thvHeadMenu>>",
     "tbl-th-edit": "",
     "tbl-col-hidden": "",
     "tbl-col-width": "200px"

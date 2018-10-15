@@ -6,9 +6,9 @@ type: application/json
 {
     "tbl-col-id": "mml-year",
     "tbl-col-label": "Year",
-    "tbl-td-view": "<<showVal>>",
-    "tbl-td-edit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
-    "tbl-th-view": "<<tbl-head-menu>>",
+    "tbl-td-view": "<<tdvShowVal>>",
+    "tbl-td-edit": "<<tdeEditDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
+    "tbl-th-view": "<<thvHeadMenu>>",
     "tbl-th-edit": "",
     "tbl-col-hidden": "",
     "tbl-col-width": "120px"
