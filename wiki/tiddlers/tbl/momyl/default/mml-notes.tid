@@ -4,7 +4,7 @@ title: $:/tbl/momyl/default/mml-notes
 type: application/json
 
 {
-    "col-id": "mml-notes",
+    "tbl-col-id": "mml-notes",
     "col-label": "Notes",
     "tdView": "<<showVal>>",
     "tdEdit": "<<editVal>>",

@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-author
 type: application/json
 
 {
-    "col-id": "mml-author",
+    "tbl-col-id": "mml-author",
     "col-label": "Author",
     "tdView": "{{##mml-author}}",
     "tdEdit": "",

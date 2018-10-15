@@ -8,7 +8,7 @@ title: $:/plugins/mau/TableTool/macros/set-column-properties
 type: text/vnd.tiddlywiki
 
 \define tbl-set-column-properties()
-<$set name="nc" value={{$:/temp/tbl/new-column##col-id}} >
+<$set name="nc" value={{$:/temp/tbl/new-column##tbl-col-id}} >
 
 <$reveal state="$:/temp/tbl/new-column##col-label" type="match" text="" default="">
 <$action-setfield $tiddler="$:/temp/tbl/new-column" $index="col-label" $value=<<nc>> />
@@ -32,7 +32,7 @@ type: text/vnd.tiddlywiki
 <$list filter="""[<tbl-conf>] +[addsuffix[/]] +[addsuffix<nc>]""">
 <!-- $action-setfield type="application/x-tiddler-dictionary" text=<<tbl-new-column-defaults>> / -->
 <!-- $action-setfield type="application/x-tiddler-dictionary" caption={{$:/temp/tbl/new-column##col-label}} / -->
-<$action-setfield $index="col-id" $value={{$:/temp/tbl/new-column##col-id}} />
+<$action-setfield $index="tbl-col-id" $value={{$:/temp/tbl/new-column##tbl-col-id}} />
 <$action-setfield $index="col-label" $value={{$:/temp/tbl/new-column##col-label}} />
 <$action-setfield $index="tdView" $value={{$:/temp/tbl/new-column##tdView}} />
 <$action-setfield $index="tdEdit" $value={{$:/temp/tbl/new-column##tdEdit}} />

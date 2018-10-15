@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-notes
 type: application/json
 
 {
-    "col-id": "mml-notes",
+    "tbl-col-id": "mml-notes",
     "col-label": "Notes",
     "tdView": "<$wikify name='this' text={{##mml-notes}} output='html'><<this>></$wikify>",
     "tdEdit": "",

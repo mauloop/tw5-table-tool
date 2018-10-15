@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-video
 type: application/json
 
 {
-    "col-id": "mml-video",
+    "tbl-col-id": "mml-video",
     "col-label": "YouTube",
     "tdView": "<<show-ytvideo>>",
     "tdEdit": "",

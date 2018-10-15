@@ -4,7 +4,7 @@ title: $:/tbl/momyl/default/mml-year
 type: application/json
 
 {
-    "col-id": "mml-year",
+    "tbl-col-id": "mml-year",
     "col-label": "Year",
     "tdView": "<<showVal>>",
     "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",

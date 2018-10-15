@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-year
 type: application/json
 
 {
-    "col-id": "mml-year",
+    "tbl-col-id": "mml-year",
     "col-label": "Year",
     "tdView": "{{##mml-year}}",
     "tdEdit": "",

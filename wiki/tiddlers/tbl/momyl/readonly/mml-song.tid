@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-song
 type: application/json
 
 {
-    "col-id": "mml-song",
+    "tbl-col-id": "mml-song",
     "col-label": "Song",
     "tdView": "{{##mml-song}}",
     "tdEdit": "",

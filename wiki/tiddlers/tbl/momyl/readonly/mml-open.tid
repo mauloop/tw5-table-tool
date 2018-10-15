@@ -5,7 +5,7 @@ title: $:/tbl/momyl/readonly/mml-open
 type: application/json
 
 {
-    "col-id": "mml-open",
+    "tbl-col-id": "mml-open",
     "col-label": "(open)",
     "tdView": "<<openThis>>",
     "tdEdit": "<<openThis>>",
