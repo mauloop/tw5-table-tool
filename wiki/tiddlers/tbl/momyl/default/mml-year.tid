@@ -5,7 +5,7 @@ type: application/json
 
 {
     "tbl-col-id": "mml-year",
-    "col-label": "Year",
+    "tbl-col-label": "Year",
     "tdView": "<<showVal>>",
     "tdEdit": "<<editDate \"\"\"D MMM YYYY\"\"\" \"\"\"D MMM YYYY\"\"\">>",
     "thView": "<<tbl-head-menu>>",

@@ -6,7 +6,7 @@ type: application/json
 
 {
     "tbl-col-id": "mml-first",
-    "col-label": "First listen",
+    "tbl-col-label": "First listen",
     "tdView": "{{##mml-first}}",
     "tdEdit": "",
     "thView": "First listen",

@@ -6,7 +6,7 @@ type: application/json
 
 {
     "tbl-col-id": "mml-select",
-    "col-label": "(select)",
+    "tbl-col-label": "(select)",
     "tdView": "<<selectThis>>",
     "tdEdit": "<<selectThis>>",
     "thView": "<<selectAll>>",

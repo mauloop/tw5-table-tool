@@ -5,7 +5,7 @@ type: application/json
 
 {
     "tbl-col-id": "mml-notes",
-    "col-label": "Notes",
+    "tbl-col-label": "Notes",
     "tdView": "<<showVal>>",
     "tdEdit": "<<editVal>>",
     "thView": "<<tbl-head-menu>>",

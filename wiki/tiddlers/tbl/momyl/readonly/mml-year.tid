@@ -6,7 +6,7 @@ type: application/json
 
 {
     "tbl-col-id": "mml-year",
-    "col-label": "Year",
+    "tbl-col-label": "Year",
     "tdView": "{{##mml-year}}",
     "tdEdit": "",
     "thView": "Year",

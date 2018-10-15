@@ -31,7 +31,7 @@ type: text/vnd.tiddlywiki
 -->
 
 |Column ID|<<tbl-col-id-enabled>>|
-|Column label|<$edit-text tiddler="$:/temp/tbl/new-column" index="col-label" tag="input" placeholder="Column Label" />|
+|Column label|<$edit-text tiddler="$:/temp/tbl/new-column" index="tbl-col-label" tag="input" placeholder="Column Label" />|
 |Column data view|<$edit-text tiddler="$:/temp/tbl/new-column" index="tdView" tag="input" />|
 |Column data edit|<$edit-text tiddler="$:/temp/tbl/new-column" index="tdEdit" tag="input" />|
 |Column header view|<$edit-text tiddler="$:/temp/tbl/new-column" index="thView" tag="input" />|

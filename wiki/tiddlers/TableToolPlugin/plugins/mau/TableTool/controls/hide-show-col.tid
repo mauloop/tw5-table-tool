@@ -25,7 +25,7 @@ Hide/show columns
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
 <$button class="tc-btn-invisible">
 <$checkbox tiddler=<<tbl-col>> index="tbl-hidden" checked="true" unchecked="false" default="false">
-<$transclude tiddler=<<tbl-col>> index="col-label"/>
+<$transclude tiddler=<<tbl-col>> index="tbl-col-label"/>
 
 <$reveal state=<<tbl-hidden-state>> type="match" text="true" default="false">
 <$action-setfield $tiddler=<<tbl-col>> $index="tbl-hidden" $value="false" />
