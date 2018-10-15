@@ -1,7 +1,7 @@
 created: 20180821081510349
 creator: )+(auloop
 footer: <$importvariables filter="[tag[$:/tags/tbl-macro]]"><$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> ><<check-key>></$wikify></$importvariables><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tbl/new-row" text="" /></$button>
-modified: 20181011101830869
+modified: 20181014084552888
 modifier: )+(auloop
 subtitle: Edit row
 tags: TableToolPlugin
@@ -16,12 +16,14 @@ type: text/vnd.tiddlywiki
 -- "Row" dialog
 -->
 
-<table>
+<table class="noBorder">
 <$list filter="""[list<tbl-conf>]""" variable="tbl-col-id">
+<$list filter="""[<tbl-col>tbl-key[yes]]""" variable="tbl-col">
 <tr>
 <td><$transclude tiddler=<<tbl-col>> index="col-label" /></td>
 <td><$transclude tiddler=<<tbl-col>> index="tdEdit" /></td>
 </tr>
+</$list>
 </$list>
 </table>
 

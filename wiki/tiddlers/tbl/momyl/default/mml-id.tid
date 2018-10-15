@@ -1,5 +1,5 @@
 created: 20180821134201923
-modified: 20181011103227208
+modified: 20181014204207098
 title: $:/tbl/momyl/default/mml-id
 type: application/json
 
@@ -10,5 +10,5 @@ type: application/json
     "tdEdit": "<<editRowID>>",
     "thView": "<<tbl-head-menu>>",
     "thEdit": "",
-    "tbl-hidden": ""
+    "tbl-hidden": "true"
 }
