@@ -1,6 +1,6 @@
 created: 20171028192637865
 creator: danielo515
-modified: 20181014204018552
+modified: 20181016214613556
 modifier: )+(auloop
 title: HelloThere
 type: text/vnd.tiddlywiki
@@ -11,8 +11,6 @@ Here are some TW5 customization I am working on to make it easier to create and 
 I'm aware that there are some better solutions out there to accomplish the same goal, first of all [["Dynamic Tables" by Jed Carty|https://ooktech.com/jed/ExampleWikis/DynamicTables/]]. Still I'd like to develop one on my own, to force me to learn Tiddlywiki.
 
 I hope you will find something useful browsing this wiki and maybe you will give me suggestions to improve it. In both the cases you are welcome.
-
-I planned to pack this as a plugin but I am still not ready. If you would like, you can download all of the required tiddlers as a [[JSON bundle|TableToolPlugin tiddlers list]]
 
 """
 The wiki URL is: http://mauloop.github.io/tw5-table-tool

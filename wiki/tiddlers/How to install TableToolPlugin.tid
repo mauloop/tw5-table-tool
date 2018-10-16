@@ -1,0 +1,9 @@
+created: 20181016214634456
+modified: 20181016215145810
+tags: tbl-howto
+title: How to install TableToolPlugin
+type: text/vnd.tiddlywiki
+
+Drag'n'drop the following link to your Tiddlywiki:
+
+* [[$:/plugins/mau/TableTool]]
