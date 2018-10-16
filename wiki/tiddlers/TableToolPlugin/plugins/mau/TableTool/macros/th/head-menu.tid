@@ -1,7 +1,7 @@
 created: 20170418101615496
 creator: )+(auloop
 list: 
-modified: 20181015203912512
+modified: 20181016211027400
 modifier: )+(auloop
 tags: $:/tags/tblMacro TableToolPlugin
 title: $:/plugins/mau/TableTool/macros/th/head-menu
@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 <div class="tc-drop-down">
 
 <<<
-<$list filter="""[tag[$:/tags/thvHeadMenu]]""" variable="tbl-head-menu-item">
+<$list filter="""[all[shadows+tiddlers]tag[$:/tags/thvHeadMenu]!has[draft.of]]""" variable="tbl-head-menu-item">
 <$transclude tiddler=<<tbl-head-menu-item>> /><br>
 </$list>
 <<<
