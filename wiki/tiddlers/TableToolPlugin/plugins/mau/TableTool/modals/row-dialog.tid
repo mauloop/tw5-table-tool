@@ -1,14 +1,14 @@
 created: 20180821081510349
 creator: )+(auloop
-footer: <$importvariables filter="[tag[$:/tags/tblMacro]]"><$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> ><<check-key>></$wikify></$importvariables><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tbl/new-row" text="" /></$button>
-modified: 20181015200435701
+footer: <$importvariables filter="[all[shadows+tiddlers]tag[$:/tags/tblMacro]!has[draft.of]]"><$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> ><<check-key>></$wikify></$importvariables><$button message="tm-close-tiddler">{{$:/core/images/close-button}}<$action-setfield $tiddler="$:/temp/tbl/new-row" text="" /></$button>
+modified: 20181016211200888
 modifier: )+(auloop
 subtitle: Edit row
 tags: TableToolPlugin
 title: $:/plugins/mau/TableTool/modals/row-dialog
 type: text/vnd.tiddlywiki
 
-<$importvariables filter="[tag[$:/tags/tblMacro]]">
+<$importvariables filter="[all[shadows+tiddlers]tag[$:/tags/tblMacro]!has[draft.of]]">
 <$wikify name="tbl-conf-prefix" text=<<tbl-conf-prefix>> >
 <$tiddler tiddler="$:/temp/tbl/new-row">
 
